@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
     <head>
-        <title>Select Time Slot</title>
+        <title>Select Time</title>
         <link rel="stylesheet" href="../css/style.css"/>
+        <script src="../js/script.js"></script>
     </head>
-    <body>
-
+    <body onload="setSelectFlag">
+        <div class="container">
+            <div class="box time-box">
+                <h2>Select Time</h2>
+                <div class="time-grid">
+                    <div class="time-card" id="09:00" onclick="handleSelectTime(this.id)">
+                        09:00
+                    </div>
+                    <div class="time-card" id="09:30" onclick="handleSelectTime(this.id)">
+                        09:30
+                    </div>
+                    <div class="time-card" id="10:00" onclick="handleSelectTime(this.id)">
+                        10:00
+                    </div>
+                    <div class="time-card" id="10:30" onclick="handleSelectTime(this.id)">
+                        10:30
+                    </div>
+                </div>
+                <button class="btn submit" onclick="submitTime()">Choose Time</button>
+            </div>
+        </div>
     </body>
 </html>
