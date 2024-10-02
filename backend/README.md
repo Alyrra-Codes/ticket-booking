@@ -180,13 +180,13 @@ Response
   - status 201 CREATED 
   - status 402 PAYMENT REQUIRED (this is a failed payment response)
 
-```bash 
+```json 
   {
     "message": "payment successfully processed"
   }
 ```
 
-```bash 
+```json 
   {
     "message": "payment failed"
   }
