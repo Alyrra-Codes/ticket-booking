@@ -47,18 +47,21 @@
     justify-content: center;
 }
 
-.time-box {
+.return-box, .time-box, .tickets-box, .booking-box, .payment-box {
+    display: grid;
+    margin: 20px;
     background-color: #fcfcfc;
     border-radius: 8px;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 
-.time-box h2 {
+.time-box h2, .tickets-box h2, .booking-box h2, .payment-box h2 {
     text-align: center;
     font-size: 2.5rem;
     margin: 20px;
     margin-top: 40px;
 }
+
 
 .time-grid {
     display: grid;
@@ -87,13 +90,90 @@
     background-color: #90F886;
 }
 
+.ticket-inputs {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.ticket-input {
+    float: right;
+    background-color: #fff;
+    border: solid 1px;
+    border-color: #ddd;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.total-cost-field {
+    background-color: #fff;
+    border: solid 1px;
+    border-color: #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.total-cost {
+    float: right;
+}
+
+form {
+    width: 450px;
+    margin: 20px;
+}
+
+.booking-form input {
+    margin-left: 20px;
+    padding: 3px;
+    width: 80%;
+    float: right;
+}
+
+.payment-form input {
+    margin-left: 20px;
+    padding: 3px;
+    width: 70%;
+    float: right;
+}
+
+.form-field {
+    margin-top: 20px;
+}
+
+.details-box {
+    background-color: #fff;
+    border: solid 1px;
+    border-color: #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+    color: #aaa;
+}
+
+.buttons {
+    display: grid;
+    align-items: center;
+}
+
 .btn {
     margin: 20px;
     padding: 5px;
     min-height: 29px;
     font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.85;
 }
 
 .btn.submit {
-    width: 100%;
+    background-color: #90F886;
+}
+
+.btn.return {
+    background-color: #FBAE6B;
 }

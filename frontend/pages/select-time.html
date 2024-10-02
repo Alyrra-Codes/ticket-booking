@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="../css/style.css"/>
         <script src="../js/script.js"></script>
     </head>
-    <body onload="setSelectFlag">
+    <body>
         <div class="container">
             <div class="box time-box">
                 <h2>Select Time</h2>
@@ -23,7 +23,10 @@
                         10:30
                     </div>
                 </div>
-                <button class="btn submit" onclick="submitTime()">Choose Time</button>
+                <div class="buttons">
+                    <button class="btn submit" onclick="submitTime()">Choose Time</button>
+                    <button class="btn return">Choose Different Attraction</button>
+                </div>
             </div>
         </div>
     </body>

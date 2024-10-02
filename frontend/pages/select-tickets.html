@@ -7,7 +7,35 @@
     </head>
     <body>
         <div class="container">
-            
+            <div class="box tickets-box">
+                <h2>Select Tickets</h2>
+                <div class="ticket-inputs">
+                    <div class="available-tickets">Available Tickets: </div>
+                    <br/>
+                    <div class="ticket-field">
+                        <label>Adult: $15</label>
+                        <input class="ticket-input" id="adult-tickets" type="number" min="0" max="50" step="1" value="0">
+                    </div>
+                    <br/>
+                    <div class="ticket-field">
+                        <label>Child: $5</label>
+                        <input class="ticket-input" id="child-tickets" type="number" min="0" max="50" step="1" value="0">
+                    </div>
+                    <br/>
+                    <div class="ticket-field">
+                        <label>Concession: $10</label>
+                        <input class="ticket-input" id="concession-tickets" type="number" min="0" max="50" step="1" value="0">
+                    </div>
+                    <div class="error-message"></div>
+                    <div class="total-cost-field">
+                        Total Cost: <span class="total-cost" id="total-cost">$0</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="btn submit">Confirm Selection</button>
+                    <button class="btn return">Choose Different Time</button>
+                </div>
+            </div>
         </div>
     </body>
 </html>
