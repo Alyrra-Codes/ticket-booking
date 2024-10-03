@@ -1,5 +1,19 @@
+
+const API_SERVER = 'http://localhost:5000'
+
 var selectFlag = false
 
+function getAttractions() {
+    fetch(API_SERVER + '/attractions')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data)
+        data.forEach(attraction => {
+            console.log(attraction)
+            createAttractionCard(attraction)
+        })
+    })
+}
 function goToPage(id){
     console.log('Navigate ' + id);
     window.location = 'select-time.html';
