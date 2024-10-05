@@ -76,4 +76,4 @@ def save_booking(data):
     cur.execute("INSERT INTO bookings (attraction_id, time_slot_id, ticket_id, quantity, booking_code, status) VALUES (?, ?, ?, ?, ?, ?)",
                 (data['attraction_id'], data['time_slot_id'], data['ticket_id'], data['quantity'], data['booking_code'], data['status']));
     
-    cur.close()
+    db.commit()
