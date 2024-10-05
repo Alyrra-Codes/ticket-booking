@@ -1,6 +1,11 @@
 from logging.handlers import RotatingFileHandler
 import random
-from database import fetch_attraction_by_id, fetch_attractions, fetch_available_tickets, fetch_time_slot_by_id, fetch_time_slots, get_booking_by_booking_code, init_app, init_db, populate_db, save_booking, update_attraction_available_tickets
+from database import fetch_attraction_by_id, \
+    fetch_attractions, fetch_available_tickets, \
+    fetch_time_slot_by_id, fetch_time_slots, \
+    get_booking_by_booking_code, init_app, \
+    init_db, populate_db, save_booking, \
+    update_attraction_available_tickets
 
 import os
 import logging
