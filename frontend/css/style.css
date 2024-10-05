@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-}
-
-.container {
-    min-height: 100vh;
-    display: grid;
-    align-items: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
     justify-content: center;
-    background-color: #a6d0fa;
+    align-items: center;
+    height: 100vh;
 }
 
 .box {
@@ -54,6 +49,7 @@
     background-color: #fcfcfc;
     border-radius: 8px;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.2);
+    min-width: 400px; 
 }
 
 .time-box h2, .tickets-box h2, .booking-box h2, .payment-box h2 {
@@ -182,8 +178,86 @@ form {
     background-color: #FBAE6B;
 }
 
-#input-container {
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.btn.view-ticket {
+    background-color: rgb(52, 119, 143);
+}
+
+.error-message {
+    color: red;
+    margin: 20px;
+    padding: 5px;
+    font-size: large;
+    display: none;
+}
+
+.ticket-container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.ticket-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticket-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.ticket-details {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ticket-details p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.ticket-status {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.ticket-status.booked {
+    background-color: #4CAF50;
+}
+
+.ticket-info {
+    margin-bottom: 20px;
+}
+
+.ticket-info div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.ticket-info div span {
+    font-size: 16px;
+    color: #333;
+}
+
+.booking-code {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 20px;
 }

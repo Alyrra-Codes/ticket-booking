@@ -1,6 +1,6 @@
 from logging.handlers import RotatingFileHandler
 import random
-from database import fetch_attractions, fetch_available_tickets, fetch_time_slots, init_app, init_db, populate_db, save_booking
+from database import fetch_attractions, fetch_available_tickets, fetch_time_slots, get_booking_by_booking_code, init_app, init_db, populate_db, save_booking, update_attraction_available_tickets
 
 import os
 import logging
@@ -52,7 +52,8 @@ def get_attractions():
             'id': attraction['id'],
             'name': attraction['name'],
             'description': attraction['description'], 
-            'imageUrl': attraction['image_url']
+            'imageUrl': attraction['image_url'], 
+            'availableTickets': attraction['available_tickets']
         })
     return jsonify(attractions)
 
@@ -88,8 +89,8 @@ def booking():
     
     status = random.choice(statuses)
 
-    # if status == 'failed':
-    #     return jsonify({'status': 'failed', 'message': 'Booking failed. Please try again.'}), 400
+    if status == 'failed':
+        return jsonify({'status': 'failed', 'message': 'Booking failed. Please try again.'}), 400
     
     booking_code = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ', k=2)) + ''.join(random.choices('0123456789', k=4))
     
@@ -103,7 +104,7 @@ def booking():
     if not attraction or not time_slot or not tickets or not booking:
         return jsonify({'status': 'failed', 'message': 'Booking failed. Please try again.'}), 400
     
-    
+    total_tickets = 0
     for ticket in tickets.get('tickets'):
         booking_data = {
             'attraction_id': attraction.get('id'),
@@ -113,11 +114,45 @@ def booking():
             'booking_code': booking_code, 
             'status': 'booked'
         }
+        total_tickets += ticket.get('quantity')
+        
         print(booking_data)
         save_booking(booking_data)
         
-    return jsonify({'status': 'success', 'message': 'Booking successful.'}), 201
+    update_attraction_available_tickets(attraction.get('id'), total_tickets)
+    
+    return jsonify({
+        'bookingCode': booking_code,
+    }), 201
 
+@app.route('/api/attractions/bookings/<booking_code>', methods=['GET'])
+def get_booking(booking_code):
+    print(booking_code)
+    bookings = get_booking_by_booking_code(booking_code)
+    
+    if not bookings:
+        return jsonify({'status': 'failed', 'message': 'Booking not found.'}), 404
+    
+    response_data = {}
+    
+    purchased_tickets = []
+    
+    for booking in bookings:
+        purchased_tickets.append({
+            'type': booking['type'],
+            'price': booking['price'],
+            'quantity': booking['quantity']
+        })
+    
+    response_data['attractionName'] = bookings[0]['attraction_name']
+    response_data['startTime'] = bookings[0]['start_time']
+    response_data['endTime'] = bookings[0]['end_time']
+    response_data['tickets'] = purchased_tickets
+    response_data['bookingCode'] = bookings[0]['booking_code']
+    response_data['status'] = bookings[0]['status']
+    
+    print(response_data)
+    return jsonify(response_data), 200
 
 if __name__ == '__main__':
     if not os.path.exists(app.config['DATABASE']):

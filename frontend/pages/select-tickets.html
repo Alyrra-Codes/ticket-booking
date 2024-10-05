@@ -3,27 +3,31 @@
     <head>
         <title>Select Tickets</title>
         <link rel="stylesheet" href="../css/style.css"/>
-        <script src="../js/script.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div class="box tickets-box">
-                <h2>Select Tickets</h2>
-                <div style="margin-left: 20px; padding: 5px;">Available Tickets: </div>
-                <div class="ticket-inputs">
-                </div>
-                <div style="margin-left: 20px; padding: 5px">
-                    Total cost: <span id="total-cost">$0</span>
-                </div>
-                <div class="buttons">
-                    <button class="btn submit" onclick="confirmTickets();">Confirm Selection</button>
-                    <button class="btn return" onclick="chooseDifferentTime();">Choose Different Time</button>
-                </div>
+        <div class="tickets-box">
+            <h2>Select Tickets</h2>
+            <div style="margin-left: 20px; padding: 5px;">Available Tickets: <span id="available-ticket"></span></div>
+            <div class="ticket-inputs">
             </div>
+            <div style="margin-left: 20px; padding: 5px">
+                Total cost: <span id="total-cost">$0</span>
+            </div>
+            <div class="error-message"></div>
+            <div class="buttons">
+                <button class="btn submit" onclick="confirmTickets();">Confirm Selection</button>
+                <button class="btn return" onclick="chooseDifferentTime();">Choose Different Time</button>
+            </div>
+            
         </div>
 
         <script>
             const API_URL = 'http://localhost:5000/api';
+            window.localStorage.removeItem('selectedTickets');
+
+            const availableTicketsSpan = document.getElementById('available-ticket');
+            availableTicketsSpan.innerText = JSON.parse(window.localStorage.getItem('selectedAttraction')).availableTickets;
+
             fetch(`${API_URL}/attractions/tickets`)
                 .then(response => response.json())
                 .then(tickets => {
@@ -57,11 +61,14 @@
                             if (!selectedTickets) {
                                 selectedTickets = {};
                             }
+
                             
-                            selectedTickets['tickets'] = ticketInputs.map(input => {
+                            selectedTickets['tickets'] = tickets.map(ticket => {
                                 return {
-                                   ...ticket, 
-                                   quantity: parseInt(input.value)
+                                    id: ticket.id,
+                                    type: ticket.type,
+                                    price: ticket.price,
+                                    quantity: parseInt(document.getElementById(`${ticket.type}-tickets`).value)
                                 };
                             });
                             selectedTickets['totalCost'] = cost;
@@ -71,6 +78,11 @@
                 });
             
             function confirmTickets() {
+                if (!window.localStorage.getItem('selectedTickets')) {
+                    document.querySelector('.error-message').innerText = 'Please select at least one ticket';
+                    document.querySelector('.error-message').style.display = 'block';
+                    return;
+                }
                 window.location.href = 'booking-form.html';
             }
             function chooseDifferentTime() {

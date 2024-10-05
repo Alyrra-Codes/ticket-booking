@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Ticket</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
+    <div class="ticket-container">
+        <div class="ticket-header">
+        </div>
+
+        <div class="ticket-details">
+        </div>
+
+        <div class="ticket-info">
+            <h2>Tickets</h2>
+        </div>
+
+        <div class="ticket-status booked">
+            Status: Booked
+        </div>
+
+        <div class="booking-code">
+            Booking Code: HL8049
+        </div>
+    </div>
+    <script>
+      const API_URL = 'http://localhost:5000/api';
+
+      const bookingCode = window.localStorage.getItem('bookingCode');
+
+      fetch(`${API_URL}/attractions/bookings/${bookingCode}`)
+        .then(response => response.json())
+        .then(booking => {
+          console.log(booking);
+
+          const ticketGrid = document.querySelector('.ticket-grid');
+
+          const ticketHeader = document.querySelector('.ticket-header');
+          ticketHeader.innerHTML = `<h1>${booking.attractionName}</h1>`;
+
+          const ticketDetails = document.querySelector('.ticket-details');
+          ticketDetails.innerHTML = `
+            <p>StartTime: ${booking.startTime}</p>
+            <p>EndTime: ${booking.endTime}</p>
+          `;
+
+          const ticketInfo = document.querySelector('.ticket-info');
+
+          booking.tickets.forEach(ticket => {
+            const ticketDiv = document.createElement('div');
+            ticketDiv.className = 'ticket-card';
+
+            ticketDiv.innerHTML = `
+              <h3>${ticket.type}</h3>
+              <p>Price: $${ticket.price}</p>
+              <p>Quantity: ${ticket.quantity}</p>
+            `;
+
+            ticketInfo.appendChild(ticketDiv);
+          });
+        });
+
+      function returnToHome() {
+        window.location.href = 'select-attraction.html';
+      }
+    </script>
+  </body>
+</html>

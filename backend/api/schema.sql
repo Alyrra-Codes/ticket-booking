@@ -2,7 +2,8 @@ CREATE TABLE IF NOT EXISTS attractions (
   id INTEGER PRIMARY KEY, 
   name TEXT NOT NULL, 
   description TEXT, 
-  image_url TEXT
+  image_url TEXT, 
+  available_tickets INTEGER NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS time_slots (
@@ -11,7 +12,7 @@ CREATE TABLE IF NOT EXISTS time_slots (
   end_time TEXT NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS available_tickets (
+CREATE TABLE IF NOT EXISTS tickets (
   id INTEGER PRIMARY KEY NOT NULL, 
   type TEXT NOT NULL, 
   price INTEGER NOT NULL

@@ -32,11 +32,13 @@
                 <div class="buttons">
                     <button class="btn submit" onclick="proceedToPayment();">Proceed to Payment</button>
                 </div>
+                <div class="error-message"></div>
             </div>
         </div>
 
         <script>
             const API_URL = 'http://localhost:5000/api';
+            window.localStorage.removeItem('bookingDetails');
 
             const ticketDetailsDiv = document.querySelector('.details-box');
 
@@ -54,6 +56,17 @@
             ticketDetailsDiv.appendChild(totalCostDiv);
 
             function proceedToPayment() {
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const phone = document.getElementById('phone').value;
+                const address = document.getElementById('address').value;
+
+                if (!name || !email || !phone || !address) {
+                    document.querySelector('.error-message').innerText = 'Please fill in all fields';
+                    document.querySelector('.error-message').style.display = 'block';
+                    return;
+                }
+
                 window.localStorage.setItem('bookingDetails', JSON.stringify({
                     name: document.getElementById('name').value,
                     email: document.getElementById('email').value,

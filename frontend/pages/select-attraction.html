@@ -8,11 +8,16 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="box">
-        </div>
+    <div class="box">
     </div>
     <script>
+        window.localStorage.removeItem('selectedAttraction');
+        window.localStorage.removeItem('selectedTime');
+        window.localStorage.removeItem('selectedTickets');
+        window.localStorage.removeItem('bookingDetails');
+        window.localStorage.removeItem('paymentDetails');
+        window.localStorage.removeItem('bookingCode');
+
         const API_URL = 'http://localhost:5000/api';
 
         let selectedAttractionId;

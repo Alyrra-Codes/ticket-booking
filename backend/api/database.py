@@ -24,10 +24,10 @@ def populate_db():
     db = get_db()
     cur = db.cursor()
     
-    cur.executemany("INSERT INTO attractions (id, name, description, image_url) VALUES (?, ?, ?, ?)",
-                    [(1, "Aquarium", "Underwater world", "https://img.staticmb.com/mbcontent/images/crop/uploads/2022/12/Feng-shui-fish-acquarium_0_1200.jpg"),
-                     (2, "Museum", "Historical artifacts", 'https://museumsvictoria.com.au/media/sdwl1btr/victoria-skeleton-2_exhibitionwo.jpg?anchor=center&mode=crop&width=768&height=432&rnd=133706953504930000&bgcolor:fff'),
-                     (3, "Art Gallery", "Artwork from various artists", 'https://artgallery.yale.edu/sites/default/files/styles/hero_small/public/2023-01/ag-doc-2281-0036-pub.jpg?h=147a4df9&itok=uclO7OrF')])
+    cur.executemany("INSERT INTO attractions (id, name, description, image_url, available_tickets) VALUES (?, ?, ?, ?, ?)",
+                    [(1, "Aquarium", "Underwater world", "https://img.staticmb.com/mbcontent/images/crop/uploads/2022/12/Feng-shui-fish-acquarium_0_1200.jpg", 50),
+                     (2, "Museum", "Historical artifacts", 'https://museumsvictoria.com.au/media/sdwl1btr/victoria-skeleton-2_exhibitionwo.jpg?anchor=center&mode=crop&width=768&height=432&rnd=133706953504930000&bgcolor:fff', 50),
+                     (3, "Art Gallery", "Artwork from various artists", 'https://artgallery.yale.edu/sites/default/files/styles/hero_small/public/2023-01/ag-doc-2281-0036-pub.jpg?h=147a4df9&itok=uclO7OrF', 50)])
 
     cur.executemany("INSERT INTO time_slots (id, start_time, end_time) VALUES (?, ?, ?)",
                     [(1, "09:00", "10:00"),
@@ -39,7 +39,7 @@ def populate_db():
                      (7, "15:00", "16:00"),
                      (8, "16:00", "17:00")])
     
-    cur.executemany("INSERT INTO available_tickets (id, type, price) VALUES (?, ?, ?)",
+    cur.executemany("INSERT INTO tickets (id, type, price) VALUES (?, ?, ?)",
                     [(1, "Adult", 15),
                      (2, "Child", 5),
                      (3, "Concession", 5)])
@@ -66,7 +66,7 @@ def fetch_time_slots():
 def fetch_available_tickets():
     db = get_db()
     cur = db.cursor()
-    cur.execute("SELECT * FROM available_tickets")
+    cur.execute("SELECT * FROM tickets")
     return cur.fetchall()
 
 def save_booking(data):
@@ -77,3 +77,33 @@ def save_booking(data):
                 (data['attraction_id'], data['time_slot_id'], data['ticket_id'], data['quantity'], data['booking_code'], data['status']));
     
     db.commit()
+
+def update_attraction_available_tickets(attraction_id, quantity):
+    db = get_db()
+    cur = db.cursor()
+    
+    cur.execute("UPDATE attractions SET available_tickets = available_tickets - ? WHERE id = ?", (quantity, attraction_id))
+    db.commit()
+    
+def get_booking_by_booking_code(booking_code):
+    db = get_db()
+    cur = db.cursor()
+   
+    statement = '''
+        select 
+            a.name as attraction_name, 
+            ts.start_time, 
+            ts.end_time, 
+            ti.type, 
+            ti.price, 
+            b.quantity, 
+            b.booking_code, 
+            b.status
+        from attractions a 
+        join bookings b on a.id = b.attraction_id
+        join time_slots ts on ts.id = b.time_slot_id
+        join tickets ti on ti.id = b.ticket_id
+        where b.booking_code = ?;
+    '''
+    cur = cur.execute(statement, (booking_code,))
+    return cur.fetchall()

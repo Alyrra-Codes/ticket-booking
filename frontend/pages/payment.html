@@ -6,44 +6,54 @@
         <script src="../js/script.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div class="box payment-box">
-                <h2>Payment Details</h2>
-                <form class="form payment-form">
-                    <div class="form-field">
-                        <label for="cardName">Name on Card</label>
-                        <input type="text" id="cardName" name="cardName" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="cardNum">Card Number</label>
-                        <input type="text" id="cardNum" name="cardNum" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="expiry">Expiry</label>
-                        <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="cvv">CVV</label>
-                        <input type="text" id="cvv" name="cvv" required>
-                    </div>
-                </form>
-                <div class="buttons">
-                    <button class="btn submit" onclick="confirmBooking();">Confirm Booking</button>
-                    <button class="btn return" onclick="returnHome();">Return Home</button>
+        <div class="payment-box">
+            <h2>Payment Details</h2>
+            <form class="form payment-form">
+                <div class="form-field">
+                    <label for="cardName">Name on Card</label>
+                    <input type="text" id="cardName" name="cardName" required>
                 </div>
+                <div class="form-field">
+                    <label for="cardNum">Card Number</label>
+                    <input type="text" id="cardNum" name="cardNum" required>
+                </div>
+                <div class="form-field">
+                    <label for="expiry">Expiry</label>
+                    <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+                </div>
+                <div class="form-field">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+            </form>
+            <div class="error-message"></div>
+            <div class="buttons">
+                <button class="btn submit" onclick="confirmBooking();">Confirm Booking</button>
+                <button class="btn return" onclick="returnHome();">Return Home</button>
             </div>
+            
         </div>
 
         <script>
             const API_URL = 'http://localhost:5000/api';
 
             function confirmBooking() {
+                const cardName = document.getElementById('cardName').value;
+                const cardNum = document.getElementById('cardNum').value;
+                const expiry = document.getElementById('expiry').value;
+                const cvv = document.getElementById('cvv').value;
+
+                if (!cardName || !cardNum || !expiry || !cvv) {
+                    document.querySelector('.error-message').innerText = 'Please fill in all fields';
+                    document.querySelector('.error-message').style.display = 'block';
+                    return;
+                }
+
                 window.localStorage.setItem('paymentDetails', JSON.stringify({
                     name: document.getElementById('cardName').value,
                     number: document.getElementById('cardNum').value,
                     expiry: document.getElementById('expiry').value,
                     cvv: document.getElementById('cvv').value
-
                 }))
 
                 const postData = {
@@ -54,7 +64,8 @@
                 }
 
                 console.log(postData);
-                
+                document.querySelector('.error-message').style.display = 'none';
+
                 fetch(`${API_URL}/attractions/bookings`, {
                     method: 'POST',
                     headers: {
@@ -62,6 +73,22 @@
                     },
                     body: JSON.stringify(postData)
                 })
+                .then(response =>{
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error('Error processing payment');
+                    }
+                })
+                .then(data => {
+                    console.log(data);
+                    window.localStorage.setItem('bookingCode', data.bookingCode);
+                    window.location.href = 'view-ticket.html';
+                })
+                .catch(error => {
+                    document.querySelector('.error-message').innerText = 'Error processing payment';
+                    document.querySelector('.error-message').style.display = 'block';
+                });
             }; 
 
             function returnHome() {
