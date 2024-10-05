@@ -78,13 +78,32 @@ def save_booking(data):
     
     db.commit()
 
+def fetch_attraction_by_id(attraction_id):
+    db = get_db()
+    cur = db.cursor()
+    cur.execute("SELECT * FROM attractions WHERE id = ?", (attraction_id,))
+    return cur.fetchone()
+
 def update_attraction_available_tickets(attraction_id, quantity):
     db = get_db()
     cur = db.cursor()
     
     cur.execute("UPDATE attractions SET available_tickets = available_tickets - ? WHERE id = ?", (quantity, attraction_id))
     db.commit()
-    
+
+def fetch_time_slot_by_id(time_slot_id):
+    db = get_db()
+    cur = db.cursor()
+    cur.execute("SELECT * FROM time_slots WHERE id = ?", (time_slot_id,))
+    return cur.fetchone()
+
+def fetch_ticket_by_id(ticket_id):
+    db = get_db()
+    cur = db.cursor()
+    cur.execute("SELECT * FROM tickets WHERE id = ?", (ticket_id,))
+    return cur.fetchone()
+
+
 def get_booking_by_booking_code(booking_code):
     db = get_db()
     cur = db.cursor()

@@ -1,6 +1,6 @@
 from logging.handlers import RotatingFileHandler
 import random
-from database import fetch_attractions, fetch_available_tickets, fetch_time_slots, get_booking_by_booking_code, init_app, init_db, populate_db, save_booking, update_attraction_available_tickets
+from database import fetch_attraction_by_id, fetch_attractions, fetch_available_tickets, fetch_time_slot_by_id, fetch_time_slots, get_booking_by_booking_code, init_app, init_db, populate_db, save_booking, update_attraction_available_tickets
 
 import os
 import logging
@@ -103,6 +103,30 @@ def booking():
     
     if not attraction or not time_slot or not tickets or not booking:
         return jsonify({'status': 'failed', 'message': 'Booking failed. Please try again.'}), 400
+    
+    fetched_attraction = fetch_attraction_by_id(attraction.get('id'))
+    
+    # Check if the selected attraction is valid
+    if fetched_attraction is None:
+        return jsonify({'status': 'failed', 'message': 'Invalid attraction selected.'}), 400
+    
+    if fetched_attraction['available_tickets'] < sum([ticket.get('quantity') for ticket in tickets.get('tickets')]):
+        return jsonify({'status': 'failed', 'message': 'Not enough tickets available.'}), 400
+    
+    fetched_time_slot = fetch_time_slot_by_id(time_slot.get('id')); 
+
+    # Check if the selected time slot is valid
+    if fetched_time_slot is None:
+        return jsonify({'status': 'failed', 'message': 'Invalid time slot selected.'}), 400
+    
+    fetched_tickets = fetch_available_tickets()
+    
+    # Check if the selected tickets are valid
+    for ticket in tickets.get('tickets'):
+        fetched_ticket = next((t for t in fetched_tickets if t['id'] == ticket.get('id')), None)
+        
+        if fetched_ticket is None:
+            return jsonify({'status': 'failed', 'message': 'Invalid ticket selected.'}), 400
     
     total_tickets = 0
     for ticket in tickets.get('tickets'):

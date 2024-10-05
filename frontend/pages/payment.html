@@ -77,7 +77,7 @@
                     if (response.ok) {
                         return response.json();
                     } else {
-                        throw new Error('Error processing payment');
+                        throw new Error(response.statusText);
                     }
                 })
                 .then(data => {
@@ -86,7 +86,7 @@
                     window.location.href = 'view-ticket.html';
                 })
                 .catch(error => {
-                    document.querySelector('.error-message').innerText = 'Error processing payment';
+                    document.querySelector('.error-message').innerText = error;
                     document.querySelector('.error-message').style.display = 'block';
                 });
             }; 
