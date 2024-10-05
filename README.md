@@ -1,6 +1,4 @@
-# Running the database 
+# Start API server 
+# Start frontend server 
 
-```bash 
-cd backend/db 
-docker compose up -d 
-```
+Both the starting instructions in their respective folders
