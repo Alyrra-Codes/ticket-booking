@@ -28,18 +28,41 @@
                     </div>
                 </form>
                 <div class="details-box">
-                    <div>Adult: $15 x <span id="adult-tickets"></span> | <span id="adult-cost"></span></div>
-                    <br/>
-                    <div>Child: $5 x <span id="child-tickets"></span> | <span id="child-cost"></span></div>
-                    <br/>
-                    <div>Concession: $10 x <span id="concession-tickets"></span> | <span id="concession-cost"></span></div>
-                    <br/>
-                    <div>Total | <span id="total-cost"></span></div>
                 </div>
                 <div class="buttons">
-                    <button class="btn submit">Proceed to Payment</button>
+                    <button class="btn submit" onclick="proceedToPayment();">Proceed to Payment</button>
                 </div>
             </div>
         </div>
+
+        <script>
+            const API_URL = 'http://localhost:5000/api';
+
+            const ticketDetailsDiv = document.querySelector('.details-box');
+
+            const selectedTickets = JSON.parse(window.localStorage.getItem('selectedTickets')); 
+            
+            selectedTickets['tickets'].forEach(ticket => {
+                const ticketDiv = document.createElement('div');
+                ticketDiv.innerHTML = `${ticket.type}: $${ticket.price} x ${ticket.quantity} | $${ticket.price * ticket.quantity}`;
+                ticketDetailsDiv.appendChild(ticketDiv);
+                ticketDetailsDiv.appendChild(document.createElement('br'));
+            });
+
+            var totalCostDiv = document.createElement('div');
+            totalCostDiv.innerHTML = `Total: $${selectedTickets['totalCost']}`;
+            ticketDetailsDiv.appendChild(totalCostDiv);
+
+            function proceedToPayment() {
+                window.localStorage.setItem('bookingDetails', JSON.stringify({
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    phone: document.getElementById('phone').value,
+                    address: document.getElementById('address').value
+                }));
+
+                window.location.href = 'payment.html';
+            }
+        </script>
     </body>
 </html>

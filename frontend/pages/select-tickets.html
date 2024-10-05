@@ -9,33 +9,73 @@
         <div class="container">
             <div class="box tickets-box">
                 <h2>Select Tickets</h2>
+                <div style="margin-left: 20px; padding: 5px;">Available Tickets: </div>
                 <div class="ticket-inputs">
-                    <div class="available-tickets">Available Tickets: </div>
-                    <br/>
-                    <div class="ticket-field">
-                        <label>Adult: $15</label>
-                        <input class="ticket-input" id="adult-tickets" type="number" min="0" max="50" step="1" value="0">
-                    </div>
-                    <br/>
-                    <div class="ticket-field">
-                        <label>Child: $5</label>
-                        <input class="ticket-input" id="child-tickets" type="number" min="0" max="50" step="1" value="0">
-                    </div>
-                    <br/>
-                    <div class="ticket-field">
-                        <label>Concession: $10</label>
-                        <input class="ticket-input" id="concession-tickets" type="number" min="0" max="50" step="1" value="0">
-                    </div>
-                    <div class="error-message"></div>
-                    <div class="total-cost-field">
-                        Total Cost: <span class="total-cost" id="total-cost">$0</span>
-                    </div>
+                </div>
+                <div style="margin-left: 20px; padding: 5px">
+                    Total cost: <span id="total-cost">$0</span>
                 </div>
                 <div class="buttons">
-                    <button class="btn submit">Confirm Selection</button>
-                    <button class="btn return">Choose Different Time</button>
+                    <button class="btn submit" onclick="confirmTickets();">Confirm Selection</button>
+                    <button class="btn return" onclick="chooseDifferentTime();">Choose Different Time</button>
                 </div>
             </div>
         </div>
+
+        <script>
+            const API_URL = 'http://localhost:5000/api';
+            fetch(`${API_URL}/attractions/tickets`)
+                .then(response => response.json())
+                .then(tickets => {
+                    console.log(tickets);
+
+                    const ticketContainer = document.querySelector('.ticket-inputs');
+                    
+                    tickets.forEach(ticket => {
+                        const ticketDiv = document.createElement('div');
+                        ticketDiv.className = 'ticket-field';
+                        ticketDiv.innerHTML = `<label>${ticket.type}: $${ticket.price}</label>
+                        <input class="ticket-input" id="${ticket.type}-tickets" type="number" min="0" max="50" step="1" value="0">
+                        `;
+                        ticketContainer.appendChild(ticketDiv);
+                        ticketContainer.appendChild(document.createElement('br'));      
+                    });
+
+                    const ticketInputs = tickets.map(ticket => document.getElementById(`${ticket.type}-tickets`));
+                    const totalCost = document.getElementById('total-cost');
+                
+                    ticketInputs.forEach(input => {
+                        input.onchange = () => {
+                            let cost = 0;
+                            const ticket = tickets.find(ticket => ticket.type === input.id.split('-')[0]);
+                            ticketInputs.forEach(input => {
+                                cost += parseInt(input.value) * ticket.price;
+                            });
+                            totalCost.innerText = `$${cost}`;
+
+                            var selectedTickets = JSON.parse(window.localStorage.getItem('selectedTickets'));
+                            if (!selectedTickets) {
+                                selectedTickets = {};
+                            }
+                            
+                            selectedTickets['tickets'] = ticketInputs.map(input => {
+                                return {
+                                   ...ticket, 
+                                   quantity: parseInt(input.value)
+                                };
+                            });
+                            selectedTickets['totalCost'] = cost;
+                            window.localStorage.setItem('selectedTickets', JSON.stringify(selectedTickets));
+                        }; 
+                    });
+                });
+            
+            function confirmTickets() {
+                window.location.href = 'booking-form.html';
+            }
+            function chooseDifferentTime() {
+                window.location.href = 'select-time.html';
+            }
+        </script>
     </body>
 </html>

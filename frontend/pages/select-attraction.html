@@ -1,53 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Select Attraction</title>
-        <link rel="stylesheet" href="../css/style.css"/>
-        <!-- <script src="../js/script.js"></script> -->
-    </head>
-    <body>
-        <div class="container">
-            <h1>Select an Attraction</h1>
-            <div id="attractions">
-                <!-- <div class="box attraction-box" id="1" onclick="goToPage(this.id)">
-                    <img class="attraction-logo" src="../img/aquarium.jpg"/>
-                    <h2>Aquarium</h2>
-                </div>
-                <div class="box attraction-box" id="2" onclick="goToPage(this.id)">
-                    <img class="attraction-logo" src="../img/museum.jpg"/>
-                    <h2>Museum</h2>
-                </div>
-                <div class="box attraction-box" id="3" onclick="goToPage(this.id)">
-                    <img class="attraction-logo" src="../img/gallery.jpg"/>
-                    <h2>Art Gallery</h2>
-                </div> -->
-            </div>
+
+<head>
+    <title>Select Attraction</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- <script src="../js/script.js"></script> -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
         </div>
+    </div>
+    <script>
+        const API_URL = 'http://localhost:5000/api';
 
-        <script>
-            const API_URL = 'http://localhost:5000/api';
+        let selectedAttractionId;
 
-            let selectedAttractionId; 
+        fetch(`${API_URL}/attractions`)
+            .then(response => response.json())
+            .then(attractions => {
+                console.log(attractions);
 
-            fetch(`${API_URL}/attractions`)
-                .then(response => response.json())
-                .then(attractions => {
-                    console.log(attractions);
+                const attractionsDiv = document.querySelector('.box');
 
-                    const attractionsDiv = document.getElementById('attractions');
+                attractions.forEach(attraction => {
+                    const card = document.createElement('div');
+                    card.className = 'box attraction-box';
 
-                    attractions.forEach(attraction => {
-                        const card = document.createElement('div');
-                        card.className = 'box attraction-box';
-
-                        card.innerHTML = `
-                            <img class="attraction-logo" src="${'../img/aquarium.jpg'}"/>
+                    card.innerHTML = `
+                            <img class="attraction-logo" src="${attraction.imageUrl}"/>
                             <h2>${attraction.name}</h2>
                         `;
 
-                        attractionsDiv.appendChild(card);
-                    });
+                    attractionsDiv.appendChild(card);
+
+
+                    card.onclick = () => {
+                        console.log("Selected attraction", attraction);
+                        window.localStorage.setItem('selectedAttraction', JSON.stringify(attraction));
+
+                        window.location.href = 'select-time.html';
+                    };
                 });
-        </script>
-    </body>
+            });
+    </script>
+</body>
+
 </html>

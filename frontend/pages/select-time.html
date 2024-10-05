@@ -10,24 +10,54 @@
             <div class="box time-box">
                 <h2>Select Time</h2>
                 <div class="time-grid">
-                    <div class="time-card" id="09:00" onclick="handleSelectTime(this.id)">
-                        09:00
-                    </div>
-                    <div class="time-card" id="09:30" onclick="handleSelectTime(this.id)">
-                        09:30
-                    </div>
-                    <div class="time-card" id="10:00" onclick="handleSelectTime(this.id)">
-                        10:00
-                    </div>
-                    <div class="time-card" id="10:30" onclick="handleSelectTime(this.id)">
-                        10:30
-                    </div>
                 </div>
                 <div class="buttons">
-                    <button class="btn submit" onclick="submitTime()">Choose Time</button>
-                    <button class="btn return">Choose Different Attraction</button>
+                    <button class="btn submit" onclick="onSubmitTime()">Choose Time</button>
+                    <button class="btn return" onclick="chooseDifferentAttraction();">Choose Different Attraction</button>
                 </div>
             </div>
+
+            <script>
+                const API_URL = 'http://localhost:5000/api';
+
+                fetch(`${API_URL}/attractions/timeslots`)
+                    .then(response => response.json())
+                    .then(timeSlots => {
+                        console.log(timeSlots);
+
+                        const timeGrid = document.querySelector('.time-grid');
+
+                        timeSlots.forEach(timeSlot => {
+                            const card = document.createElement('div');
+                            card.className = 'time-card';
+                            card.id = timeSlot.startTime;
+
+                            card.innerHTML = timeSlot.startTime;
+
+                            timeGrid.appendChild(card);
+
+                            card.onclick = () => {
+                                console.log("Selected time", timeSlot);
+                                window.localStorage.setItem('selectedTime', JSON.stringify(timeSlot));
+
+                                timeSlots.forEach(otherTimeSlot => {
+                                    if (otherTimeSlot.startTime !== timeSlot.startTime) {
+                                        document.getElementById(otherTimeSlot.startTime).style.backgroundColor = 'white';
+                                    }
+                                });
+                                document.getElementById(timeSlot.startTime).style.backgroundColor = 'lightgreen';
+                            };
+                        });
+                    });
+
+                    function chooseDifferentAttraction() {
+                        window.location.href = 'select-attraction.html';
+                    }
+
+                    function onSubmitTime() {
+                        window.location.href = 'select-tickets.html';
+                    }
+            </script>
         </div>
     </body>
 </html>

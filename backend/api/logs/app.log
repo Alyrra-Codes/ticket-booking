@@ -1,0 +1,142 @@
+2024-10-05 12:24:35,641 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 883, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 902, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1174, in make_response
+    raise TypeError(
+TypeError: The view function for 'save_booking' did not return a valid response. The function either returned None or ended without a return statement.
+2024-10-05 12:31:36,696 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\backend\api\app.py", line 96, in booking
+    'attractionId': data['attractionId'],
+                    ~~~~^^^^^^^^^^^^^^^^
+KeyError: 'attractionId'
+2024-10-05 12:33:41,721 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\backend\api\app.py", line 99, in booking
+    if ticket.get('quantity') > 0:
+       ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2024-10-05 12:40:11,914 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\backend\api\app.py", line 109, in booking
+    'ticket_id': ticket.get('id'),
+                 ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2024-10-05 12:46:05,100 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\backend\api\app.py", line 107, in booking
+    for ticket in tickets.ge('tickets'):
+                  ^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'ge'
+2024-10-05 12:46:37,580 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\backend\api\app.py", line 116, in booking
+    save_booking(booking_data)
+  File "C:\my\ticket-booking\backend\api\database.py", line 76, in save_booking
+    cur.execute("INSERT INTO bookings (attraction_id, time_slot_id, ticket_id, quantity, booking_code) VALUES (?, ?, ?, ?, ?)",
+sqlite3.OperationalError: table bookings has no column named ticket_id
+2024-10-05 12:47:54,780 ERROR: Exception on /api/attractions/bookings [POST] [in C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\.venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\my\ticket-booking\backend\api\app.py", line 117, in booking
+    save_booking(booking_data)
+  File "C:\my\ticket-booking\backend\api\database.py", line 76, in save_booking
+    cur.execute("INSERT INTO bookings (attraction_id, time_slot_id, ticket_id, quantity, booking_code) VALUES (?, ?, ?, ?, ?)",
+sqlite3.OperationalError: table bookings has no column named quantity

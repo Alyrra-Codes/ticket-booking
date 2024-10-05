@@ -11,12 +11,12 @@
                 <h2>Payment Details</h2>
                 <form class="form payment-form">
                     <div class="form-field">
-                        <label for="name">Name on Card</label>
-                        <input type="text" id="name" name="name" required>
+                        <label for="cardName">Name on Card</label>
+                        <input type="text" id="cardName" name="cardName" required>
                     </div>
                     <div class="form-field">
-                        <label for="cardnum">Card Number</label>
-                        <input type="text" id="cardnum" name="cardnum" required>
+                        <label for="cardNum">Card Number</label>
+                        <input type="text" id="cardNum" name="cardNum" required>
                     </div>
                     <div class="form-field">
                         <label for="expiry">Expiry</label>
@@ -28,10 +28,45 @@
                     </div>
                 </form>
                 <div class="buttons">
-                    <button class="btn submit">Confirm Booking</button>
-                    <button class="btn return">Return Home</button>
+                    <button class="btn submit" onclick="confirmBooking();">Confirm Booking</button>
+                    <button class="btn return" onclick="returnHome();">Return Home</button>
                 </div>
             </div>
         </div>
+
+        <script>
+            const API_URL = 'http://localhost:5000/api';
+
+            function confirmBooking() {
+                window.localStorage.setItem('paymentDetails', JSON.stringify({
+                    name: document.getElementById('cardName').value,
+                    number: document.getElementById('cardNum').value,
+                    expiry: document.getElementById('expiry').value,
+                    cvv: document.getElementById('cvv').value
+
+                }))
+
+                const postData = {
+                    "attraction": JSON.parse(window.localStorage.getItem('selectedAttraction')),
+                    "timeSlot": JSON.parse(window.localStorage.getItem('selectedTime')),
+                    "tickets": JSON.parse(window.localStorage.getItem('selectedTickets')),
+                    "booking": JSON.parse(window.localStorage.getItem('bookingDetails'))
+                }
+
+                console.log(postData);
+                
+                fetch(`${API_URL}/attractions/bookings`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(postData)
+                })
+            }; 
+
+            function returnHome() {
+                window.location.href = 'select-attraction.html';
+            }   
+        </script>
     </body>
 </html>
