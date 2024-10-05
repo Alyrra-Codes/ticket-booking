@@ -23,10 +23,13 @@
 
         <script>
             const API_URL = 'http://localhost:5000/api';
-            window.localStorage.removeItem('selectedTickets');
+            // window.localStorage.removeItem('selectedTickets');
 
-            const availableTicketsSpan = document.getElementById('available-ticket');
-            availableTicketsSpan.innerText = JSON.parse(window.localStorage.getItem('selectedAttraction')).availableTickets;
+            const maxAvailableTickets = JSON.parse(window.localStorage.getItem('selectedAttraction')).availableTickets;
+
+            setAvailableTickets(maxAvailableTickets); 
+            
+            let fetchedTickets = []; 
 
             fetch(`${API_URL}/attractions/tickets`)
                 .then(response => response.json())
@@ -39,54 +42,108 @@
                         const ticketDiv = document.createElement('div');
                         ticketDiv.className = 'ticket-field';
                         ticketDiv.innerHTML = `<label>${ticket.type}: $${ticket.price}</label>
-                        <input class="ticket-input" id="${ticket.type}-tickets" type="number" min="0" max="50" step="1" value="0">
+                        <input class="ticket-input" id="${ticket.type}-tickets" type="number" min="0" max="${maxAvailableTickets}" step="1" value="0">
                         `;
                         ticketContainer.appendChild(ticketDiv);
                         ticketContainer.appendChild(document.createElement('br'));      
                     });
 
                     const ticketInputs = tickets.map(ticket => document.getElementById(`${ticket.type}-tickets`));
-                    const totalCost = document.getElementById('total-cost');
+                    const totalCostElm = document.getElementById('total-cost');
+
+                    // Fill ticket inputs with previously selected tickets
+                    fillTicketInputs(ticketInputs, totalCostElm);
                 
                     ticketInputs.forEach(input => {
                         input.onchange = () => {
-                            let cost = 0;
+                            let totalCost = 0;
+                            let ticketsInBooking = 0; 
                             const ticket = tickets.find(ticket => ticket.type === input.id.split('-')[0]);
-                            ticketInputs.forEach(input => {
-                                cost += parseInt(input.value) * ticket.price;
-                            });
-                            totalCost.innerText = `$${cost}`;
-
-                            var selectedTickets = JSON.parse(window.localStorage.getItem('selectedTickets'));
-                            if (!selectedTickets) {
-                                selectedTickets = {};
-                            }
-
                             
-                            selectedTickets['tickets'] = tickets.map(ticket => {
-                                return {
-                                    id: ticket.id,
-                                    type: ticket.type,
-                                    price: ticket.price,
-                                    quantity: parseInt(document.getElementById(`${ticket.type}-tickets`).value)
-                                };
+                            // Calculate total cost and total tickets in booking
+                            ticketInputs.forEach(input => {
+                                let inputVal = parseInt(input.value);
+                                totalCost += inputVal * ticket.price;
+                                ticketsInBooking += inputVal;
                             });
-                            selectedTickets['totalCost'] = cost;
-                            window.localStorage.setItem('selectedTickets', JSON.stringify(selectedTickets));
+                            
+                            // Update max attribute of each input to not exceed available tickets
+                            ticketInputs.forEach(elm => {
+                                if (elm.id !== input.id) {
+                                    elm.max = maxAvailableTickets - ticketsInBooking; 
+                                }
+                            });
+                            
+                            // Update total cost counter
+                            totalCostElm.innerText = `$${totalCost}`;
+
+                            // Update available tickets counter
+                            setAvailableTickets(maxAvailableTickets - ticketsInBooking);
+                            
+                            // Store selected tickets in local storage
+                            saveSelectedTickets(tickets, totalCost);
                         }; 
                     });
                 });
             
+            function saveSelectedTickets(tickets, totalCost) {
+                var selectedTickets = JSON.parse(window.localStorage.getItem('selectedTickets'));
+                if (!selectedTickets) {
+                    selectedTickets = {};
+                }
+
+                selectedTickets['tickets'] = tickets.map(ticket => {
+                    return {
+                        id: ticket.id,
+                        type: ticket.type,
+                        price: ticket.price,
+                        quantity: parseInt(document.getElementById(`${ticket.type}-tickets`).value)
+                    };
+                });
+                selectedTickets['totalCost'] = totalCost;
+                window.localStorage.setItem('selectedTickets', JSON.stringify(selectedTickets));
+            }
+
             function confirmTickets() {
-                if (!window.localStorage.getItem('selectedTickets')) {
+                const selectedTickets = JSON.parse(window.localStorage.getItem('selectedTickets'));
+
+                if (!window.localStorage.getItem('selectedTickets') || selectedTickets['tickets'].every(ticket => ticket.quantity === 0)) {
                     document.querySelector('.error-message').innerText = 'Please select at least one ticket';
                     document.querySelector('.error-message').style.display = 'block';
+
+                    setTimeout(() => {
+                        document.querySelector('.error-message').style.display = 'none';
+                    }, 3000);
+
                     return;
                 }
                 window.location.href = 'booking-form.html';
             }
+            
             function chooseDifferentTime() {
                 window.location.href = 'select-time.html';
+            }
+
+            function setAvailableTickets(count) {
+                document.getElementById('available-ticket').innerText = count;
+            }
+
+            function fillTicketInputs(ticketInputElms, totalCostElm) {
+                const selectedTickets = JSON.parse(window.localStorage.getItem('selectedTickets'));
+
+                if(!selectedTickets || selectedTickets['tickets'].every(ticket => ticket.quantity === 0)) {
+                    return;
+                }
+
+                const tickets = selectedTickets['tickets'];
+                const totalCost = selectedTickets['totalCost'];
+
+                ticketInputElms.forEach(input => {
+                    const ticket = tickets.find(ticket => ticket.type === input.id.split('-')[0]);
+                    input.value = ticket.quantity;
+                });
+
+                totalCostElm.innerText = `$${totalCost}`;
             }
         </script>
     </body>
