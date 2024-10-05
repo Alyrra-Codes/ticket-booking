@@ -1,3 +1,25 @@
+# Usage
+```bash
+# Create venv 
+python -m venv .venv 
+pip3 install -r requirements.txt 
+
+# Windows
+set FLASK_APP=app.py
+
+# Linux / mac
+export FLASK_APP=app.py
+
+# Create db schemas
+flask initdb
+
+# Populate init data
+flask populatedb
+
+# run the api server 
+python api/app.py
+```
+
 # Endpoints 
 
 GET /api/attractions 
@@ -11,86 +33,12 @@ Response
   {
     "id": 1, 
     "name": "museum", 
-    "timeSlots": [
-      {
-        "id": 1, 
-        "startTime": "9:00 am"
-        "endTime": "10:00 am", 
-      }, 
-      {
-        "id": 2, 
-        "startTime": "10:00 am", 
-        "endPoint": "11:00 am"
-      }, 
-      {
-        "id": "3", 
-        "startTime": "11:00 am", 
-        "endTime": "12:00 pm" 
-      }, 
-      {
-        "id": 4, 
-        "startTime": "12:00 pm", 
-        "endTime": "01:00 pm"
-      }, 
-      {
-        "id": 5, 
-        "startTime": "01:00 pm", 
-        "endTime": "02:00 pm", 
-      }, 
-      {
-        "id": 6, 
-        "startTime": "02:00 pm", 
-        "endTime": "03:00 pm"
-      }, 
-      {
-        "id": 7, 
-        "startTime": "03:00 pm", 
-        "endTime": "04:00 pm"
-      }
-    ], 
     "description": "the museum is where you see museum stuff", 
     "imageUrl": "https://museum_url.jpg"
   }, 
   {
     "id": 2, 
     "name": "Zoo", 
-    "timeSlots": [
-      {
-        "id": 1, 
-        "startTime": "9:00 am"
-        "endTime": "10:00 am", 
-      }, 
-      {
-        "id": 2, 
-        "startTime": "10:00 am", 
-        "endPoint": "11:00 am"
-      }, 
-      {
-        "id": "3", 
-        "startTime": "11:00 am", 
-        "endTime": "12:00 pm" 
-      }, 
-      {
-        "id": 4, 
-        "startTime": "12:00 pm", 
-        "endTime": "01:00 pm"
-      }, 
-      {
-        "id": 5, 
-        "startTime": "01:00 pm", 
-        "endTime": "02:00 pm", 
-      }, 
-      {
-        "id": 6, 
-        "startTime": "02:00 pm", 
-        "endTime": "03:00 pm"
-      }, 
-      {
-        "id": 7, 
-        "startTime": "03:00 pm", 
-        "endTime": "04:00 pm"
-      }
-    ], 
     "description": "This is a zoo description", 
     "imageUrl": "https://some_zoo_img.jpg"
   }
