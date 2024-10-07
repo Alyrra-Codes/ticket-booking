@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+      <button class="newBookingBtn" onclick="startNewBooking();">
+        Start new Booking
+      </button>
+
+      <script>
+        function startNewBooking() {
+          console.log('Starting new booking');
+          
+          // refresh state
+          window.localStorage.removeItem('selectedAttraction');
+          window.localStorage.removeItem('selectedTime');
+          window.localStorage.removeItem('selectedTickets');
+          window.localStorage.removeItem('bookingDetails');
+          window.localStorage.removeItem('paymentDetails');
+          window.localStorage.removeItem('bookingCode');
+
+          // set new booking code 
+          window.localStorage.setItem('sessionCode', generateRandomCode());
+
+          // redirect to select-attraction.html
+          window.location.href = 'select-attraction.html';
+        }
+
+        function generateRandomCode() {
+          return Math.random().toString(36).substring(2, 15) 
+            + Math.random().toString(36).substring(2, 15);
+        }
+      </script>
+  </body>
+</html>

@@ -261,3 +261,16 @@ form {
     padding-top: 10px;
     margin-top: 20px;
 }
+
+.newBookingBtn {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border: 2px dotted blue;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-style: oblique;
+}
