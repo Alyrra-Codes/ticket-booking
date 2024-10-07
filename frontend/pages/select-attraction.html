@@ -10,13 +10,15 @@
 <body>
     <div class="box">
     </div>
-    console.log
     <script>
         const API_URL = 'http://localhost:5000/api';
 
         let selectedAttractionId;
 
-        fetch(`${API_URL}/attractions`)
+        fetch(`${API_URL}/attractions`, {
+            headers: {
+                'X-Session-ID': window.localStorage.getItem('sessionCode')
+            }})
             .then(response => response.json())
             .then(attractions => {
                 console.log(attractions);

@@ -32,7 +32,10 @@
 
       const bookingCode = window.localStorage.getItem('bookingCode');
 
-      fetch(`${API_URL}/attractions/bookings/${bookingCode}`)
+      fetch(`${API_URL}/attractions/bookings/${bookingCode}`, {
+        headers: {
+          'X-Session-ID': window.localStorage.getItem('sessionCode')
+      }})
         .then(response => response.json())
         .then(booking => {
           console.log(booking);

@@ -31,7 +31,10 @@
             
             let fetchedTickets = []; 
 
-            fetch(`${API_URL}/attractions/tickets`)
+            fetch(`${API_URL}/attractions/tickets`, {
+                headers: {
+                    'X-Session-ID': window.localStorage.getItem('sessionCode')
+                }})
                 .then(response => response.json())
                 .then(tickets => {
                     console.log(tickets);

@@ -1,4 +1,3 @@
-from logging.handlers import RotatingFileHandler
 import random
 from database import fetch_attraction_by_id, \
     fetch_attractions, fetch_available_tickets, \
@@ -9,6 +8,7 @@ from database import fetch_attraction_by_id, \
 
 import os
 import logging
+from logging.handlers import RotatingFileHandler
 
 from flask import Flask, jsonify, request
 from flask_cors import CORS
@@ -21,17 +21,18 @@ def setup_logging(app):
     if not os.path.exists('logs'):
         os.mkdir('logs')
     
-    file_handler = RotatingFileHandler('logs/app.log', maxBytes=10240, backupCount=10)
+    file_handler = RotatingFileHandler('logs/app.log', maxBytes=1000000, backupCount=3)
     file_handler.setFormatter(logging.Formatter(
-        '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
+       '%(asctime)s - %(name)s - %(levelname)s - %(funcName)s - %(message)s'
     ))
-    file_handler.setLevel(logging.INFO)
+    file_handler.setLevel(logging.DEBUG)
     
     console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.INFO)
+    console_handler.setLevel(logging.DEBUG)
     
     app.logger.addHandler(file_handler)
     app.logger.addHandler(console_handler)
+    
     app.logger.setLevel(logging.INFO)
 
 setup_logging(app)
@@ -50,6 +51,9 @@ def populatedb_command():
 
 @app.route('/api/attractions', methods=['GET'])
 def get_attractions():
+    session_id = request.headers.get('X-Session-ID')
+    app.logger.info(f'{session_id}: fetching attractions')
+    
     attractions = [] 
     
     for attraction in fetch_attractions():
@@ -60,10 +64,14 @@ def get_attractions():
             'imageUrl': attraction['image_url'], 
             'availableTickets': attraction['available_tickets']
         })
+    
+    app.logger.info(f'{session_id}: fetched {len(attractions)} attractions')
     return jsonify(attractions)
 
 @app.route('/api/attractions/timeslots', methods=['GET'])
 def get_attractions_time_slots():
+    session_id = request.headers.get('X-Session-ID')
+    app.logger.info(f'{session_id}: fetching time slots')
     time_slots = [] 
     
     for time_slot in fetch_time_slots():
@@ -72,10 +80,13 @@ def get_attractions_time_slots():
             'startTime': time_slot['start_time'],
             'endTime': time_slot['end_time']
         })
+    app.logger.info(f'{session_id}: fetched {len(time_slots)} time slots')
     return jsonify(time_slots)
 
 @app.route('/api/attractions/tickets', methods=['GET'])
 def get_attractions_tickets():
+    session_id = request.headers.get('X-Session-ID')
+    app.logger.info(f'{session_id}: fetching available tickets')
     available_tickets = [] 
     
     for ticket in fetch_available_tickets():
@@ -84,12 +95,15 @@ def get_attractions_tickets():
             'type': ticket['type'],
             'price': ticket['price']
         })
+    app.logger.info(f'{session_id}: fetched {len(available_tickets)} available tickets')
     return jsonify(available_tickets)
 
 @app.route('/api/attractions/bookings', methods=['POST'])
 def booking():
+    session_id = request.headers.get('X-Session-ID')
+    
     data = request.get_json()
-    print(data)
+    
     statuses = ['failed', 'success']
     
     status = random.choice(statuses)
@@ -104,24 +118,26 @@ def booking():
     tickets = data.get('tickets')
     booking = data.get('booking')
     
-    print(tickets)
-    
     if not attraction or not time_slot or not tickets or not booking:
+        app.logger.error(f"{session_id}: invalid booking data")
         return jsonify({'status': 'failed', 'message': 'Booking failed. Please try again.'}), 400
     
     fetched_attraction = fetch_attraction_by_id(attraction.get('id'))
     
     # Check if the selected attraction is valid
     if fetched_attraction is None:
+        app.logger.error(f"{session_id}: invalid attraction selected")
         return jsonify({'status': 'failed', 'message': 'Invalid attraction selected.'}), 400
     
     if fetched_attraction['available_tickets'] < sum([ticket.get('quantity') for ticket in tickets.get('tickets')]):
+        app.logger.error(f"{session_id}: not enough tickets available")
         return jsonify({'status': 'failed', 'message': 'Not enough tickets available.'}), 400
     
     fetched_time_slot = fetch_time_slot_by_id(time_slot.get('id')); 
 
     # Check if the selected time slot is valid
     if fetched_time_slot is None:
+        app.logger.error(f"{session_id}: invalid time slot selected")
         return jsonify({'status': 'failed', 'message': 'Invalid time slot selected.'}), 400
     
     fetched_tickets = fetch_available_tickets()
@@ -145,10 +161,13 @@ def booking():
         }
         total_tickets += ticket.get('quantity')
         
-        print(booking_data)
+        app.logger.info(f"{session_id}: saving booking for attraction {attraction.get('name')} for {time_slot.get('startTime')}-{time_slot.get('endTime')} with {ticket.get('quantity')} {ticket.get('type')} tickets")
         save_booking(booking_data)
-        
+    
+    app.logger.info(f"{session_id}: updating available tickets for attraction {attraction.get('name')} to {total_tickets}")
     update_attraction_available_tickets(attraction.get('id'), total_tickets)
+    
+    app.logger.info(f"{session_id}: booking successful")
     
     return jsonify({
         'bookingCode': booking_code,
@@ -156,10 +175,13 @@ def booking():
 
 @app.route('/api/attractions/bookings/<booking_code>', methods=['GET'])
 def get_booking(booking_code):
-    print(booking_code)
+    session_id = request.headers.get('X-Session-ID')
+    
+    app.logger.info(f'{session_id}: fetching booking with booking code {booking_code}')
     bookings = get_booking_by_booking_code(booking_code)
     
     if not bookings:
+        app.logger.error(f"{session_id}: booking not found")
         return jsonify({'status': 'failed', 'message': 'Booking not found.'}), 404
     
     response_data = {}
@@ -180,10 +202,11 @@ def get_booking(booking_code):
     response_data['bookingCode'] = bookings[0]['booking_code']
     response_data['status'] = bookings[0]['status']
     
-    print(response_data)
+    app.logger.info(f'{session_id}: fetched booking with booking code {booking_code}')
     return jsonify(response_data), 200
 
 if __name__ == '__main__':
+    app.logger.info('Starting the application')
     if not os.path.exists(app.config['DATABASE']):
         with app.app_context():
             init_db()

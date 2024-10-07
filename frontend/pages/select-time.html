@@ -22,7 +22,10 @@
 
             window.localStorage.removeItem('selectedTime');
 
-            fetch(`${API_URL}/attractions/timeslots`)
+            fetch(`${API_URL}/attractions/timeslots`, {
+                headers: {
+                    'X-Session-ID': window.localStorage.getItem('sessionCode')
+                }})
                 .then(response => response.json())
                 .then(timeSlots => {
                     console.log(timeSlots);

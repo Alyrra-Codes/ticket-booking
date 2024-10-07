@@ -69,7 +69,8 @@
                 fetch(`${API_URL}/attractions/bookings`, {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json'
+                        'Content-Type': 'application/json',
+                        'X-Session-ID': window.localStorage.getItem('sessionCode')
                     },
                     body: JSON.stringify(postData)
                 })
