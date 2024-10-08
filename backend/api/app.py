@@ -109,7 +109,8 @@ def booking():
     status = random.choice(statuses)
 
     if status == 'failed':
-        return jsonify({'status': 'failed', 'message': 'Booking failed. Please try again.'}), 400
+        app.logger.error(f"{session_id}: invalid payment details")
+        return jsonify({'status': 'failed', 'message': 'Invalid payment details. Please try again'}), 400
     
     booking_code = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ', k=2)) + ''.join(random.choices('0123456789', k=4))
     
@@ -117,6 +118,7 @@ def booking():
     time_slot = data.get('timeSlot')
     tickets = data.get('tickets')
     booking = data.get('booking')
+    payment = data.get('payment')
     
     if not attraction or not time_slot or not tickets or not booking:
         app.logger.error(f"{session_id}: invalid booking data")
