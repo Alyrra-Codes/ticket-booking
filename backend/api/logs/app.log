@@ -1080,3 +1080,4 @@
 2024-10-09 09:06:04,937 - app - INFO - get_attractions_tickets - QA08WK: fetched 3 available tickets
 2024-10-09 09:06:04,941 - app - INFO - booking - QA08WK: updating available tickets for attraction Museum to 0
 2024-10-09 09:06:04,941 - app - INFO - booking - QA08WK: booking successful
+2024-10-09 09:06:54,080 - app - INFO - <module> - Starting the application
