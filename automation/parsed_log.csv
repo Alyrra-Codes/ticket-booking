@@ -1,1 +1,651 @@
-session_id,action,timestamp
+case_id,task_id,timestamp,resource,message
+m9mvs0fddqsct98u2x5555,4,"2024-10-09 20:23:31,179",booking,saving booking for attraction Aquarium for 12:00-13:00 with 5 Adult tickets
+m9mvs0fddqsct98u2x5555,4,"2024-10-09 20:23:31,182",booking,saving booking for attraction Aquarium for 12:00-13:00 with 9 Child tickets
+m9mvs0fddqsct98u2x5555,4,"2024-10-09 20:23:31,183",booking,saving booking for attraction Aquarium for 12:00-13:00 with 5 Concession tickets
+m9mvs0fddqsct98u2x5555,4,"2024-10-09 20:23:31,184",booking,updating available tickets for attraction Aquarium time slot 12:00-13:00 to 19
+m9mvs0fddqsct98u2x5555,4,"2024-10-09 20:23:31,185",booking,booking successful
+m9mvs0fddqsct98u2x5555,5,"2024-10-09 20:23:31,221",get_booking,fetching booking with booking code CY2693
+m9mvs0fddqsct98u2x5555,5,"2024-10-09 20:23:31,222",get_booking,fetched booking with booking code CY2693
+vh7cmum6cvo52m373mm71s,1,"2024-10-09 20:23:50,651",get_attractions,fetching attractions
+vh7cmum6cvo52m373mm71s,1,"2024-10-09 20:23:50,651",get_attractions,fetched 3 attractions
+vh7cmum6cvo52m373mm71s,2,"2024-10-09 20:23:52,002",get_attractions_time_slots,fetching time slots
+vh7cmum6cvo52m373mm71s,2,"2024-10-09 20:23:52,002",get_attractions_time_slots,fetched 7 time slots
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:23:56,137",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:23:56,137",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:00,157",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:00,158",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:02,276",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:02,277",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:04,570",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:04,571",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:06,607",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:06,608",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:08,627",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:08,627",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:11,752",get_attractions_tickets,fetching available tickets
+vh7cmum6cvo52m373mm71s,3,"2024-10-09 20:24:11,753",get_attractions_tickets,fetched 3 available tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:38,725",booking,invalid payment details
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:39,622",booking,invalid payment details
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:40,139",booking,saving booking for attraction Aquarium for 10:00-11:00 with 3 Adult tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:40,141",booking,saving booking for attraction Aquarium for 10:00-11:00 with 0 Child tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:40,142",booking,saving booking for attraction Aquarium for 10:00-11:00 with 0 Concession tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:40,143",booking,updating available tickets for attraction Aquarium time slot 10:00-11:00 to 3
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:24:40,144",booking,booking successful
+vh7cmum6cvo52m373mm71s,5,"2024-10-09 20:24:40,178",get_booking,fetching booking with booking code YF0244
+vh7cmum6cvo52m373mm71s,5,"2024-10-09 20:24:40,179",get_booking,fetched booking with booking code YF0244
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:48,626",booking,invalid payment details
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:49,870",booking,invalid payment details
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:50,370",booking,invalid payment details
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:50,818",booking,invalid payment details
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:51,253",booking,saving booking for attraction Aquarium for 10:00-11:00 with 3 Adult tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:51,255",booking,saving booking for attraction Aquarium for 10:00-11:00 with 0 Child tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:51,256",booking,saving booking for attraction Aquarium for 10:00-11:00 with 0 Concession tickets
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:51,258",booking,updating available tickets for attraction Aquarium time slot 10:00-11:00 to 3
+vh7cmum6cvo52m373mm71s,4,"2024-10-09 20:25:51,259",booking,booking successful
+vh7cmum6cvo52m373mm71s,5,"2024-10-09 20:25:51,299",get_booking,fetching booking with booking code BF2879
+vh7cmum6cvo52m373mm71s,5,"2024-10-09 20:25:51,299",get_booking,fetched booking with booking code BF2879
+71tt07z6mza1vdculmt87e,1,"2024-10-09 20:26:02,150",get_attractions,fetching attractions
+71tt07z6mza1vdculmt87e,1,"2024-10-09 20:26:02,151",get_attractions,fetched 3 attractions
+71tt07z6mza1vdculmt87e,2,"2024-10-09 20:26:03,228",get_attractions_time_slots,fetching time slots
+71tt07z6mza1vdculmt87e,2,"2024-10-09 20:26:03,228",get_attractions_time_slots,fetched 7 time slots
+71tt07z6mza1vdculmt87e,3,"2024-10-09 20:26:04,848",get_attractions_tickets,fetching available tickets
+71tt07z6mza1vdculmt87e,3,"2024-10-09 20:26:04,849",get_attractions_tickets,fetched 3 available tickets
+71tt07z6mza1vdculmt87e,3,"2024-10-09 20:26:07,000",get_attractions_tickets,fetching available tickets
+71tt07z6mza1vdculmt87e,3,"2024-10-09 20:26:07,001",get_attractions_tickets,fetched 3 available tickets
+71tt07z6mza1vdculmt87e,3,"2024-10-09 20:26:08,921",get_attractions_tickets,fetching available tickets
+71tt07z6mza1vdculmt87e,3,"2024-10-09 20:26:08,922",get_attractions_tickets,fetched 3 available tickets
+HJD1J8,1,"2024-10-09 20:30:53,337",get_attractions,fetching attractions
+HJD1J8,1,"2024-10-09 20:30:53,338",get_attractions,fetched 3 attractions
+8ZTPN8,1,"2024-10-09 20:31:13,281",get_attractions,fetching attractions
+8ZTPN8,1,"2024-10-09 20:31:13,282",get_attractions,fetched 3 attractions
+8ZTPN8,2,"2024-10-09 20:31:13,283",get_attractions_time_slots,fetching time slots
+8ZTPN8,2,"2024-10-09 20:31:13,283",get_attractions_time_slots,fetched 7 time slots
+8ZTPN8,3,"2024-10-09 20:31:13,284",get_attractions_tickets,fetching available tickets
+8ZTPN8,3,"2024-10-09 20:31:13,285",get_attractions_tickets,fetched 3 available tickets
+D149V0,1,"2024-10-09 20:33:25,000",get_attractions,fetching attractions
+D149V0,1,"2024-10-09 20:33:25,000",get_attractions,fetched 3 attractions
+D149V0,2,"2024-10-09 20:33:25,002",get_attractions_time_slots,fetching time slots
+D149V0,2,"2024-10-09 20:33:25,002",get_attractions_time_slots,fetched 7 time slots
+D149V0,3,"2024-10-09 20:33:25,003",get_attractions_tickets,fetching available tickets
+D149V0,3,"2024-10-09 20:33:25,003",get_attractions_tickets,fetched 3 available tickets
+L7LCQZ,1,"2024-10-09 20:33:25,024",get_attractions,fetching attractions
+L7LCQZ,1,"2024-10-09 20:33:25,025",get_attractions,fetched 3 attractions
+L7LCQZ,2,"2024-10-09 20:33:25,026",get_attractions_time_slots,fetching time slots
+L7LCQZ,2,"2024-10-09 20:33:25,026",get_attractions_time_slots,fetched 7 time slots
+L7LCQZ,3,"2024-10-09 20:33:25,027",get_attractions_tickets,fetching available tickets
+L7LCQZ,3,"2024-10-09 20:33:25,027",get_attractions_tickets,fetched 3 available tickets
+YD0UVG,1,"2024-10-09 20:33:25,030",get_attractions,fetching attractions
+YD0UVG,1,"2024-10-09 20:33:25,030",get_attractions,fetched 3 attractions
+YD0UVG,2,"2024-10-09 20:33:25,031",get_attractions_time_slots,fetching time slots
+YD0UVG,2,"2024-10-09 20:33:25,031",get_attractions_time_slots,fetched 7 time slots
+YD0UVG,3,"2024-10-09 20:33:25,032",get_attractions_tickets,fetching available tickets
+YD0UVG,3,"2024-10-09 20:33:25,032",get_attractions_tickets,fetched 3 available tickets
+YD0UVG,4,"2024-10-09 20:33:25,035",booking,saving booking for attraction Art Gallery for 16:00-17:00 with 23 Adult tickets
+YD0UVG,4,"2024-10-09 20:33:25,035",booking,saving booking for attraction Art Gallery for 16:00-17:00 with 14 Concession tickets
+YD0UVG,4,"2024-10-09 20:33:25,036",booking,updating available tickets for attraction Art Gallery time slot 16:00-17:00 to 37
+YD0UVG,4,"2024-10-09 20:33:25,036",booking,booking successful
+YD0UVG,5,"2024-10-09 20:33:25,037",get_booking,fetching booking with booking code DE2502
+YD0UVG,5,"2024-10-09 20:33:25,037",get_booking,fetched booking with booking code DE2502
+6RWSM3,1,"2024-10-09 20:33:25,038",get_attractions,fetching attractions
+6RWSM3,1,"2024-10-09 20:33:25,038",get_attractions,fetched 3 attractions
+6RWSM3,2,"2024-10-09 20:33:25,039",get_attractions_time_slots,fetching time slots
+6RWSM3,2,"2024-10-09 20:33:25,040",get_attractions_time_slots,fetched 7 time slots
+6RWSM3,3,"2024-10-09 20:33:25,041",get_attractions_tickets,fetching available tickets
+6RWSM3,3,"2024-10-09 20:33:25,041",get_attractions_tickets,fetched 3 available tickets
+5MKLQU,1,"2024-10-09 20:33:25,044",get_attractions,fetching attractions
+5MKLQU,1,"2024-10-09 20:33:25,044",get_attractions,fetched 3 attractions
+5MKLQU,2,"2024-10-09 20:33:25,045",get_attractions_time_slots,fetching time slots
+5MKLQU,2,"2024-10-09 20:33:25,045",get_attractions_time_slots,fetched 7 time slots
+5MKLQU,3,"2024-10-09 20:33:25,046",get_attractions_tickets,fetching available tickets
+5MKLQU,3,"2024-10-09 20:33:25,047",get_attractions_tickets,fetched 3 available tickets
+U670HC,1,"2024-10-09 20:33:25,049",get_attractions,fetching attractions
+U670HC,1,"2024-10-09 20:33:25,049",get_attractions,fetched 3 attractions
+U670HC,2,"2024-10-09 20:33:25,050",get_attractions_time_slots,fetching time slots
+U670HC,2,"2024-10-09 20:33:25,050",get_attractions_time_slots,fetched 7 time slots
+4JI9IN,1,"2024-10-09 20:33:25,051",get_attractions,fetching attractions
+4JI9IN,1,"2024-10-09 20:33:25,052",get_attractions,fetched 3 attractions
+4JI9IN,2,"2024-10-09 20:33:25,052",get_attractions_time_slots,fetching time slots
+4JI9IN,2,"2024-10-09 20:33:25,053",get_attractions_time_slots,fetched 7 time slots
+4JI9IN,3,"2024-10-09 20:33:25,054",get_attractions_tickets,fetching available tickets
+4JI9IN,3,"2024-10-09 20:33:25,054",get_attractions_tickets,fetched 3 available tickets
+4JI9IN,4,"2024-10-09 20:33:25,057",booking,saving booking for attraction Aquarium for 14:00-15:00 with 50 Adult tickets
+4JI9IN,4,"2024-10-09 20:33:25,057",booking,updating available tickets for attraction Aquarium time slot 14:00-15:00 to 50
+4JI9IN,4,"2024-10-09 20:33:25,058",booking,booking successful
+4JI9IN,5,"2024-10-09 20:33:25,059",get_booking,fetching booking with booking code LF4630
+4JI9IN,5,"2024-10-09 20:33:25,059",get_booking,fetched booking with booking code LF4630
+5AQTXV,1,"2024-10-09 20:33:25,060",get_attractions,fetching attractions
+5AQTXV,1,"2024-10-09 20:33:25,060",get_attractions,fetched 3 attractions
+5AQTXV,2,"2024-10-09 20:33:25,061",get_attractions_time_slots,fetching time slots
+5AQTXV,2,"2024-10-09 20:33:25,061",get_attractions_time_slots,fetched 7 time slots
+5AQTXV,3,"2024-10-09 20:33:25,062",get_attractions_tickets,fetching available tickets
+5AQTXV,3,"2024-10-09 20:33:25,062",get_attractions_tickets,fetched 3 available tickets
+1RPEPW,1,"2024-10-09 20:33:25,065",get_attractions,fetching attractions
+1RPEPW,1,"2024-10-09 20:33:25,065",get_attractions,fetched 3 attractions
+1RPEPW,2,"2024-10-09 20:33:25,066",get_attractions_time_slots,fetching time slots
+1RPEPW,2,"2024-10-09 20:33:25,066",get_attractions_time_slots,fetched 7 time slots
+A8SRP5,1,"2024-10-09 20:33:25,067",get_attractions,fetching attractions
+A8SRP5,1,"2024-10-09 20:33:25,067",get_attractions,fetched 3 attractions
+A8SRP5,2,"2024-10-09 20:33:25,068",get_attractions_time_slots,fetching time slots
+A8SRP5,2,"2024-10-09 20:33:25,068",get_attractions_time_slots,fetched 7 time slots
+A8SRP5,3,"2024-10-09 20:33:25,069",get_attractions_tickets,fetching available tickets
+A8SRP5,3,"2024-10-09 20:33:25,069",get_attractions_tickets,fetched 3 available tickets
+SXCZOF,1,"2024-10-09 20:33:25,071",get_attractions,fetching attractions
+SXCZOF,1,"2024-10-09 20:33:25,072",get_attractions,fetched 3 attractions
+SXCZOF,2,"2024-10-09 20:33:25,073",get_attractions_time_slots,fetching time slots
+SXCZOF,2,"2024-10-09 20:33:25,073",get_attractions_time_slots,fetched 7 time slots
+CJRMHX,1,"2024-10-09 20:33:25,074",get_attractions,fetching attractions
+CJRMHX,1,"2024-10-09 20:33:25,074",get_attractions,fetched 3 attractions
+CJRMHX,2,"2024-10-09 20:33:25,075",get_attractions_time_slots,fetching time slots
+CJRMHX,2,"2024-10-09 20:33:25,075",get_attractions_time_slots,fetched 7 time slots
+CJRMHX,3,"2024-10-09 20:33:25,076",get_attractions_tickets,fetching available tickets
+CJRMHX,3,"2024-10-09 20:33:25,076",get_attractions_tickets,fetched 3 available tickets
+V5ZT5E,1,"2024-10-09 20:33:25,079",get_attractions,fetching attractions
+V5ZT5E,1,"2024-10-09 20:33:25,079",get_attractions,fetched 3 attractions
+V5ZT5E,2,"2024-10-09 20:33:25,080",get_attractions_time_slots,fetching time slots
+V5ZT5E,2,"2024-10-09 20:33:25,080",get_attractions_time_slots,fetched 7 time slots
+CTABYM,1,"2024-10-09 20:33:25,081",get_attractions,fetching attractions
+CTABYM,1,"2024-10-09 20:33:25,081",get_attractions,fetched 3 attractions
+CTABYM,2,"2024-10-09 20:33:25,082",get_attractions_time_slots,fetching time slots
+CTABYM,2,"2024-10-09 20:33:25,082",get_attractions_time_slots,fetched 7 time slots
+SRPNV9,1,"2024-10-09 20:33:25,083",get_attractions,fetching attractions
+SRPNV9,1,"2024-10-09 20:33:25,084",get_attractions,fetched 3 attractions
+SRPNV9,2,"2024-10-09 20:33:25,085",get_attractions_time_slots,fetching time slots
+SRPNV9,2,"2024-10-09 20:33:25,085",get_attractions_time_slots,fetched 7 time slots
+SRPNV9,3,"2024-10-09 20:33:25,086",get_attractions_tickets,fetching available tickets
+SRPNV9,3,"2024-10-09 20:33:25,086",get_attractions_tickets,fetched 3 available tickets
+M6TVYI,1,"2024-10-09 20:33:25,088",get_attractions,fetching attractions
+M6TVYI,1,"2024-10-09 20:33:25,088",get_attractions,fetched 3 attractions
+M6TVYI,2,"2024-10-09 20:33:25,089",get_attractions_time_slots,fetching time slots
+M6TVYI,2,"2024-10-09 20:33:25,090",get_attractions_time_slots,fetched 7 time slots
+M6TVYI,3,"2024-10-09 20:33:25,091",get_attractions_tickets,fetching available tickets
+M6TVYI,3,"2024-10-09 20:33:25,091",get_attractions_tickets,fetched 3 available tickets
+M6TVYI,4,"2024-10-09 20:33:25,094",booking,invalid payment details
+AJA21U,1,"2024-10-09 20:33:25,095",get_attractions,fetching attractions
+AJA21U,1,"2024-10-09 20:33:25,095",get_attractions,fetched 3 attractions
+AJA21U,2,"2024-10-09 20:33:25,096",get_attractions_time_slots,fetching time slots
+AJA21U,2,"2024-10-09 20:33:25,096",get_attractions_time_slots,fetched 7 time slots
+AJA21U,3,"2024-10-09 20:33:25,097",get_attractions_tickets,fetching available tickets
+AJA21U,3,"2024-10-09 20:33:25,097",get_attractions_tickets,fetched 3 available tickets
+T1IXX2,1,"2024-10-09 20:33:25,100",get_attractions,fetching attractions
+T1IXX2,1,"2024-10-09 20:33:25,100",get_attractions,fetched 3 attractions
+T1IXX2,2,"2024-10-09 20:33:25,101",get_attractions_time_slots,fetching time slots
+T1IXX2,2,"2024-10-09 20:33:25,101",get_attractions_time_slots,fetched 7 time slots
+T1IXX2,3,"2024-10-09 20:33:25,102",get_attractions_tickets,fetching available tickets
+T1IXX2,3,"2024-10-09 20:33:25,102",get_attractions_tickets,fetched 3 available tickets
+46DQA8,1,"2024-10-09 20:33:25,105",get_attractions,fetching attractions
+46DQA8,1,"2024-10-09 20:33:25,105",get_attractions,fetched 3 attractions
+46DQA8,2,"2024-10-09 20:33:25,106",get_attractions_time_slots,fetching time slots
+46DQA8,2,"2024-10-09 20:33:25,106",get_attractions_time_slots,fetched 7 time slots
+46DQA8,3,"2024-10-09 20:33:25,107",get_attractions_tickets,fetching available tickets
+46DQA8,3,"2024-10-09 20:33:25,107",get_attractions_tickets,fetched 3 available tickets
+2TSGB0,1,"2024-10-09 20:33:25,110",get_attractions,fetching attractions
+2TSGB0,1,"2024-10-09 20:33:25,110",get_attractions,fetched 3 attractions
+2TSGB0,2,"2024-10-09 20:33:25,111",get_attractions_time_slots,fetching time slots
+2TSGB0,2,"2024-10-09 20:33:25,111",get_attractions_time_slots,fetched 7 time slots
+UV5EVS,1,"2024-10-09 20:33:25,112",get_attractions,fetching attractions
+UV5EVS,1,"2024-10-09 20:33:25,112",get_attractions,fetched 3 attractions
+UV5EVS,2,"2024-10-09 20:33:25,113",get_attractions_time_slots,fetching time slots
+UV5EVS,2,"2024-10-09 20:33:25,113",get_attractions_time_slots,fetched 7 time slots
+NDA6Q9,1,"2024-10-09 20:33:25,114",get_attractions,fetching attractions
+NDA6Q9,1,"2024-10-09 20:33:25,115",get_attractions,fetched 3 attractions
+NDA6Q9,2,"2024-10-09 20:33:25,115",get_attractions_time_slots,fetching time slots
+NDA6Q9,2,"2024-10-09 20:33:25,116",get_attractions_time_slots,fetched 7 time slots
+5CJDUO,1,"2024-10-09 20:33:25,117",get_attractions,fetching attractions
+5CJDUO,1,"2024-10-09 20:33:25,117",get_attractions,fetched 3 attractions
+5CJDUO,2,"2024-10-09 20:33:25,118",get_attractions_time_slots,fetching time slots
+5CJDUO,2,"2024-10-09 20:33:25,118",get_attractions_time_slots,fetched 7 time slots
+5CJDUO,3,"2024-10-09 20:33:25,119",get_attractions_tickets,fetching available tickets
+5CJDUO,3,"2024-10-09 20:33:25,119",get_attractions_tickets,fetched 3 available tickets
+5CJDUO,4,"2024-10-09 20:33:25,122",booking,updating available tickets for attraction Aquarium time slot 14:00-15:00 to 0
+5CJDUO,4,"2024-10-09 20:33:25,122",booking,booking successful
+5CJDUO,5,"2024-10-09 20:33:25,123",get_booking,fetching booking with booking code BU5744
+5CJDUO,5,"2024-10-09 20:33:25,123",get_booking,booking not found
+A1DZXR,1,"2024-10-09 20:33:25,124",get_attractions,fetching attractions
+A1DZXR,1,"2024-10-09 20:33:25,124",get_attractions,fetched 3 attractions
+A1DZXR,2,"2024-10-09 20:33:25,125",get_attractions_time_slots,fetching time slots
+A1DZXR,2,"2024-10-09 20:33:25,125",get_attractions_time_slots,fetched 7 time slots
+A1DZXR,3,"2024-10-09 20:33:25,127",get_attractions_tickets,fetching available tickets
+A1DZXR,3,"2024-10-09 20:33:25,127",get_attractions_tickets,fetched 3 available tickets
+5C8KA2,1,"2024-10-09 20:33:25,129",get_attractions,fetching attractions
+5C8KA2,1,"2024-10-09 20:33:25,129",get_attractions,fetched 3 attractions
+5C8KA2,2,"2024-10-09 20:33:25,130",get_attractions_time_slots,fetching time slots
+5C8KA2,2,"2024-10-09 20:33:25,131",get_attractions_time_slots,fetched 7 time slots
+18MEE0,1,"2024-10-09 20:33:25,131",get_attractions,fetching attractions
+18MEE0,1,"2024-10-09 20:33:25,132",get_attractions,fetched 3 attractions
+18MEE0,2,"2024-10-09 20:33:25,133",get_attractions_time_slots,fetching time slots
+18MEE0,2,"2024-10-09 20:33:25,133",get_attractions_time_slots,fetched 7 time slots
+18MEE0,3,"2024-10-09 20:33:25,134",get_attractions_tickets,fetching available tickets
+18MEE0,3,"2024-10-09 20:33:25,134",get_attractions_tickets,fetched 3 available tickets
+18MEE0,4,"2024-10-09 20:33:25,136",booking,saving booking for attraction Aquarium for 15:00-16:00 with 49 Adult tickets
+18MEE0,4,"2024-10-09 20:33:25,137",booking,updating available tickets for attraction Aquarium time slot 15:00-16:00 to 49
+18MEE0,4,"2024-10-09 20:33:25,138",booking,booking successful
+18MEE0,5,"2024-10-09 20:33:25,139",get_booking,fetching booking with booking code LU0886
+18MEE0,5,"2024-10-09 20:33:25,139",get_booking,fetched booking with booking code LU0886
+VVYK55,1,"2024-10-09 20:33:25,140",get_attractions,fetching attractions
+VVYK55,1,"2024-10-09 20:33:25,140",get_attractions,fetched 3 attractions
+VVYK55,2,"2024-10-09 20:33:25,141",get_attractions_time_slots,fetching time slots
+VVYK55,2,"2024-10-09 20:33:25,141",get_attractions_time_slots,fetched 7 time slots
+VVYK55,3,"2024-10-09 20:33:25,142",get_attractions_tickets,fetching available tickets
+VVYK55,3,"2024-10-09 20:33:25,143",get_attractions_tickets,fetched 3 available tickets
+WXQROB,1,"2024-10-09 20:33:25,145",get_attractions,fetching attractions
+WXQROB,1,"2024-10-09 20:33:25,145",get_attractions,fetched 3 attractions
+WXQROB,2,"2024-10-09 20:33:25,146",get_attractions_time_slots,fetching time slots
+WXQROB,2,"2024-10-09 20:33:25,146",get_attractions_time_slots,fetched 7 time slots
+PNC21Q,1,"2024-10-09 20:33:25,147",get_attractions,fetching attractions
+PNC21Q,1,"2024-10-09 20:33:25,148",get_attractions,fetched 3 attractions
+PNC21Q,2,"2024-10-09 20:33:25,149",get_attractions_time_slots,fetching time slots
+PNC21Q,2,"2024-10-09 20:33:25,149",get_attractions_time_slots,fetched 7 time slots
+G3LC5L,1,"2024-10-09 20:33:25,150",get_attractions,fetching attractions
+G3LC5L,1,"2024-10-09 20:33:25,150",get_attractions,fetched 3 attractions
+G3LC5L,2,"2024-10-09 20:33:25,151",get_attractions_time_slots,fetching time slots
+G3LC5L,2,"2024-10-09 20:33:25,151",get_attractions_time_slots,fetched 7 time slots
+I94EKB,1,"2024-10-09 20:33:25,152",get_attractions,fetching attractions
+I94EKB,1,"2024-10-09 20:33:25,152",get_attractions,fetched 3 attractions
+I94EKB,2,"2024-10-09 20:33:25,153",get_attractions_time_slots,fetching time slots
+I94EKB,2,"2024-10-09 20:33:25,153",get_attractions_time_slots,fetched 7 time slots
+MF2XLU,1,"2024-10-09 20:33:25,154",get_attractions,fetching attractions
+MF2XLU,1,"2024-10-09 20:33:25,154",get_attractions,fetched 3 attractions
+MF2XLU,2,"2024-10-09 20:33:25,155",get_attractions_time_slots,fetching time slots
+MF2XLU,2,"2024-10-09 20:33:25,156",get_attractions_time_slots,fetched 7 time slots
+VCIW8T,1,"2024-10-09 20:33:25,156",get_attractions,fetching attractions
+VCIW8T,1,"2024-10-09 20:33:25,157",get_attractions,fetched 3 attractions
+VCIW8T,2,"2024-10-09 20:33:25,158",get_attractions_time_slots,fetching time slots
+VCIW8T,2,"2024-10-09 20:33:25,158",get_attractions_time_slots,fetched 7 time slots
+ENIZ2E,1,"2024-10-09 20:33:25,159",get_attractions,fetching attractions
+ENIZ2E,1,"2024-10-09 20:33:25,160",get_attractions,fetched 3 attractions
+ENIZ2E,2,"2024-10-09 20:33:25,161",get_attractions_time_slots,fetching time slots
+ENIZ2E,2,"2024-10-09 20:33:25,161",get_attractions_time_slots,fetched 7 time slots
+ENIZ2E,3,"2024-10-09 20:33:25,162",get_attractions_tickets,fetching available tickets
+ENIZ2E,3,"2024-10-09 20:33:25,162",get_attractions_tickets,fetched 3 available tickets
+2B5HU5,1,"2024-10-09 20:33:25,165",get_attractions,fetching attractions
+2B5HU5,1,"2024-10-09 20:33:25,165",get_attractions,fetched 3 attractions
+2B5HU5,2,"2024-10-09 20:33:25,166",get_attractions_time_slots,fetching time slots
+2B5HU5,2,"2024-10-09 20:33:25,166",get_attractions_time_slots,fetched 7 time slots
+2B5HU5,3,"2024-10-09 20:33:25,167",get_attractions_tickets,fetching available tickets
+2B5HU5,3,"2024-10-09 20:33:25,167",get_attractions_tickets,fetched 3 available tickets
+2CXENU,1,"2024-10-09 20:33:25,169",get_attractions,fetching attractions
+2CXENU,1,"2024-10-09 20:33:25,170",get_attractions,fetched 3 attractions
+2CXENU,2,"2024-10-09 20:33:25,171",get_attractions_time_slots,fetching time slots
+2CXENU,2,"2024-10-09 20:33:25,171",get_attractions_time_slots,fetched 7 time slots
+CNVX1D,1,"2024-10-09 20:33:25,172",get_attractions,fetching attractions
+CNVX1D,1,"2024-10-09 20:33:25,173",get_attractions,fetched 3 attractions
+CNVX1D,2,"2024-10-09 20:33:25,174",get_attractions_time_slots,fetching time slots
+CNVX1D,2,"2024-10-09 20:33:25,174",get_attractions_time_slots,fetched 7 time slots
+K3JW0Y,1,"2024-10-09 20:33:25,175",get_attractions,fetching attractions
+K3JW0Y,1,"2024-10-09 20:33:25,175",get_attractions,fetched 3 attractions
+K3JW0Y,2,"2024-10-09 20:33:25,176",get_attractions_time_slots,fetching time slots
+K3JW0Y,2,"2024-10-09 20:33:25,176",get_attractions_time_slots,fetched 7 time slots
+K3JW0Y,3,"2024-10-09 20:33:25,177",get_attractions_tickets,fetching available tickets
+K3JW0Y,3,"2024-10-09 20:33:25,177",get_attractions_tickets,fetched 3 available tickets
+K3JW0Y,4,"2024-10-09 20:33:25,180",booking,saving booking for attraction Art Gallery for 10:00-11:00 with 15 Adult tickets
+K3JW0Y,4,"2024-10-09 20:33:25,181",booking,saving booking for attraction Art Gallery for 10:00-11:00 with 1 Child tickets
+K3JW0Y,4,"2024-10-09 20:33:25,181",booking,saving booking for attraction Art Gallery for 10:00-11:00 with 12 Concession tickets
+K3JW0Y,4,"2024-10-09 20:33:25,181",booking,updating available tickets for attraction Art Gallery time slot 10:00-11:00 to 28
+K3JW0Y,4,"2024-10-09 20:33:25,182",booking,booking successful
+K3JW0Y,5,"2024-10-09 20:33:25,183",get_booking,fetching booking with booking code YY5163
+K3JW0Y,5,"2024-10-09 20:33:25,183",get_booking,fetched booking with booking code YY5163
+R6HJFS,1,"2024-10-09 20:33:25,184",get_attractions,fetching attractions
+R6HJFS,1,"2024-10-09 20:33:25,184",get_attractions,fetched 3 attractions
+R6HJFS,2,"2024-10-09 20:33:25,185",get_attractions_time_slots,fetching time slots
+R6HJFS,2,"2024-10-09 20:33:25,185",get_attractions_time_slots,fetched 7 time slots
+6C0R6P,1,"2024-10-09 20:33:25,186",get_attractions,fetching attractions
+6C0R6P,1,"2024-10-09 20:33:25,186",get_attractions,fetched 3 attractions
+6C0R6P,2,"2024-10-09 20:33:25,187",get_attractions_time_slots,fetching time slots
+6C0R6P,2,"2024-10-09 20:33:25,187",get_attractions_time_slots,fetched 7 time slots
+MV2RVB,1,"2024-10-09 20:33:25,188",get_attractions,fetching attractions
+MV2RVB,1,"2024-10-09 20:33:25,188",get_attractions,fetched 3 attractions
+MV2RVB,2,"2024-10-09 20:33:25,189",get_attractions_time_slots,fetching time slots
+MV2RVB,2,"2024-10-09 20:33:25,190",get_attractions_time_slots,fetched 7 time slots
+G31SRB,1,"2024-10-09 20:33:25,190",get_attractions,fetching attractions
+G31SRB,1,"2024-10-09 20:33:25,191",get_attractions,fetched 3 attractions
+G31SRB,2,"2024-10-09 20:33:25,192",get_attractions_time_slots,fetching time slots
+G31SRB,2,"2024-10-09 20:33:25,192",get_attractions_time_slots,fetched 7 time slots
+0PMQFI,1,"2024-10-09 20:33:25,193",get_attractions,fetching attractions
+0PMQFI,1,"2024-10-09 20:33:25,193",get_attractions,fetched 3 attractions
+0PMQFI,2,"2024-10-09 20:33:25,194",get_attractions_time_slots,fetching time slots
+0PMQFI,2,"2024-10-09 20:33:25,194",get_attractions_time_slots,fetched 7 time slots
+HAKH0C,1,"2024-10-09 20:33:25,195",get_attractions,fetching attractions
+HAKH0C,1,"2024-10-09 20:33:25,196",get_attractions,fetched 3 attractions
+HAKH0C,2,"2024-10-09 20:33:25,197",get_attractions_time_slots,fetching time slots
+HAKH0C,2,"2024-10-09 20:33:25,197",get_attractions_time_slots,fetched 7 time slots
+HAKH0C,3,"2024-10-09 20:33:25,198",get_attractions_tickets,fetching available tickets
+HAKH0C,3,"2024-10-09 20:33:25,198",get_attractions_tickets,fetched 3 available tickets
+HAKH0C,4,"2024-10-09 20:33:25,200",booking,invalid payment details
+U5UYOA,1,"2024-10-09 20:33:25,201",get_attractions,fetching attractions
+U5UYOA,1,"2024-10-09 20:33:25,202",get_attractions,fetched 3 attractions
+U5UYOA,2,"2024-10-09 20:33:25,202",get_attractions_time_slots,fetching time slots
+U5UYOA,2,"2024-10-09 20:33:25,203",get_attractions_time_slots,fetched 7 time slots
+ZNHOCL,1,"2024-10-09 20:33:25,204",get_attractions,fetching attractions
+ZNHOCL,1,"2024-10-09 20:33:25,204",get_attractions,fetched 3 attractions
+ZNHOCL,2,"2024-10-09 20:33:25,205",get_attractions_time_slots,fetching time slots
+ZNHOCL,2,"2024-10-09 20:33:25,205",get_attractions_time_slots,fetched 7 time slots
+1PE4DY,1,"2024-10-09 20:33:25,206",get_attractions,fetching attractions
+1PE4DY,1,"2024-10-09 20:33:25,206",get_attractions,fetched 3 attractions
+1PE4DY,2,"2024-10-09 20:33:25,207",get_attractions_time_slots,fetching time slots
+1PE4DY,2,"2024-10-09 20:33:25,207",get_attractions_time_slots,fetched 7 time slots
+80HQTY,1,"2024-10-09 20:33:25,208",get_attractions,fetching attractions
+80HQTY,1,"2024-10-09 20:33:25,208",get_attractions,fetched 3 attractions
+80HQTY,2,"2024-10-09 20:33:25,210",get_attractions_time_slots,fetching time slots
+80HQTY,2,"2024-10-09 20:33:25,210",get_attractions_time_slots,fetched 7 time slots
+80HQTY,3,"2024-10-09 20:33:25,211",get_attractions_tickets,fetching available tickets
+80HQTY,3,"2024-10-09 20:33:25,211",get_attractions_tickets,fetched 3 available tickets
+LA49E6,1,"2024-10-09 20:33:25,213",get_attractions,fetching attractions
+LA49E6,1,"2024-10-09 20:33:25,213",get_attractions,fetched 3 attractions
+LA49E6,2,"2024-10-09 20:33:25,214",get_attractions_time_slots,fetching time slots
+LA49E6,2,"2024-10-09 20:33:25,215",get_attractions_time_slots,fetched 7 time slots
+LA49E6,3,"2024-10-09 20:33:25,216",get_attractions_tickets,fetching available tickets
+LA49E6,3,"2024-10-09 20:33:25,216",get_attractions_tickets,fetched 3 available tickets
+P8XV4G,1,"2024-10-09 20:33:25,218",get_attractions,fetching attractions
+P8XV4G,1,"2024-10-09 20:33:25,218",get_attractions,fetched 3 attractions
+P8XV4G,2,"2024-10-09 20:33:25,219",get_attractions_time_slots,fetching time slots
+P8XV4G,2,"2024-10-09 20:33:25,220",get_attractions_time_slots,fetched 7 time slots
+P8XV4G,3,"2024-10-09 20:33:25,221",get_attractions_tickets,fetching available tickets
+P8XV4G,3,"2024-10-09 20:33:25,221",get_attractions_tickets,fetched 3 available tickets
+P8XV4G,4,"2024-10-09 20:33:25,223",booking,invalid payment details
+S80BW7,1,"2024-10-09 20:33:25,224",get_attractions,fetching attractions
+S80BW7,1,"2024-10-09 20:33:25,224",get_attractions,fetched 3 attractions
+S80BW7,2,"2024-10-09 20:33:25,225",get_attractions_time_slots,fetching time slots
+S80BW7,2,"2024-10-09 20:33:25,226",get_attractions_time_slots,fetched 7 time slots
+S80BW7,3,"2024-10-09 20:33:25,227",get_attractions_tickets,fetching available tickets
+S80BW7,3,"2024-10-09 20:33:25,227",get_attractions_tickets,fetched 3 available tickets
+S80BW7,4,"2024-10-09 20:33:25,230",booking,saving booking for attraction Museum for 11:00-12:00 with 37 Adult tickets
+S80BW7,4,"2024-10-09 20:33:25,230",booking,saving booking for attraction Museum for 11:00-12:00 with 6 Child tickets
+S80BW7,4,"2024-10-09 20:33:25,231",booking,updating available tickets for attraction Museum time slot 11:00-12:00 to 43
+S80BW7,4,"2024-10-09 20:33:25,231",booking,booking successful
+S80BW7,5,"2024-10-09 20:33:25,232",get_booking,fetching booking with booking code BO1158
+S80BW7,5,"2024-10-09 20:33:25,232",get_booking,fetched booking with booking code BO1158
+5GV7HL,1,"2024-10-09 20:33:25,233",get_attractions,fetching attractions
+5GV7HL,1,"2024-10-09 20:33:25,233",get_attractions,fetched 3 attractions
+5GV7HL,2,"2024-10-09 20:33:25,234",get_attractions_time_slots,fetching time slots
+5GV7HL,2,"2024-10-09 20:33:25,235",get_attractions_time_slots,fetched 7 time slots
+WDIYB1,1,"2024-10-09 20:33:25,235",get_attractions,fetching attractions
+WDIYB1,1,"2024-10-09 20:33:25,236",get_attractions,fetched 3 attractions
+WDIYB1,2,"2024-10-09 20:33:25,236",get_attractions_time_slots,fetching time slots
+WDIYB1,2,"2024-10-09 20:33:25,237",get_attractions_time_slots,fetched 7 time slots
+YS2BY7,1,"2024-10-09 20:33:25,238",get_attractions,fetching attractions
+YS2BY7,1,"2024-10-09 20:33:25,238",get_attractions,fetched 3 attractions
+YS2BY7,2,"2024-10-09 20:33:25,239",get_attractions_time_slots,fetching time slots
+YS2BY7,2,"2024-10-09 20:33:25,239",get_attractions_time_slots,fetched 7 time slots
+WP5ULY,1,"2024-10-09 20:33:25,240",get_attractions,fetching attractions
+WP5ULY,1,"2024-10-09 20:33:25,240",get_attractions,fetched 3 attractions
+WP5ULY,2,"2024-10-09 20:33:25,240",get_attractions_time_slots,fetching time slots
+WP5ULY,2,"2024-10-09 20:33:25,241",get_attractions_time_slots,fetched 7 time slots
+4PXC50,1,"2024-10-09 20:33:25,242",get_attractions,fetching attractions
+4PXC50,1,"2024-10-09 20:33:25,242",get_attractions,fetched 3 attractions
+4PXC50,2,"2024-10-09 20:33:25,243",get_attractions_time_slots,fetching time slots
+4PXC50,2,"2024-10-09 20:33:25,244",get_attractions_time_slots,fetched 7 time slots
+4PXC50,3,"2024-10-09 20:33:25,245",get_attractions_tickets,fetching available tickets
+4PXC50,3,"2024-10-09 20:33:25,245",get_attractions_tickets,fetched 3 available tickets
+4WWT2A,1,"2024-10-09 20:33:25,247",get_attractions,fetching attractions
+4WWT2A,1,"2024-10-09 20:33:25,247",get_attractions,fetched 3 attractions
+4WWT2A,2,"2024-10-09 20:33:25,248",get_attractions_time_slots,fetching time slots
+4WWT2A,2,"2024-10-09 20:33:25,249",get_attractions_time_slots,fetched 7 time slots
+4WWT2A,3,"2024-10-09 20:33:25,250",get_attractions_tickets,fetching available tickets
+4WWT2A,3,"2024-10-09 20:33:25,250",get_attractions_tickets,fetched 3 available tickets
+MJ3UGC,1,"2024-10-09 20:33:25,252",get_attractions,fetching attractions
+MJ3UGC,1,"2024-10-09 20:33:25,252",get_attractions,fetched 3 attractions
+MJ3UGC,2,"2024-10-09 20:33:25,253",get_attractions_time_slots,fetching time slots
+MJ3UGC,2,"2024-10-09 20:33:25,253",get_attractions_time_slots,fetched 7 time slots
+RLJ0RZ,1,"2024-10-09 20:33:25,254",get_attractions,fetching attractions
+RLJ0RZ,1,"2024-10-09 20:33:25,254",get_attractions,fetched 3 attractions
+RLJ0RZ,2,"2024-10-09 20:33:25,255",get_attractions_time_slots,fetching time slots
+RLJ0RZ,2,"2024-10-09 20:33:25,256",get_attractions_time_slots,fetched 7 time slots
+4SFL9K,1,"2024-10-09 20:33:25,256",get_attractions,fetching attractions
+4SFL9K,1,"2024-10-09 20:33:25,257",get_attractions,fetched 3 attractions
+4SFL9K,2,"2024-10-09 20:33:25,258",get_attractions_time_slots,fetching time slots
+4SFL9K,2,"2024-10-09 20:33:25,258",get_attractions_time_slots,fetched 7 time slots
+YWBNYK,1,"2024-10-09 20:33:25,259",get_attractions,fetching attractions
+YWBNYK,1,"2024-10-09 20:33:25,259",get_attractions,fetched 3 attractions
+YWBNYK,2,"2024-10-09 20:33:25,260",get_attractions_time_slots,fetching time slots
+YWBNYK,2,"2024-10-09 20:33:25,261",get_attractions_time_slots,fetched 7 time slots
+YWBNYK,3,"2024-10-09 20:33:25,261",get_attractions_tickets,fetching available tickets
+YWBNYK,3,"2024-10-09 20:33:25,262",get_attractions_tickets,fetched 3 available tickets
+PDTEYK,1,"2024-10-09 20:33:25,264",get_attractions,fetching attractions
+PDTEYK,1,"2024-10-09 20:33:25,264",get_attractions,fetched 3 attractions
+PDTEYK,2,"2024-10-09 20:33:25,265",get_attractions_time_slots,fetching time slots
+PDTEYK,2,"2024-10-09 20:33:25,265",get_attractions_time_slots,fetched 7 time slots
+OOAAT2,1,"2024-10-09 20:33:25,266",get_attractions,fetching attractions
+OOAAT2,1,"2024-10-09 20:33:25,266",get_attractions,fetched 3 attractions
+OOAAT2,2,"2024-10-09 20:33:25,267",get_attractions_time_slots,fetching time slots
+OOAAT2,2,"2024-10-09 20:33:25,268",get_attractions_time_slots,fetched 7 time slots
+OOAAT2,3,"2024-10-09 20:33:25,268",get_attractions_tickets,fetching available tickets
+OOAAT2,3,"2024-10-09 20:33:25,269",get_attractions_tickets,fetched 3 available tickets
+OOAAT2,4,"2024-10-09 20:33:25,271",booking,invalid payment details
+IDSUBJ,1,"2024-10-09 20:33:25,272",get_attractions,fetching attractions
+IDSUBJ,1,"2024-10-09 20:33:25,272",get_attractions,fetched 3 attractions
+IDSUBJ,2,"2024-10-09 20:33:25,273",get_attractions_time_slots,fetching time slots
+IDSUBJ,2,"2024-10-09 20:33:25,273",get_attractions_time_slots,fetched 7 time slots
+IDSUBJ,3,"2024-10-09 20:33:25,274",get_attractions_tickets,fetching available tickets
+IDSUBJ,3,"2024-10-09 20:33:25,274",get_attractions_tickets,fetched 3 available tickets
+VMBSZP,1,"2024-10-09 20:33:25,277",get_attractions,fetching attractions
+VMBSZP,1,"2024-10-09 20:33:25,277",get_attractions,fetched 3 attractions
+VMBSZP,2,"2024-10-09 20:33:25,278",get_attractions_time_slots,fetching time slots
+VMBSZP,2,"2024-10-09 20:33:25,279",get_attractions_time_slots,fetched 7 time slots
+SFR4A4,1,"2024-10-09 20:33:25,280",get_attractions,fetching attractions
+SFR4A4,1,"2024-10-09 20:33:25,280",get_attractions,fetched 3 attractions
+SFR4A4,2,"2024-10-09 20:33:25,281",get_attractions_time_slots,fetching time slots
+SFR4A4,2,"2024-10-09 20:33:25,281",get_attractions_time_slots,fetched 7 time slots
+SFR4A4,3,"2024-10-09 20:33:25,282",get_attractions_tickets,fetching available tickets
+SFR4A4,3,"2024-10-09 20:33:25,282",get_attractions_tickets,fetched 3 available tickets
+SFR4A4,4,"2024-10-09 20:33:25,284",booking,invalid payment details
+4STD0K,1,"2024-10-09 20:33:25,285",get_attractions,fetching attractions
+4STD0K,1,"2024-10-09 20:33:25,286",get_attractions,fetched 3 attractions
+4STD0K,2,"2024-10-09 20:33:25,287",get_attractions_time_slots,fetching time slots
+4STD0K,2,"2024-10-09 20:33:25,287",get_attractions_time_slots,fetched 7 time slots
+4STD0K,3,"2024-10-09 20:33:25,288",get_attractions_tickets,fetching available tickets
+4STD0K,3,"2024-10-09 20:33:25,288",get_attractions_tickets,fetched 3 available tickets
+3G6RUV,1,"2024-10-09 20:33:25,290",get_attractions,fetching attractions
+3G6RUV,1,"2024-10-09 20:33:25,290",get_attractions,fetched 3 attractions
+3G6RUV,2,"2024-10-09 20:33:25,291",get_attractions_time_slots,fetching time slots
+3G6RUV,2,"2024-10-09 20:33:25,291",get_attractions_time_slots,fetched 7 time slots
+3G6RUV,3,"2024-10-09 20:33:25,293",get_attractions_tickets,fetching available tickets
+3G6RUV,3,"2024-10-09 20:33:25,293",get_attractions_tickets,fetched 3 available tickets
+TX1B44,1,"2024-10-09 20:33:25,295",get_attractions,fetching attractions
+TX1B44,1,"2024-10-09 20:33:25,296",get_attractions,fetched 3 attractions
+TX1B44,2,"2024-10-09 20:33:25,297",get_attractions_time_slots,fetching time slots
+TX1B44,2,"2024-10-09 20:33:25,297",get_attractions_time_slots,fetched 7 time slots
+TX1B44,3,"2024-10-09 20:33:25,298",get_attractions_tickets,fetching available tickets
+TX1B44,3,"2024-10-09 20:33:25,298",get_attractions_tickets,fetched 3 available tickets
+TX1B44,4,"2024-10-09 20:33:25,301",booking,saving booking for attraction Aquarium for 10:00-11:00 with 47 Adult tickets
+TX1B44,4,"2024-10-09 20:33:25,303",booking,updating available tickets for attraction Aquarium time slot 10:00-11:00 to 47
+TX1B44,4,"2024-10-09 20:33:25,304",booking,booking successful
+TX1B44,5,"2024-10-09 20:33:25,305",get_booking,fetching booking with booking code YO9994
+TX1B44,5,"2024-10-09 20:33:25,305",get_booking,fetched booking with booking code YO9994
+KK3UAU,1,"2024-10-09 20:33:25,306",get_attractions,fetching attractions
+KK3UAU,1,"2024-10-09 20:33:25,307",get_attractions,fetched 3 attractions
+KK3UAU,2,"2024-10-09 20:33:25,307",get_attractions_time_slots,fetching time slots
+KK3UAU,2,"2024-10-09 20:33:25,309",get_attractions_time_slots,fetched 7 time slots
+KK3UAU,3,"2024-10-09 20:33:25,310",get_attractions_tickets,fetching available tickets
+KK3UAU,3,"2024-10-09 20:33:25,310",get_attractions_tickets,fetched 3 available tickets
+IDKPJ7,1,"2024-10-09 20:33:25,313",get_attractions,fetching attractions
+IDKPJ7,1,"2024-10-09 20:33:25,313",get_attractions,fetched 3 attractions
+IDKPJ7,2,"2024-10-09 20:33:25,314",get_attractions_time_slots,fetching time slots
+IDKPJ7,2,"2024-10-09 20:33:25,314",get_attractions_time_slots,fetched 7 time slots
+8SAQ9A,1,"2024-10-09 20:33:25,315",get_attractions,fetching attractions
+8SAQ9A,1,"2024-10-09 20:33:25,315",get_attractions,fetched 3 attractions
+8SAQ9A,2,"2024-10-09 20:33:25,316",get_attractions_time_slots,fetching time slots
+8SAQ9A,2,"2024-10-09 20:33:25,316",get_attractions_time_slots,fetched 7 time slots
+H12HY0,1,"2024-10-09 20:33:25,317",get_attractions,fetching attractions
+H12HY0,1,"2024-10-09 20:33:25,318",get_attractions,fetched 3 attractions
+H12HY0,2,"2024-10-09 20:33:25,318",get_attractions_time_slots,fetching time slots
+H12HY0,2,"2024-10-09 20:33:25,319",get_attractions_time_slots,fetched 7 time slots
+XLOEM6,1,"2024-10-09 20:33:25,319",get_attractions,fetching attractions
+XLOEM6,1,"2024-10-09 20:33:25,320",get_attractions,fetched 3 attractions
+XLOEM6,2,"2024-10-09 20:33:25,321",get_attractions_time_slots,fetching time slots
+XLOEM6,2,"2024-10-09 20:33:25,321",get_attractions_time_slots,fetched 7 time slots
+XLOEM6,3,"2024-10-09 20:33:25,322",get_attractions_tickets,fetching available tickets
+XLOEM6,3,"2024-10-09 20:33:25,322",get_attractions_tickets,fetched 3 available tickets
+NVD4NR,1,"2024-10-09 20:33:25,324",get_attractions,fetching attractions
+NVD4NR,1,"2024-10-09 20:33:25,324",get_attractions,fetched 3 attractions
+NVD4NR,2,"2024-10-09 20:33:25,326",get_attractions_time_slots,fetching time slots
+NVD4NR,2,"2024-10-09 20:33:25,326",get_attractions_time_slots,fetched 7 time slots
+MXFV15,1,"2024-10-09 20:33:25,327",get_attractions,fetching attractions
+MXFV15,1,"2024-10-09 20:33:25,327",get_attractions,fetched 3 attractions
+MXFV15,2,"2024-10-09 20:33:25,328",get_attractions_time_slots,fetching time slots
+MXFV15,2,"2024-10-09 20:33:25,328",get_attractions_time_slots,fetched 7 time slots
+61M296,1,"2024-10-09 20:33:25,329",get_attractions,fetching attractions
+61M296,1,"2024-10-09 20:33:25,329",get_attractions,fetched 3 attractions
+61M296,2,"2024-10-09 20:33:25,330",get_attractions_time_slots,fetching time slots
+61M296,2,"2024-10-09 20:33:25,330",get_attractions_time_slots,fetched 7 time slots
+61M296,3,"2024-10-09 20:33:25,331",get_attractions_tickets,fetching available tickets
+61M296,3,"2024-10-09 20:33:25,331",get_attractions_tickets,fetched 3 available tickets
+61M296,4,"2024-10-09 20:33:25,334",booking,invalid payment details
+IXLGLN,1,"2024-10-09 20:33:25,335",get_attractions,fetching attractions
+IXLGLN,1,"2024-10-09 20:33:25,335",get_attractions,fetched 3 attractions
+IXLGLN,2,"2024-10-09 20:33:25,336",get_attractions_time_slots,fetching time slots
+IXLGLN,2,"2024-10-09 20:33:25,336",get_attractions_time_slots,fetched 7 time slots
+IXLGLN,3,"2024-10-09 20:33:25,337",get_attractions_tickets,fetching available tickets
+IXLGLN,3,"2024-10-09 20:33:25,337",get_attractions_tickets,fetched 3 available tickets
+FY0D96,1,"2024-10-09 20:33:25,339",get_attractions,fetching attractions
+FY0D96,1,"2024-10-09 20:33:25,339",get_attractions,fetched 3 attractions
+FY0D96,2,"2024-10-09 20:33:25,340",get_attractions_time_slots,fetching time slots
+FY0D96,2,"2024-10-09 20:33:25,341",get_attractions_time_slots,fetched 7 time slots
+FY0D96,3,"2024-10-09 20:33:25,341",get_attractions_tickets,fetching available tickets
+FY0D96,3,"2024-10-09 20:33:25,342",get_attractions_tickets,fetched 3 available tickets
+FY0D96,4,"2024-10-09 20:33:25,345",booking,invalid payment details
+46KMIT,1,"2024-10-09 20:33:25,346",get_attractions,fetching attractions
+46KMIT,1,"2024-10-09 20:33:25,346",get_attractions,fetched 3 attractions
+46KMIT,2,"2024-10-09 20:33:25,347",get_attractions_time_slots,fetching time slots
+46KMIT,2,"2024-10-09 20:33:25,347",get_attractions_time_slots,fetched 7 time slots
+46KMIT,3,"2024-10-09 20:33:25,348",get_attractions_tickets,fetching available tickets
+46KMIT,3,"2024-10-09 20:33:25,348",get_attractions_tickets,fetched 3 available tickets
+LSZI0I,1,"2024-10-09 20:33:25,351",get_attractions,fetching attractions
+LSZI0I,1,"2024-10-09 20:33:25,351",get_attractions,fetched 3 attractions
+LSZI0I,2,"2024-10-09 20:33:25,352",get_attractions_time_slots,fetching time slots
+LSZI0I,2,"2024-10-09 20:33:25,352",get_attractions_time_slots,fetched 7 time slots
+LSZI0I,3,"2024-10-09 20:33:25,353",get_attractions_tickets,fetching available tickets
+LSZI0I,3,"2024-10-09 20:33:25,353",get_attractions_tickets,fetched 3 available tickets
+LSZI0I,4,"2024-10-09 20:33:25,355",booking,saving booking for attraction Art Gallery for 11:00-12:00 with 28 Adult tickets
+LSZI0I,4,"2024-10-09 20:33:25,356",booking,saving booking for attraction Art Gallery for 11:00-12:00 with 13 Child tickets
+LSZI0I,4,"2024-10-09 20:33:25,357",booking,updating available tickets for attraction Art Gallery time slot 11:00-12:00 to 41
+LSZI0I,4,"2024-10-09 20:33:25,357",booking,booking successful
+LSZI0I,5,"2024-10-09 20:33:25,358",get_booking,fetching booking with booking code TN3142
+LSZI0I,5,"2024-10-09 20:33:25,358",get_booking,fetched booking with booking code TN3142
+OVWO3C,1,"2024-10-09 20:33:25,359",get_attractions,fetching attractions
+OVWO3C,1,"2024-10-09 20:33:25,359",get_attractions,fetched 3 attractions
+OVWO3C,2,"2024-10-09 20:33:25,360",get_attractions_time_slots,fetching time slots
+OVWO3C,2,"2024-10-09 20:33:25,361",get_attractions_time_slots,fetched 7 time slots
+OVWO3C,3,"2024-10-09 20:33:25,362",get_attractions_tickets,fetching available tickets
+OVWO3C,3,"2024-10-09 20:33:25,362",get_attractions_tickets,fetched 3 available tickets
+OVWO3C,4,"2024-10-09 20:33:25,364",booking,invalid payment details
+7CHICI,1,"2024-10-09 20:33:25,365",get_attractions,fetching attractions
+7CHICI,1,"2024-10-09 20:33:25,365",get_attractions,fetched 3 attractions
+7CHICI,2,"2024-10-09 20:33:25,366",get_attractions_time_slots,fetching time slots
+7CHICI,2,"2024-10-09 20:33:25,366",get_attractions_time_slots,fetched 7 time slots
+9045JN,1,"2024-10-09 20:33:25,367",get_attractions,fetching attractions
+9045JN,1,"2024-10-09 20:33:25,367",get_attractions,fetched 3 attractions
+9045JN,2,"2024-10-09 20:33:25,368",get_attractions_time_slots,fetching time slots
+9045JN,2,"2024-10-09 20:33:25,369",get_attractions_time_slots,fetched 7 time slots
+9045JN,3,"2024-10-09 20:33:25,369",get_attractions_tickets,fetching available tickets
+9045JN,3,"2024-10-09 20:33:25,370",get_attractions_tickets,fetched 3 available tickets
+IFVHLI,1,"2024-10-09 20:33:25,372",get_attractions,fetching attractions
+IFVHLI,1,"2024-10-09 20:33:25,372",get_attractions,fetched 3 attractions
+IFVHLI,2,"2024-10-09 20:33:25,373",get_attractions_time_slots,fetching time slots
+IFVHLI,2,"2024-10-09 20:33:25,374",get_attractions_time_slots,fetched 7 time slots
+IFVHLI,3,"2024-10-09 20:33:25,374",get_attractions_tickets,fetching available tickets
+IFVHLI,3,"2024-10-09 20:33:25,375",get_attractions_tickets,fetched 3 available tickets
+IFVHLI,4,"2024-10-09 20:33:25,385",booking,saving booking for attraction Art Gallery for 16:00-17:00 with 3 Adult tickets
+IFVHLI,4,"2024-10-09 20:33:25,386",booking,saving booking for attraction Art Gallery for 16:00-17:00 with 4 Child tickets
+IFVHLI,4,"2024-10-09 20:33:25,388",booking,updating available tickets for attraction Art Gallery time slot 16:00-17:00 to 7
+IFVHLI,4,"2024-10-09 20:33:25,392",booking,booking successful
+IFVHLI,5,"2024-10-09 20:33:25,407",get_booking,fetching booking with booking code OE4820
+IFVHLI,5,"2024-10-09 20:33:25,407",get_booking,fetched booking with booking code OE4820
+Y7W69G,1,"2024-10-09 20:33:25,451",get_attractions,fetching attractions
+Y7W69G,1,"2024-10-09 20:33:25,451",get_attractions,fetched 3 attractions
+Y7W69G,2,"2024-10-09 20:33:25,457",get_attractions_time_slots,fetching time slots
+Y7W69G,2,"2024-10-09 20:33:25,457",get_attractions_time_slots,fetched 7 time slots
+Y7W69G,3,"2024-10-09 20:33:25,460",get_attractions_tickets,fetching available tickets
+Y7W69G,3,"2024-10-09 20:33:25,460",get_attractions_tickets,fetched 3 available tickets
+Y7W69G,4,"2024-10-09 20:33:25,463",booking,invalid payment details
+CRXEXE,1,"2024-10-09 20:33:25,464",get_attractions,fetching attractions
+CRXEXE,1,"2024-10-09 20:33:25,465",get_attractions,fetched 3 attractions
+CRXEXE,2,"2024-10-09 20:33:25,466",get_attractions_time_slots,fetching time slots
+CRXEXE,2,"2024-10-09 20:33:25,466",get_attractions_time_slots,fetched 7 time slots
+CRXEXE,3,"2024-10-09 20:33:25,467",get_attractions_tickets,fetching available tickets
+CRXEXE,3,"2024-10-09 20:33:25,467",get_attractions_tickets,fetched 3 available tickets
+8X2T6W,1,"2024-10-09 20:33:25,470",get_attractions,fetching attractions
+8X2T6W,1,"2024-10-09 20:33:25,470",get_attractions,fetched 3 attractions
+8X2T6W,2,"2024-10-09 20:33:25,471",get_attractions_time_slots,fetching time slots
+8X2T6W,2,"2024-10-09 20:33:25,471",get_attractions_time_slots,fetched 7 time slots
+8X2T6W,3,"2024-10-09 20:33:25,472",get_attractions_tickets,fetching available tickets
+8X2T6W,3,"2024-10-09 20:33:25,472",get_attractions_tickets,fetched 3 available tickets
+8X2T6W,4,"2024-10-09 20:33:25,475",booking,invalid payment details
+REU7WY,1,"2024-10-09 20:33:25,476",get_attractions,fetching attractions
+REU7WY,1,"2024-10-09 20:33:25,477",get_attractions,fetched 3 attractions
+REU7WY,2,"2024-10-09 20:33:25,478",get_attractions_time_slots,fetching time slots
+REU7WY,2,"2024-10-09 20:33:25,478",get_attractions_time_slots,fetched 7 time slots
+REU7WY,3,"2024-10-09 20:33:25,479",get_attractions_tickets,fetching available tickets
+REU7WY,3,"2024-10-09 20:33:25,479",get_attractions_tickets,fetched 3 available tickets
+MU1I7Y,1,"2024-10-09 20:33:25,482",get_attractions,fetching attractions
+MU1I7Y,1,"2024-10-09 20:33:25,482",get_attractions,fetched 3 attractions
+MU1I7Y,2,"2024-10-09 20:33:25,484",get_attractions_time_slots,fetching time slots
+MU1I7Y,2,"2024-10-09 20:33:25,484",get_attractions_time_slots,fetched 7 time slots
+MU1I7Y,3,"2024-10-09 20:33:25,485",get_attractions_tickets,fetching available tickets
+MU1I7Y,3,"2024-10-09 20:33:25,485",get_attractions_tickets,fetched 3 available tickets
+8LI88F,1,"2024-10-09 20:33:25,491",get_attractions,fetching attractions
+8LI88F,1,"2024-10-09 20:33:25,493",get_attractions,fetched 3 attractions
+8LI88F,2,"2024-10-09 20:33:25,495",get_attractions_time_slots,fetching time slots
+8LI88F,2,"2024-10-09 20:33:25,495",get_attractions_time_slots,fetched 7 time slots
+R6D200,1,"2024-10-09 20:33:25,496",get_attractions,fetching attractions
+R6D200,1,"2024-10-09 20:33:25,496",get_attractions,fetched 3 attractions
+R6D200,2,"2024-10-09 20:33:25,497",get_attractions_time_slots,fetching time slots
+R6D200,2,"2024-10-09 20:33:25,498",get_attractions_time_slots,fetched 7 time slots
+6S29S8,1,"2024-10-09 20:33:25,499",get_attractions,fetching attractions
+6S29S8,1,"2024-10-09 20:33:25,499",get_attractions,fetched 3 attractions
+6S29S8,2,"2024-10-09 20:33:25,500",get_attractions_time_slots,fetching time slots
+6S29S8,2,"2024-10-09 20:33:25,500",get_attractions_time_slots,fetched 7 time slots
+V4VP6M,1,"2024-10-09 20:33:25,501",get_attractions,fetching attractions
+V4VP6M,1,"2024-10-09 20:33:25,501",get_attractions,fetched 3 attractions
+V4VP6M,2,"2024-10-09 20:33:25,502",get_attractions_time_slots,fetching time slots
+V4VP6M,2,"2024-10-09 20:33:25,502",get_attractions_time_slots,fetched 7 time slots
+V4VP6M,3,"2024-10-09 20:33:25,503",get_attractions_tickets,fetching available tickets
+V4VP6M,3,"2024-10-09 20:33:25,504",get_attractions_tickets,fetched 3 available tickets
+ZB3V83,1,"2024-10-09 20:33:25,506",get_attractions,fetching attractions
+ZB3V83,1,"2024-10-09 20:33:25,506",get_attractions,fetched 3 attractions
+ZB3V83,2,"2024-10-09 20:33:25,507",get_attractions_time_slots,fetching time slots
+ZB3V83,2,"2024-10-09 20:33:25,507",get_attractions_time_slots,fetched 7 time slots
+ZB3V83,3,"2024-10-09 20:33:25,508",get_attractions_tickets,fetching available tickets
+ZB3V83,3,"2024-10-09 20:33:25,509",get_attractions_tickets,fetched 3 available tickets
+ZB3V83,4,"2024-10-09 20:33:25,511",booking,saving booking for attraction Museum for 14:00-15:00 with 25 Adult tickets
+ZB3V83,4,"2024-10-09 20:33:25,512",booking,saving booking for attraction Museum for 14:00-15:00 with 21 Child tickets
+ZB3V83,4,"2024-10-09 20:33:25,512",booking,updating available tickets for attraction Museum time slot 14:00-15:00 to 46
+ZB3V83,4,"2024-10-09 20:33:25,513",booking,booking successful
+ZB3V83,5,"2024-10-09 20:33:25,514",get_booking,fetching booking with booking code UI4692
+ZB3V83,5,"2024-10-09 20:33:25,514",get_booking,fetched booking with booking code UI4692
+YPKWM0,1,"2024-10-09 20:33:25,515",get_attractions,fetching attractions
+YPKWM0,1,"2024-10-09 20:33:25,515",get_attractions,fetched 3 attractions
+YPKWM0,2,"2024-10-09 20:33:25,516",get_attractions_time_slots,fetching time slots
+YPKWM0,2,"2024-10-09 20:33:25,516",get_attractions_time_slots,fetched 7 time slots
+YPKWM0,3,"2024-10-09 20:33:25,517",get_attractions_tickets,fetching available tickets
+YPKWM0,3,"2024-10-09 20:33:25,517",get_attractions_tickets,fetched 3 available tickets
+YPKWM0,4,"2024-10-09 20:33:25,520",booking,saving booking for attraction Art Gallery for 14:00-15:00 with 45 Adult tickets
+YPKWM0,4,"2024-10-09 20:33:25,520",booking,updating available tickets for attraction Art Gallery time slot 14:00-15:00 to 45
+YPKWM0,4,"2024-10-09 20:33:25,521",booking,booking successful
+YPKWM0,5,"2024-10-09 20:33:25,522",get_booking,fetching booking with booking code LC5802
+YPKWM0,5,"2024-10-09 20:33:25,522",get_booking,fetched booking with booking code LC5802
+WW9O47,1,"2024-10-09 20:33:25,523",get_attractions,fetching attractions
+WW9O47,1,"2024-10-09 20:33:25,523",get_attractions,fetched 3 attractions
+WW9O47,2,"2024-10-09 20:33:25,524",get_attractions_time_slots,fetching time slots
+WW9O47,2,"2024-10-09 20:33:25,524",get_attractions_time_slots,fetched 7 time slots
+NU69GZ,1,"2024-10-09 20:33:25,525",get_attractions,fetching attractions
+NU69GZ,1,"2024-10-09 20:33:25,525",get_attractions,fetched 3 attractions
+NU69GZ,2,"2024-10-09 20:33:25,526",get_attractions_time_slots,fetching time slots
+NU69GZ,2,"2024-10-09 20:33:25,527",get_attractions_time_slots,fetched 7 time slots
+NU69GZ,3,"2024-10-09 20:33:25,527",get_attractions_tickets,fetching available tickets
+NU69GZ,3,"2024-10-09 20:33:25,528",get_attractions_tickets,fetched 3 available tickets
+NU69GZ,4,"2024-10-09 20:33:25,530",booking,invalid payment details
+IIRW9N,1,"2024-10-09 20:33:25,531",get_attractions,fetching attractions
+IIRW9N,1,"2024-10-09 20:33:25,531",get_attractions,fetched 3 attractions
+IIRW9N,2,"2024-10-09 20:33:25,532",get_attractions_time_slots,fetching time slots
+IIRW9N,2,"2024-10-09 20:33:25,532",get_attractions_time_slots,fetched 7 time slots
+IIRW9N,3,"2024-10-09 20:33:25,533",get_attractions_tickets,fetching available tickets
+IIRW9N,3,"2024-10-09 20:33:25,533",get_attractions_tickets,fetched 3 available tickets
+IIRW9N,4,"2024-10-09 20:33:25,536",booking,saving booking for attraction Aquarium for 15:00-16:00 with 1 Child tickets
+IIRW9N,4,"2024-10-09 20:33:25,536",booking,updating available tickets for attraction Aquarium time slot 15:00-16:00 to 1
+IIRW9N,4,"2024-10-09 20:33:25,537",booking,booking successful
+IIRW9N,5,"2024-10-09 20:33:25,538",get_booking,fetching booking with booking code YY9978
+IIRW9N,5,"2024-10-09 20:33:25,538",get_booking,fetched booking with booking code YY9978
+RSUM5F,1,"2024-10-09 20:33:25,539",get_attractions,fetching attractions
+RSUM5F,1,"2024-10-09 20:33:25,539",get_attractions,fetched 3 attractions
+RSUM5F,2,"2024-10-09 20:33:25,540",get_attractions_time_slots,fetching time slots
+RSUM5F,2,"2024-10-09 20:33:25,540",get_attractions_time_slots,fetched 7 time slots

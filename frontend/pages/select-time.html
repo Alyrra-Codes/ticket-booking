@@ -21,8 +21,9 @@
             const API_URL = 'http://localhost:5000/api';
 
             window.localStorage.removeItem('selectedTime');
-
-            fetch(`${API_URL}/attractions/timeslots`, {
+            const attraction_id = JSON.parse(window.localStorage.getItem('selectedAttraction')).id;
+            
+            fetch(`${API_URL}/attractions/${attraction_id}/timeslots`, {
                 headers: {
                     'X-Session-ID': window.localStorage.getItem('sessionCode')
                 }})

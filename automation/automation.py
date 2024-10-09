@@ -15,8 +15,8 @@ def get_attractions(header):
   
   return attractions
 
-def get_time_slots(header):
-  response = requests.get(f'{BASE_API}/attractions/timeslots', headers=header)
+def get_time_slots(header, attraction_id):
+  response = requests.get(f'{BASE_API}/attractions/{attraction_id}/timeslots', headers=header)
   time_slots = json.loads(response.text)
   
   return time_slots
@@ -69,14 +69,18 @@ def get_payment_info():
     'cvv': faker.credit_card_security_code()
   }
   
-def book_attraction(data, header):
-  response = requests.post(f'{BASE_API}/attractions/bookings', headers=header, json=data)
+def book_attraction(data, header, attraction_id):
+  response = requests.post(f'{BASE_API}/attractions/{attraction_id}/bookings', headers=header, json=data)
   
   if response.status_code != 201:
     raise Exception(response.text)
   
   return json.loads(response.text).get('bookingCode')
-  
+
+def get_booking_ticket(header, booking_code):
+  response = requests.get(f'{BASE_API}/attractions/bookings/{booking_code}', headers=header)
+  return json.loads(response.text)
+
 def main():
   session_code = generate_session_code()
   header = {'X-Session-ID': session_code}
@@ -85,10 +89,11 @@ def main():
   
   attractions = get_attractions(header)
   selected_attraction = random.choice(attractions)
+  attraction_id = selected_attraction.get('id')
   
   print(f'Selected attraction: {selected_attraction}')
   
-  time_slots = get_time_slots(header)
+  time_slots = get_time_slots(header, attraction_id)
   selected_time_slot = random.choice(time_slots)
   
   print(f'Selected time slot: {selected_time_slot}')
@@ -99,7 +104,7 @@ def main():
     return
   
   tickets = get_tickets(header)
-  selected_tickets = select_tickets(tickets, selected_attraction.get('availableTickets'))
+  selected_tickets = select_tickets(tickets, selected_time_slot.get('availableTickets'))
   
   print(f'Selected tickets: {selected_tickets}')
   
@@ -123,8 +128,12 @@ def main():
     return
   
   try:
-    booking_code = book_attraction(booking_data, header)
+    booking_code = book_attraction(booking_data, header, attraction_id)
     print(f'Booking successful. Booking code: {booking_code}')
+    
+    booked_ticket = get_booking_ticket(header, booking_code)
+    print(booked_ticket)
+    
   except Exception as e:
     print(f'Failed to book attraction: {e}')
   

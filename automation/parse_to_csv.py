@@ -15,21 +15,25 @@ def parse_log_to_csv():
         
         with open('parsed_log.csv', 'w') as csv_file:
             csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(['session_id', 'action', 'timestamp'])
+            csv_writer.writerow(['case_id', 'task_id', 'timestamp', 'resource', 'message'])
             
             for line in lines:
                 line = line.strip().split(' - ')
-                
+                if (len(line) != 5):
+                    continue
                 timestamp = line[0]
                 script_name = line[1]
                 log_level = line[2]
                 function_name = line[3]
                 
-                session_message = line[4].split(':')
-                session_id = session_message[0]
-                action = session_message[1].strip()
+                session_task_message = line[4].split(': ')
+                task_id = session_task_message[0].split(' ')[0]
+                session_id = session_task_message[0].split(' ')[1]
                 
-                # csv_writer.writerow([session_id, action, timestamp])
+                if len(session_task_message) > 1:
+                    message = session_task_message[1].strip()
+                    csv_writer.writerow([session_id, task_id, timestamp, function_name, message])
+
                 
     print('Done parsing log file')
 

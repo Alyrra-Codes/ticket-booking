@@ -36,6 +36,7 @@
 
         <script>
             const API_URL = 'http://localhost:5000/api';
+            const attraction_id = JSON.parse(window.localStorage.getItem('selectedAttraction')).id;
 
             function confirmBooking() {
                 const cardName = document.getElementById('cardName').value;
@@ -67,7 +68,7 @@
                 console.log(postData);
                 document.querySelector('.error-message').style.display = 'none';
 
-                fetch(`${API_URL}/attractions/bookings`, {
+                fetch(`${API_URL}/attractions/${attraction_id}/bookings`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',

@@ -2,14 +2,17 @@ CREATE TABLE IF NOT EXISTS attractions (
   id INTEGER PRIMARY KEY, 
   name TEXT NOT NULL, 
   description TEXT, 
-  image_url TEXT, 
-  available_tickets INTEGER NOT NULL
+  image_url TEXT NOT NULL 
 );
 
 CREATE TABLE IF NOT EXISTS time_slots (
-  id INTEGER PRIMARY KEY NOT NULL, 
+  id INTEGER NOT NULL, 
+  attraction_id INTEGER NOT NULL,
   start_time TEXT NOT NULL, 
-  end_time TEXT NOT NULL
+  end_time TEXT NOT NULL,
+  available_tickets INTEGER NOT NULL,
+  FOREIGN KEY (attraction_id) REFERENCES attractions(id), 
+  PRIMARY KEY (id, attraction_id)
 );
 
 CREATE TABLE IF NOT EXISTS tickets (

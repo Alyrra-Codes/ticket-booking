@@ -24,11 +24,11 @@
         <script>
             const API_URL = 'http://localhost:5000/api';
             // window.localStorage.removeItem('selectedTickets');
+            const selectedTime = JSON.parse(window.localStorage.getItem('selectedTime'));
+            const maxAvailableTickets = selectedTime.availableTickets;
 
-            const maxAvailableTickets = JSON.parse(window.localStorage.getItem('selectedAttraction')).availableTickets;
+            setAvailableTickets(maxAvailableTickets);
 
-            setAvailableTickets(maxAvailableTickets); 
-            
             let fetchedTickets = []; 
 
             fetch(`${API_URL}/attractions/tickets`, {
