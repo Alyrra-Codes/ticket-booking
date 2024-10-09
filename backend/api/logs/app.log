@@ -1,1083 +1,768 @@
-2024-10-07 22:58:02,401 INFO: Starting the application [in /Users/blinkganesh/personal/csci927/backend/api/app.py:209]
-2024-10-07 22:58:02,487 INFO: Starting the application [in /Users/blinkganesh/personal/csci927/backend/api/app.py:209]
-2024-10-07 22:58:15,089 INFO: jqgtp8brzffdmcvfzd8qxi: fetching attractions [in /Users/blinkganesh/personal/csci927/backend/api/app.py:55]
-2024-10-07 22:58:15,089 INFO: jqgtp8brzffdmcvfzd8qxi: fetched 3 attractions [in /Users/blinkganesh/personal/csci927/backend/api/app.py:68]
-2024-10-07 22:58:55,371 INFO: Starting the application [in /Users/blinkganesh/personal/csci927/backend/api/app.py:209]
-2024-10-07 22:58:58,559 INFO: Starting the application
-2024-10-07 22:58:59,694 INFO: Starting the application
-2024-10-07 22:59:00,843 INFO: Starting the application
-2024-10-07 22:59:02,001 INFO: Starting the application
-2024-10-07 22:59:09,358 INFO: Starting the application [in /Users/blinkganesh/personal/csci927/backend/api/app.py:209]
-2024-10-07 22:59:38,481 - app - INFO - Starting the application
-2024-10-07 22:59:39,615 - app - INFO - Starting the application
-2024-10-07 22:59:40,776 - app - INFO - Starting the application
-2024-10-07 22:59:42,757 - app - INFO - Starting the application
-2024-10-07 22:59:42,841 - app - INFO - Starting the application
-2024-10-07 22:59:46,277 - app - INFO - jqgtp8brzffdmcvfzd8qxi: fetching attractions
-2024-10-07 22:59:46,278 - app - INFO - jqgtp8brzffdmcvfzd8qxi: fetched 3 attractions
-2024-10-07 23:00:32,630 - app - INFO - <module> - Starting the application
-2024-10-07 23:00:36,549 - app - INFO - get_attractions - jqgtp8brzffdmcvfzd8qxi: fetching attractions
-2024-10-07 23:00:36,550 - app - INFO - get_attractions - jqgtp8brzffdmcvfzd8qxi: fetched 3 attractions
-2024-10-09 08:19:39,000 - app - INFO - <module> - Starting the application
-2024-10-09 08:19:39,100 - app - INFO - <module> - Starting the application
-2024-10-09 08:19:46,539 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:19:46,540 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:20:59,258 - app - INFO - get_attractions - jqgtp8brzffdmcvfzd8qxi: fetching attractions
-2024-10-09 08:20:59,259 - app - INFO - get_attractions - jqgtp8brzffdmcvfzd8qxi: fetched 3 attractions
-2024-10-09 08:21:02,036 - app - INFO - get_attractions - rgfhtai2qcrohkf1ovaqoo: fetching attractions
-2024-10-09 08:21:02,037 - app - INFO - get_attractions - rgfhtai2qcrohkf1ovaqoo: fetched 3 attractions
-2024-10-09 08:21:03,638 - app - INFO - get_attractions_time_slots - rgfhtai2qcrohkf1ovaqoo: fetching time slots
-2024-10-09 08:21:03,639 - app - INFO - get_attractions_time_slots - rgfhtai2qcrohkf1ovaqoo: fetched 8 time slots
-2024-10-09 08:21:25,034 - app - INFO - get_attractions_time_slots - null: fetching time slots
-2024-10-09 08:21:25,036 - app - INFO - get_attractions_time_slots - null: fetched 8 time slots
-2024-10-09 08:21:29,392 - app - INFO - get_attractions - skn823zzb27cade24lgzp: fetching attractions
-2024-10-09 08:21:29,393 - app - INFO - get_attractions - skn823zzb27cade24lgzp: fetched 3 attractions
-2024-10-09 08:21:53,849 - app - INFO - get_attractions_time_slots - skn823zzb27cade24lgzp: fetching time slots
-2024-10-09 08:21:53,850 - app - INFO - get_attractions_time_slots - skn823zzb27cade24lgzp: fetched 8 time slots
-2024-10-09 08:22:43,208 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:22:43,210 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:24:28,944 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:24:28,944 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:24:28,948 - app - INFO - get_attractions_time_slots - None: fetching time slots
-2024-10-09 08:24:28,948 - app - INFO - get_attractions_time_slots - None: fetched 8 time slots
-2024-10-09 08:24:58,835 - app - INFO - get_attractions_tickets - skn823zzb27cade24lgzp: fetching available tickets
-2024-10-09 08:24:58,836 - app - INFO - get_attractions_tickets - skn823zzb27cade24lgzp: fetched 3 available tickets
-2024-10-09 08:37:39,211 - app - INFO - booking - skn823zzb27cade24lgzp: saving booking for attraction Museum for 15:00-16:00 with 4 Adult tickets
-2024-10-09 08:37:39,213 - app - INFO - booking - skn823zzb27cade24lgzp: saving booking for attraction Museum for 15:00-16:00 with 2 Child tickets
-2024-10-09 08:37:39,215 - app - INFO - booking - skn823zzb27cade24lgzp: saving booking for attraction Museum for 15:00-16:00 with 3 Concession tickets
-2024-10-09 08:37:39,216 - app - INFO - booking - skn823zzb27cade24lgzp: updating available tickets for attraction Museum to 9
-2024-10-09 08:37:39,217 - app - INFO - booking - skn823zzb27cade24lgzp: booking successful
-2024-10-09 08:37:39,264 - app - INFO - get_booking - skn823zzb27cade24lgzp: fetching booking with booking code MK1393
-2024-10-09 08:37:39,265 - app - INFO - get_booking - skn823zzb27cade24lgzp: fetched booking with booking code MK1393
-2024-10-09 08:40:04,816 - app - INFO - get_booking - skn823zzb27cade24lgzp: fetching booking with booking code MK1393
-2024-10-09 08:40:04,816 - app - INFO - get_booking - skn823zzb27cade24lgzp: fetched booking with booking code MK1393
-2024-10-09 08:42:20,599 - app - INFO - <module> - Starting the application
-2024-10-09 08:42:22,759 - app - INFO - <module> - Starting the application
-2024-10-09 08:42:23,977 - app - INFO - <module> - Starting the application
-2024-10-09 08:47:06,272 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:47:06,273 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:47:06,276 - app - INFO - get_attractions_time_slots - None: fetching time slots
-2024-10-09 08:47:06,277 - app - INFO - get_attractions_time_slots - None: fetched 8 time slots
-2024-10-09 08:47:06,279 - app - INFO - get_attractions_tickets - None: fetching available tickets
-2024-10-09 08:47:06,279 - app - INFO - get_attractions_tickets - None: fetched 3 available tickets
-2024-10-09 08:48:19,612 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:48:19,612 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:48:19,614 - app - INFO - get_attractions_time_slots - None: fetching time slots
-2024-10-09 08:48:19,615 - app - INFO - get_attractions_time_slots - None: fetched 8 time slots
-2024-10-09 08:48:19,617 - app - INFO - get_attractions_tickets - None: fetching available tickets
-2024-10-09 08:48:19,617 - app - INFO - get_attractions_tickets - None: fetched 3 available tickets
-2024-10-09 08:49:23,121 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:49:23,121 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:49:23,124 - app - INFO - get_attractions_time_slots - None: fetching time slots
-2024-10-09 08:49:23,125 - app - INFO - get_attractions_time_slots - None: fetched 8 time slots
-2024-10-09 08:49:23,126 - app - INFO - get_attractions_tickets - None: fetching available tickets
-2024-10-09 08:49:23,127 - app - INFO - get_attractions_tickets - None: fetched 3 available tickets
-2024-10-09 08:49:35,633 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:49:35,633 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:49:35,635 - app - INFO - get_attractions_time_slots - None: fetching time slots
-2024-10-09 08:49:35,636 - app - INFO - get_attractions_time_slots - None: fetched 8 time slots
-2024-10-09 08:49:35,638 - app - INFO - get_attractions_tickets - None: fetching available tickets
-2024-10-09 08:49:35,639 - app - INFO - get_attractions_tickets - None: fetched 3 available tickets
-2024-10-09 08:55:46,558 - app - INFO - get_attractions - None: fetching attractions
-2024-10-09 08:55:46,558 - app - INFO - get_attractions - None: fetched 3 attractions
-2024-10-09 08:55:46,562 - app - INFO - get_attractions_time_slots - None: fetching time slots
-2024-10-09 08:55:46,562 - app - INFO - get_attractions_time_slots - None: fetched 8 time slots
-2024-10-09 08:55:46,565 - app - INFO - get_attractions_tickets - None: fetching available tickets
-2024-10-09 08:55:46,565 - app - INFO - get_attractions_tickets - None: fetched 3 available tickets
-2024-10-09 08:55:46,588 - app - INFO - booking - None: saving booking for attraction Museum for 16:00-17:00 with 22 Adult tickets
-2024-10-09 08:55:46,589 - app - INFO - booking - None: saving booking for attraction Museum for 16:00-17:00 with 19 Child tickets
-2024-10-09 08:55:46,589 - app - INFO - booking - None: updating available tickets for attraction Museum to 41
-2024-10-09 08:55:46,590 - app - INFO - booking - None: booking successful
-2024-10-09 08:56:38,955 - app - INFO - get_attractions - 8DZ3PJ: fetching attractions
-2024-10-09 08:56:38,955 - app - INFO - get_attractions - 8DZ3PJ: fetched 3 attractions
-2024-10-09 08:56:38,959 - app - INFO - get_attractions_time_slots - 8DZ3PJ: fetching time slots
-2024-10-09 08:56:38,961 - app - INFO - get_attractions_time_slots - 8DZ3PJ: fetched 8 time slots
-2024-10-09 08:56:38,964 - app - INFO - get_attractions_tickets - 8DZ3PJ: fetching available tickets
-2024-10-09 08:56:38,964 - app - INFO - get_attractions_tickets - 8DZ3PJ: fetched 3 available tickets
-2024-10-09 08:56:45,367 - app - INFO - get_attractions - 34IMMZ: fetching attractions
-2024-10-09 08:56:45,367 - app - INFO - get_attractions - 34IMMZ: fetched 3 attractions
-2024-10-09 08:56:45,370 - app - INFO - get_attractions_time_slots - 34IMMZ: fetching time slots
-2024-10-09 08:56:45,370 - app - INFO - get_attractions_time_slots - 34IMMZ: fetched 8 time slots
-2024-10-09 08:56:45,372 - app - INFO - get_attractions_tickets - 34IMMZ: fetching available tickets
-2024-10-09 08:56:45,373 - app - INFO - get_attractions_tickets - 34IMMZ: fetched 3 available tickets
-2024-10-09 08:57:37,656 - app - INFO - get_attractions - 8CVAQ9: fetching attractions
-2024-10-09 08:57:37,657 - app - INFO - get_attractions - 8CVAQ9: fetched 3 attractions
-2024-10-09 08:57:37,659 - app - INFO - get_attractions_time_slots - 8CVAQ9: fetching time slots
-2024-10-09 08:57:37,659 - app - INFO - get_attractions_time_slots - 8CVAQ9: fetched 8 time slots
-2024-10-09 08:57:37,662 - app - INFO - get_attractions_tickets - 8CVAQ9: fetching available tickets
-2024-10-09 08:57:37,662 - app - INFO - get_attractions_tickets - 8CVAQ9: fetched 3 available tickets
-2024-10-09 08:57:37,681 - app - INFO - booking - 8CVAQ9: saving booking for attraction Art Gallery for 12:00-13:00 with 34 Adult tickets
-2024-10-09 08:57:37,682 - app - INFO - booking - 8CVAQ9: updating available tickets for attraction Art Gallery to 34
-2024-10-09 08:57:37,682 - app - INFO - booking - 8CVAQ9: booking successful
-2024-10-09 08:57:59,348 - app - INFO - get_attractions - 8X233V: fetching attractions
-2024-10-09 08:57:59,348 - app - INFO - get_attractions - 8X233V: fetched 3 attractions
-2024-10-09 08:57:59,351 - app - INFO - get_attractions_time_slots - 8X233V: fetching time slots
-2024-10-09 08:57:59,351 - app - INFO - get_attractions_time_slots - 8X233V: fetched 8 time slots
-2024-10-09 08:57:59,354 - app - INFO - get_attractions_tickets - 8X233V: fetching available tickets
-2024-10-09 08:57:59,355 - app - INFO - get_attractions_tickets - 8X233V: fetched 3 available tickets
-2024-10-09 08:58:49,329 - app - INFO - get_attractions - BGBNWN: fetching attractions
-2024-10-09 08:58:49,329 - app - INFO - get_attractions - BGBNWN: fetched 3 attractions
-2024-10-09 08:58:49,332 - app - INFO - get_attractions_time_slots - BGBNWN: fetching time slots
-2024-10-09 08:58:49,332 - app - INFO - get_attractions_time_slots - BGBNWN: fetched 8 time slots
-2024-10-09 08:58:49,335 - app - INFO - get_attractions_tickets - BGBNWN: fetching available tickets
-2024-10-09 08:58:49,335 - app - INFO - get_attractions_tickets - BGBNWN: fetched 3 available tickets
-2024-10-09 08:58:50,825 - app - INFO - get_attractions - D3RXGG: fetching attractions
-2024-10-09 08:58:50,826 - app - INFO - get_attractions - D3RXGG: fetched 3 attractions
-2024-10-09 08:58:50,829 - app - INFO - get_attractions_time_slots - D3RXGG: fetching time slots
-2024-10-09 08:58:50,829 - app - INFO - get_attractions_time_slots - D3RXGG: fetched 8 time slots
-2024-10-09 08:58:50,832 - app - INFO - get_attractions_tickets - D3RXGG: fetching available tickets
-2024-10-09 08:58:50,832 - app - INFO - get_attractions_tickets - D3RXGG: fetched 3 available tickets
-2024-10-09 08:58:50,850 - app - INFO - booking - D3RXGG: saving booking for attraction Aquarium for 13:00-14:00 with 39 Adult tickets
-2024-10-09 08:58:50,851 - app - INFO - booking - D3RXGG: updating available tickets for attraction Aquarium to 39
-2024-10-09 08:58:50,851 - app - INFO - booking - D3RXGG: booking successful
-2024-10-09 08:58:54,294 - app - INFO - get_attractions - W7L2II: fetching attractions
-2024-10-09 08:58:54,294 - app - INFO - get_attractions - W7L2II: fetched 3 attractions
-2024-10-09 08:58:54,296 - app - INFO - get_attractions_time_slots - W7L2II: fetching time slots
-2024-10-09 08:58:54,296 - app - INFO - get_attractions_time_slots - W7L2II: fetched 8 time slots
-2024-10-09 08:58:54,299 - app - INFO - get_attractions_tickets - W7L2II: fetching available tickets
-2024-10-09 08:58:54,299 - app - INFO - get_attractions_tickets - W7L2II: fetched 3 available tickets
-2024-10-09 08:58:55,134 - app - INFO - get_attractions - 77MO97: fetching attractions
-2024-10-09 08:58:55,134 - app - INFO - get_attractions - 77MO97: fetched 3 attractions
-2024-10-09 08:58:55,136 - app - INFO - get_attractions_time_slots - 77MO97: fetching time slots
-2024-10-09 08:58:55,137 - app - INFO - get_attractions_time_slots - 77MO97: fetched 8 time slots
-2024-10-09 08:58:55,138 - app - INFO - get_attractions_tickets - 77MO97: fetching available tickets
-2024-10-09 08:58:55,139 - app - INFO - get_attractions_tickets - 77MO97: fetched 3 available tickets
-2024-10-09 08:58:56,111 - app - INFO - get_attractions - 51I08M: fetching attractions
-2024-10-09 08:58:56,112 - app - INFO - get_attractions - 51I08M: fetched 3 attractions
-2024-10-09 08:58:56,114 - app - INFO - get_attractions_time_slots - 51I08M: fetching time slots
-2024-10-09 08:58:56,114 - app - INFO - get_attractions_time_slots - 51I08M: fetched 8 time slots
-2024-10-09 08:58:56,117 - app - INFO - get_attractions_tickets - 51I08M: fetching available tickets
-2024-10-09 08:58:56,117 - app - INFO - get_attractions_tickets - 51I08M: fetched 3 available tickets
-2024-10-09 08:58:56,894 - app - INFO - get_attractions - C25RBR: fetching attractions
-2024-10-09 08:58:56,894 - app - INFO - get_attractions - C25RBR: fetched 3 attractions
-2024-10-09 08:58:56,896 - app - INFO - get_attractions_time_slots - C25RBR: fetching time slots
-2024-10-09 08:58:56,896 - app - INFO - get_attractions_time_slots - C25RBR: fetched 8 time slots
-2024-10-09 08:58:56,899 - app - INFO - get_attractions_tickets - C25RBR: fetching available tickets
-2024-10-09 08:58:56,900 - app - INFO - get_attractions_tickets - C25RBR: fetched 3 available tickets
-2024-10-09 08:58:56,918 - app - INFO - booking - C25RBR: saving booking for attraction Art Gallery for 12:00-13:00 with 12 Adult tickets
-2024-10-09 08:58:56,919 - app - INFO - booking - C25RBR: saving booking for attraction Art Gallery for 12:00-13:00 with 3 Concession tickets
-2024-10-09 08:58:56,919 - app - INFO - booking - C25RBR: updating available tickets for attraction Art Gallery to 15
-2024-10-09 08:58:56,920 - app - INFO - booking - C25RBR: booking successful
-2024-10-09 08:58:58,135 - app - INFO - get_attractions - 82O4OV: fetching attractions
-2024-10-09 08:58:58,136 - app - INFO - get_attractions - 82O4OV: fetched 3 attractions
-2024-10-09 08:58:58,138 - app - INFO - get_attractions_time_slots - 82O4OV: fetching time slots
-2024-10-09 08:58:58,138 - app - INFO - get_attractions_time_slots - 82O4OV: fetched 8 time slots
-2024-10-09 08:58:58,141 - app - INFO - get_attractions_tickets - 82O4OV: fetching available tickets
-2024-10-09 08:58:58,142 - app - INFO - get_attractions_tickets - 82O4OV: fetched 3 available tickets
-2024-10-09 08:58:59,276 - app - INFO - get_attractions - TJLKVO: fetching attractions
-2024-10-09 08:58:59,276 - app - INFO - get_attractions - TJLKVO: fetched 3 attractions
-2024-10-09 08:58:59,279 - app - INFO - get_attractions_time_slots - TJLKVO: fetching time slots
-2024-10-09 08:58:59,279 - app - INFO - get_attractions_time_slots - TJLKVO: fetched 8 time slots
-2024-10-09 08:58:59,281 - app - INFO - get_attractions_tickets - TJLKVO: fetching available tickets
-2024-10-09 08:58:59,282 - app - INFO - get_attractions_tickets - TJLKVO: fetched 3 available tickets
-2024-10-09 08:59:25,991 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:30,191 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:37,494 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:39,673 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:40,815 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:41,954 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:43,128 - app - INFO - <module> - Starting the application
-2024-10-09 08:59:43,920 - app - INFO - get_attractions - LJRJ50: fetching attractions
-2024-10-09 08:59:43,921 - app - INFO - get_attractions - LJRJ50: fetched 3 attractions
-2024-10-09 08:59:43,923 - app - INFO - get_attractions_time_slots - LJRJ50: fetching time slots
-2024-10-09 08:59:43,923 - app - INFO - get_attractions_time_slots - LJRJ50: fetched 8 time slots
-2024-10-09 08:59:43,927 - app - INFO - get_attractions_tickets - LJRJ50: fetching available tickets
-2024-10-09 08:59:43,927 - app - INFO - get_attractions_tickets - LJRJ50: fetched 3 available tickets
-2024-10-09 08:59:43,945 - app - ERROR - booking - LJRJ50: invalid payment details
-2024-10-09 08:59:45,683 - app - INFO - get_attractions - LYW4YW: fetching attractions
-2024-10-09 08:59:45,683 - app - INFO - get_attractions - LYW4YW: fetched 3 attractions
-2024-10-09 08:59:45,685 - app - INFO - get_attractions_time_slots - LYW4YW: fetching time slots
-2024-10-09 08:59:45,686 - app - INFO - get_attractions_time_slots - LYW4YW: fetched 8 time slots
-2024-10-09 08:59:45,688 - app - INFO - get_attractions_tickets - LYW4YW: fetching available tickets
-2024-10-09 08:59:45,688 - app - INFO - get_attractions_tickets - LYW4YW: fetched 3 available tickets
-2024-10-09 08:59:45,708 - app - INFO - booking - LYW4YW: saving booking for attraction Aquarium for 15:00-16:00 with 4 Adult tickets
-2024-10-09 08:59:45,709 - app - INFO - booking - LYW4YW: saving booking for attraction Aquarium for 15:00-16:00 with 1 Concession tickets
-2024-10-09 08:59:45,709 - app - INFO - booking - LYW4YW: updating available tickets for attraction Aquarium to 5
-2024-10-09 08:59:45,710 - app - INFO - booking - LYW4YW: booking successful
-2024-10-09 08:59:47,281 - app - INFO - get_attractions - DK0HCP: fetching attractions
-2024-10-09 08:59:47,282 - app - INFO - get_attractions - DK0HCP: fetched 3 attractions
-2024-10-09 08:59:47,285 - app - INFO - get_attractions_time_slots - DK0HCP: fetching time slots
-2024-10-09 08:59:47,285 - app - INFO - get_attractions_time_slots - DK0HCP: fetched 8 time slots
-2024-10-09 08:59:47,287 - app - INFO - get_attractions_tickets - DK0HCP: fetching available tickets
-2024-10-09 08:59:47,287 - app - INFO - get_attractions_tickets - DK0HCP: fetched 3 available tickets
-2024-10-09 08:59:47,305 - app - INFO - booking - DK0HCP: saving booking for attraction Aquarium for 11:00-12:00 with 1 Adult tickets
-2024-10-09 08:59:47,306 - app - INFO - booking - DK0HCP: saving booking for attraction Aquarium for 11:00-12:00 with 1 Child tickets
-2024-10-09 08:59:47,307 - app - INFO - booking - DK0HCP: updating available tickets for attraction Aquarium to 2
-2024-10-09 08:59:47,307 - app - INFO - booking - DK0HCP: booking successful
-2024-10-09 08:59:48,221 - app - INFO - get_attractions - 2WHBGF: fetching attractions
-2024-10-09 08:59:48,221 - app - INFO - get_attractions - 2WHBGF: fetched 3 attractions
-2024-10-09 08:59:48,223 - app - INFO - get_attractions_time_slots - 2WHBGF: fetching time slots
-2024-10-09 08:59:48,224 - app - INFO - get_attractions_time_slots - 2WHBGF: fetched 8 time slots
-2024-10-09 08:59:48,225 - app - INFO - get_attractions_tickets - 2WHBGF: fetching available tickets
-2024-10-09 08:59:48,226 - app - INFO - get_attractions_tickets - 2WHBGF: fetched 3 available tickets
-2024-10-09 08:59:48,243 - app - INFO - booking - 2WHBGF: updating available tickets for attraction Museum to 0
-2024-10-09 08:59:48,243 - app - INFO - booking - 2WHBGF: booking successful
-2024-10-09 08:59:51,277 - app - INFO - get_attractions - KHC4FL: fetching attractions
-2024-10-09 08:59:51,278 - app - INFO - get_attractions - KHC4FL: fetched 3 attractions
-2024-10-09 08:59:51,280 - app - INFO - get_attractions_time_slots - KHC4FL: fetching time slots
-2024-10-09 08:59:51,280 - app - INFO - get_attractions_time_slots - KHC4FL: fetched 8 time slots
-2024-10-09 08:59:51,283 - app - INFO - get_attractions_tickets - KHC4FL: fetching available tickets
-2024-10-09 08:59:51,284 - app - INFO - get_attractions_tickets - KHC4FL: fetched 3 available tickets
-2024-10-09 08:59:51,303 - app - ERROR - booking - KHC4FL: invalid payment details
-2024-10-09 08:59:52,703 - app - INFO - get_attractions - U4KW7S: fetching attractions
-2024-10-09 08:59:52,704 - app - INFO - get_attractions - U4KW7S: fetched 3 attractions
-2024-10-09 08:59:52,706 - app - INFO - get_attractions_time_slots - U4KW7S: fetching time slots
-2024-10-09 08:59:52,706 - app - INFO - get_attractions_time_slots - U4KW7S: fetched 8 time slots
-2024-10-09 08:59:52,708 - app - INFO - get_attractions_tickets - U4KW7S: fetching available tickets
-2024-10-09 08:59:52,708 - app - INFO - get_attractions_tickets - U4KW7S: fetched 3 available tickets
-2024-10-09 08:59:52,728 - app - ERROR - booking - U4KW7S: invalid payment details
-2024-10-09 08:59:53,715 - app - INFO - get_attractions - OJU201: fetching attractions
-2024-10-09 08:59:53,716 - app - INFO - get_attractions - OJU201: fetched 3 attractions
-2024-10-09 08:59:53,718 - app - INFO - get_attractions_time_slots - OJU201: fetching time slots
-2024-10-09 08:59:53,718 - app - INFO - get_attractions_time_slots - OJU201: fetched 8 time slots
-2024-10-09 08:59:53,720 - app - INFO - get_attractions_tickets - OJU201: fetching available tickets
-2024-10-09 08:59:53,720 - app - INFO - get_attractions_tickets - OJU201: fetched 3 available tickets
-2024-10-09 08:59:53,738 - app - INFO - booking - OJU201: updating available tickets for attraction Museum to 0
-2024-10-09 08:59:53,738 - app - INFO - booking - OJU201: booking successful
-2024-10-09 08:59:54,555 - app - INFO - get_attractions - H8G3RF: fetching attractions
-2024-10-09 08:59:54,555 - app - INFO - get_attractions - H8G3RF: fetched 3 attractions
-2024-10-09 08:59:54,559 - app - INFO - get_attractions_time_slots - H8G3RF: fetching time slots
-2024-10-09 08:59:54,559 - app - INFO - get_attractions_time_slots - H8G3RF: fetched 8 time slots
-2024-10-09 08:59:54,562 - app - INFO - get_attractions_tickets - H8G3RF: fetching available tickets
-2024-10-09 08:59:54,562 - app - INFO - get_attractions_tickets - H8G3RF: fetched 3 available tickets
-2024-10-09 08:59:54,580 - app - INFO - booking - H8G3RF: saving booking for attraction Aquarium for 14:00-15:00 with 1 Adult tickets
-2024-10-09 08:59:54,581 - app - INFO - booking - H8G3RF: updating available tickets for attraction Aquarium to 1
-2024-10-09 08:59:54,582 - app - INFO - booking - H8G3RF: booking successful
-2024-10-09 08:59:55,331 - app - INFO - get_attractions - B82HV2: fetching attractions
-2024-10-09 08:59:55,331 - app - INFO - get_attractions - B82HV2: fetched 3 attractions
-2024-10-09 08:59:55,333 - app - INFO - get_attractions_time_slots - B82HV2: fetching time slots
-2024-10-09 08:59:55,334 - app - INFO - get_attractions_time_slots - B82HV2: fetched 8 time slots
-2024-10-09 08:59:55,336 - app - INFO - get_attractions_tickets - B82HV2: fetching available tickets
-2024-10-09 08:59:55,336 - app - INFO - get_attractions_tickets - B82HV2: fetched 3 available tickets
-2024-10-09 08:59:55,353 - app - INFO - booking - B82HV2: saving booking for attraction Art Gallery for 12:00-13:00 with 1 Child tickets
-2024-10-09 08:59:55,354 - app - INFO - booking - B82HV2: updating available tickets for attraction Art Gallery to 1
-2024-10-09 08:59:55,355 - app - INFO - booking - B82HV2: booking successful
-2024-10-09 08:59:56,084 - app - INFO - get_attractions - 5MP82R: fetching attractions
-2024-10-09 08:59:56,085 - app - INFO - get_attractions - 5MP82R: fetched 3 attractions
-2024-10-09 08:59:56,087 - app - INFO - get_attractions_time_slots - 5MP82R: fetching time slots
-2024-10-09 08:59:56,087 - app - INFO - get_attractions_time_slots - 5MP82R: fetched 8 time slots
-2024-10-09 08:59:56,091 - app - INFO - get_attractions_tickets - 5MP82R: fetching available tickets
-2024-10-09 08:59:56,091 - app - INFO - get_attractions_tickets - 5MP82R: fetched 3 available tickets
-2024-10-09 08:59:56,111 - app - ERROR - booking - 5MP82R: invalid payment details
-2024-10-09 08:59:56,799 - app - INFO - get_attractions - XLYUVO: fetching attractions
-2024-10-09 08:59:56,800 - app - INFO - get_attractions - XLYUVO: fetched 3 attractions
-2024-10-09 08:59:56,803 - app - INFO - get_attractions_time_slots - XLYUVO: fetching time slots
-2024-10-09 08:59:56,803 - app - INFO - get_attractions_time_slots - XLYUVO: fetched 8 time slots
-2024-10-09 08:59:56,806 - app - INFO - get_attractions_tickets - XLYUVO: fetching available tickets
-2024-10-09 08:59:56,806 - app - INFO - get_attractions_tickets - XLYUVO: fetched 3 available tickets
-2024-10-09 08:59:56,824 - app - ERROR - booking - XLYUVO: invalid payment details
-2024-10-09 08:59:57,412 - app - INFO - get_attractions - STN02G: fetching attractions
-2024-10-09 08:59:57,412 - app - INFO - get_attractions - STN02G: fetched 3 attractions
-2024-10-09 08:59:57,416 - app - INFO - get_attractions_time_slots - STN02G: fetching time slots
-2024-10-09 08:59:57,416 - app - INFO - get_attractions_time_slots - STN02G: fetched 8 time slots
-2024-10-09 08:59:57,419 - app - INFO - get_attractions_tickets - STN02G: fetching available tickets
-2024-10-09 08:59:57,419 - app - INFO - get_attractions_tickets - STN02G: fetched 3 available tickets
-2024-10-09 08:59:57,438 - app - INFO - booking - STN02G: updating available tickets for attraction Museum to 0
-2024-10-09 08:59:57,438 - app - INFO - booking - STN02G: booking successful
-2024-10-09 08:59:58,106 - app - INFO - get_attractions - F5N2FK: fetching attractions
-2024-10-09 08:59:58,106 - app - INFO - get_attractions - F5N2FK: fetched 3 attractions
-2024-10-09 08:59:58,110 - app - INFO - get_attractions_time_slots - F5N2FK: fetching time slots
-2024-10-09 08:59:58,110 - app - INFO - get_attractions_time_slots - F5N2FK: fetched 8 time slots
-2024-10-09 08:59:58,113 - app - INFO - get_attractions_tickets - F5N2FK: fetching available tickets
-2024-10-09 08:59:58,113 - app - INFO - get_attractions_tickets - F5N2FK: fetched 3 available tickets
-2024-10-09 08:59:58,133 - app - ERROR - booking - F5N2FK: invalid payment details
-2024-10-09 09:00:00,698 - app - INFO - <module> - Starting the application
-2024-10-09 09:00:01,848 - app - INFO - <module> - Starting the application
-2024-10-09 09:00:04,027 - app - INFO - <module> - Starting the application
-2024-10-09 09:00:05,183 - app - INFO - <module> - Starting the application
-2024-10-09 09:00:07,339 - app - INFO - <module> - Starting the application
-2024-10-09 09:00:08,495 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:03,176 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:04,330 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:10,667 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:12,830 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:13,977 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:15,120 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:16,259 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:17,427 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:18,577 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:19,711 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:20,856 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:21,997 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:23,163 - app - INFO - <module> - Starting the application
-2024-10-09 09:01:24,300 - app - INFO - <module> - Starting the application
-2024-10-09 09:02:10,997 - app - INFO - <module> - Starting the application
-2024-10-09 09:02:12,152 - app - INFO - <module> - Starting the application
-2024-10-09 09:02:13,306 - app - INFO - <module> - Starting the application
-2024-10-09 09:02:15,506 - app - INFO - <module> - Starting the application
-2024-10-09 09:05:04,684 - app - INFO - <module> - Starting the application
-2024-10-09 09:05:04,783 - app - INFO - <module> - Starting the application
-2024-10-09 09:05:09,813 - app - INFO - get_attractions - RN4USU: fetching attractions
-2024-10-09 09:05:09,813 - app - INFO - get_attractions - RN4USU: fetched 3 attractions
-2024-10-09 09:05:09,817 - app - INFO - get_attractions_time_slots - RN4USU: fetching time slots
-2024-10-09 09:05:09,817 - app - INFO - get_attractions_time_slots - RN4USU: fetched 8 time slots
-2024-10-09 09:05:09,820 - app - INFO - get_attractions_tickets - RN4USU: fetching available tickets
-2024-10-09 09:05:09,820 - app - INFO - get_attractions_tickets - RN4USU: fetched 3 available tickets
-2024-10-09 09:05:09,843 - app - ERROR - booking - RN4USU: invalid payment details
-2024-10-09 09:06:03,717 - app - INFO - get_attractions - G8V042: fetching attractions
-2024-10-09 09:06:03,717 - app - INFO - get_attractions - G8V042: fetched 3 attractions
-2024-10-09 09:06:03,719 - app - INFO - get_attractions_time_slots - G8V042: fetching time slots
-2024-10-09 09:06:03,720 - app - INFO - get_attractions_time_slots - G8V042: fetched 8 time slots
-2024-10-09 09:06:03,721 - app - INFO - get_attractions_tickets - G8V042: fetching available tickets
-2024-10-09 09:06:03,722 - app - INFO - get_attractions_tickets - G8V042: fetched 3 available tickets
-2024-10-09 09:06:03,740 - app - INFO - booking - G8V042: saving booking for attraction Art Gallery for 11:00-12:00 with 42 Adult tickets
-2024-10-09 09:06:03,741 - app - INFO - booking - G8V042: updating available tickets for attraction Art Gallery to 42
-2024-10-09 09:06:03,741 - app - INFO - booking - G8V042: booking successful
-2024-10-09 09:06:03,743 - app - INFO - get_attractions - PMN2BV: fetching attractions
-2024-10-09 09:06:03,743 - app - INFO - get_attractions - PMN2BV: fetched 3 attractions
-2024-10-09 09:06:03,746 - app - INFO - get_attractions_time_slots - PMN2BV: fetching time slots
-2024-10-09 09:06:03,746 - app - INFO - get_attractions_time_slots - PMN2BV: fetched 8 time slots
-2024-10-09 09:06:03,749 - app - INFO - get_attractions_tickets - PMN2BV: fetching available tickets
-2024-10-09 09:06:03,749 - app - INFO - get_attractions_tickets - PMN2BV: fetched 3 available tickets
-2024-10-09 09:06:03,753 - app - INFO - booking - PMN2BV: saving booking for attraction Aquarium for 11:00-12:00 with 4 Adult tickets
-2024-10-09 09:06:03,754 - app - INFO - booking - PMN2BV: saving booking for attraction Aquarium for 11:00-12:00 with 23 Child tickets
-2024-10-09 09:06:03,754 - app - INFO - booking - PMN2BV: saving booking for attraction Aquarium for 11:00-12:00 with 1 Concession tickets
-2024-10-09 09:06:03,755 - app - INFO - booking - PMN2BV: updating available tickets for attraction Aquarium to 28
-2024-10-09 09:06:03,755 - app - INFO - booking - PMN2BV: booking successful
-2024-10-09 09:06:03,758 - app - INFO - get_attractions - Z9ZICB: fetching attractions
-2024-10-09 09:06:03,758 - app - INFO - get_attractions - Z9ZICB: fetched 3 attractions
-2024-10-09 09:06:03,761 - app - INFO - get_attractions_time_slots - Z9ZICB: fetching time slots
-2024-10-09 09:06:03,761 - app - INFO - get_attractions_time_slots - Z9ZICB: fetched 8 time slots
-2024-10-09 09:06:03,764 - app - INFO - get_attractions_tickets - Z9ZICB: fetching available tickets
-2024-10-09 09:06:03,764 - app - INFO - get_attractions_tickets - Z9ZICB: fetched 3 available tickets
-2024-10-09 09:06:03,769 - app - ERROR - booking - Z9ZICB: invalid payment details
-2024-10-09 09:06:03,772 - app - INFO - get_attractions - S85811: fetching attractions
-2024-10-09 09:06:03,772 - app - INFO - get_attractions - S85811: fetched 3 attractions
-2024-10-09 09:06:03,775 - app - INFO - get_attractions_time_slots - S85811: fetching time slots
-2024-10-09 09:06:03,775 - app - INFO - get_attractions_time_slots - S85811: fetched 8 time slots
-2024-10-09 09:06:03,778 - app - INFO - get_attractions_tickets - S85811: fetching available tickets
-2024-10-09 09:06:03,778 - app - INFO - get_attractions_tickets - S85811: fetched 3 available tickets
-2024-10-09 09:06:03,782 - app - ERROR - booking - S85811: invalid payment details
-2024-10-09 09:06:03,786 - app - INFO - get_attractions - R94BDA: fetching attractions
-2024-10-09 09:06:03,786 - app - INFO - get_attractions - R94BDA: fetched 3 attractions
-2024-10-09 09:06:03,789 - app - INFO - get_attractions_time_slots - R94BDA: fetching time slots
-2024-10-09 09:06:03,789 - app - INFO - get_attractions_time_slots - R94BDA: fetched 8 time slots
-2024-10-09 09:06:03,792 - app - INFO - get_attractions_tickets - R94BDA: fetching available tickets
-2024-10-09 09:06:03,792 - app - INFO - get_attractions_tickets - R94BDA: fetched 3 available tickets
-2024-10-09 09:06:03,797 - app - INFO - booking - R94BDA: saving booking for attraction Museum for 13:00-14:00 with 46 Adult tickets
-2024-10-09 09:06:03,797 - app - INFO - booking - R94BDA: updating available tickets for attraction Museum to 46
-2024-10-09 09:06:03,798 - app - INFO - booking - R94BDA: booking successful
-2024-10-09 09:06:03,801 - app - INFO - get_attractions - 6FO8O2: fetching attractions
-2024-10-09 09:06:03,801 - app - INFO - get_attractions - 6FO8O2: fetched 3 attractions
-2024-10-09 09:06:03,804 - app - INFO - get_attractions_time_slots - 6FO8O2: fetching time slots
-2024-10-09 09:06:03,804 - app - INFO - get_attractions_time_slots - 6FO8O2: fetched 8 time slots
-2024-10-09 09:06:03,807 - app - INFO - get_attractions_tickets - 6FO8O2: fetching available tickets
-2024-10-09 09:06:03,807 - app - INFO - get_attractions_tickets - 6FO8O2: fetched 3 available tickets
-2024-10-09 09:06:03,811 - app - INFO - booking - 6FO8O2: saving booking for attraction Museum for 11:00-12:00 with 3 Adult tickets
-2024-10-09 09:06:03,812 - app - INFO - booking - 6FO8O2: updating available tickets for attraction Museum to 3
-2024-10-09 09:06:03,812 - app - INFO - booking - 6FO8O2: booking successful
-2024-10-09 09:06:03,815 - app - INFO - get_attractions - JVU6CQ: fetching attractions
-2024-10-09 09:06:03,815 - app - INFO - get_attractions - JVU6CQ: fetched 3 attractions
-2024-10-09 09:06:03,818 - app - INFO - get_attractions_time_slots - JVU6CQ: fetching time slots
-2024-10-09 09:06:03,818 - app - INFO - get_attractions_time_slots - JVU6CQ: fetched 8 time slots
-2024-10-09 09:06:03,821 - app - INFO - get_attractions_tickets - JVU6CQ: fetching available tickets
-2024-10-09 09:06:03,821 - app - INFO - get_attractions_tickets - JVU6CQ: fetched 3 available tickets
-2024-10-09 09:06:03,825 - app - ERROR - booking - JVU6CQ: invalid payment details
-2024-10-09 09:06:03,827 - app - INFO - get_attractions - BH9QWV: fetching attractions
-2024-10-09 09:06:03,828 - app - INFO - get_attractions - BH9QWV: fetched 3 attractions
-2024-10-09 09:06:03,830 - app - INFO - get_attractions_time_slots - BH9QWV: fetching time slots
-2024-10-09 09:06:03,830 - app - INFO - get_attractions_time_slots - BH9QWV: fetched 8 time slots
-2024-10-09 09:06:03,832 - app - INFO - get_attractions_tickets - BH9QWV: fetching available tickets
-2024-10-09 09:06:03,832 - app - INFO - get_attractions_tickets - BH9QWV: fetched 3 available tickets
-2024-10-09 09:06:03,836 - app - INFO - booking - BH9QWV: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:03,836 - app - INFO - booking - BH9QWV: booking successful
-2024-10-09 09:06:03,839 - app - INFO - get_attractions - 1ZZQ2Q: fetching attractions
-2024-10-09 09:06:03,839 - app - INFO - get_attractions - 1ZZQ2Q: fetched 3 attractions
-2024-10-09 09:06:03,841 - app - INFO - get_attractions_time_slots - 1ZZQ2Q: fetching time slots
-2024-10-09 09:06:03,841 - app - INFO - get_attractions_time_slots - 1ZZQ2Q: fetched 8 time slots
-2024-10-09 09:06:03,844 - app - INFO - get_attractions_tickets - 1ZZQ2Q: fetching available tickets
-2024-10-09 09:06:03,844 - app - INFO - get_attractions_tickets - 1ZZQ2Q: fetched 3 available tickets
-2024-10-09 09:06:03,848 - app - ERROR - booking - 1ZZQ2Q: invalid payment details
-2024-10-09 09:06:03,851 - app - INFO - get_attractions - DC3FHV: fetching attractions
-2024-10-09 09:06:03,851 - app - INFO - get_attractions - DC3FHV: fetched 3 attractions
-2024-10-09 09:06:03,853 - app - INFO - get_attractions_time_slots - DC3FHV: fetching time slots
-2024-10-09 09:06:03,853 - app - INFO - get_attractions_time_slots - DC3FHV: fetched 8 time slots
-2024-10-09 09:06:03,855 - app - INFO - get_attractions_tickets - DC3FHV: fetching available tickets
-2024-10-09 09:06:03,855 - app - INFO - get_attractions_tickets - DC3FHV: fetched 3 available tickets
-2024-10-09 09:06:03,858 - app - ERROR - booking - DC3FHV: invalid payment details
-2024-10-09 09:06:03,861 - app - INFO - get_attractions - L85794: fetching attractions
-2024-10-09 09:06:03,861 - app - INFO - get_attractions - L85794: fetched 3 attractions
-2024-10-09 09:06:03,863 - app - INFO - get_attractions_time_slots - L85794: fetching time slots
-2024-10-09 09:06:03,863 - app - INFO - get_attractions_time_slots - L85794: fetched 8 time slots
-2024-10-09 09:06:03,866 - app - INFO - get_attractions_tickets - L85794: fetching available tickets
-2024-10-09 09:06:03,866 - app - INFO - get_attractions_tickets - L85794: fetched 3 available tickets
-2024-10-09 09:06:03,869 - app - INFO - booking - L85794: saving booking for attraction Art Gallery for 11:00-12:00 with 4 Adult tickets
-2024-10-09 09:06:03,870 - app - INFO - booking - L85794: saving booking for attraction Art Gallery for 11:00-12:00 with 3 Child tickets
-2024-10-09 09:06:03,870 - app - INFO - booking - L85794: saving booking for attraction Art Gallery for 11:00-12:00 with 1 Concession tickets
-2024-10-09 09:06:03,871 - app - INFO - booking - L85794: updating available tickets for attraction Art Gallery to 8
-2024-10-09 09:06:03,871 - app - INFO - booking - L85794: booking successful
-2024-10-09 09:06:03,873 - app - INFO - get_attractions - 5OGOD7: fetching attractions
-2024-10-09 09:06:03,873 - app - INFO - get_attractions - 5OGOD7: fetched 3 attractions
-2024-10-09 09:06:03,876 - app - INFO - get_attractions_time_slots - 5OGOD7: fetching time slots
-2024-10-09 09:06:03,876 - app - INFO - get_attractions_time_slots - 5OGOD7: fetched 8 time slots
-2024-10-09 09:06:03,879 - app - INFO - get_attractions_tickets - 5OGOD7: fetching available tickets
-2024-10-09 09:06:03,879 - app - INFO - get_attractions_tickets - 5OGOD7: fetched 3 available tickets
-2024-10-09 09:06:03,883 - app - ERROR - booking - 5OGOD7: invalid payment details
-2024-10-09 09:06:03,885 - app - INFO - get_attractions - V9N59Q: fetching attractions
-2024-10-09 09:06:03,885 - app - INFO - get_attractions - V9N59Q: fetched 3 attractions
-2024-10-09 09:06:03,888 - app - INFO - get_attractions_time_slots - V9N59Q: fetching time slots
-2024-10-09 09:06:03,888 - app - INFO - get_attractions_time_slots - V9N59Q: fetched 8 time slots
-2024-10-09 09:06:03,891 - app - INFO - get_attractions_tickets - V9N59Q: fetching available tickets
-2024-10-09 09:06:03,892 - app - INFO - get_attractions_tickets - V9N59Q: fetched 3 available tickets
-2024-10-09 09:06:03,895 - app - INFO - booking - V9N59Q: saving booking for attraction Museum for 11:00-12:00 with 1 Child tickets
-2024-10-09 09:06:03,896 - app - INFO - booking - V9N59Q: updating available tickets for attraction Museum to 1
-2024-10-09 09:06:03,896 - app - INFO - booking - V9N59Q: booking successful
-2024-10-09 09:06:03,899 - app - INFO - get_attractions - Q7NY9S: fetching attractions
-2024-10-09 09:06:03,899 - app - INFO - get_attractions - Q7NY9S: fetched 3 attractions
-2024-10-09 09:06:03,902 - app - INFO - get_attractions_time_slots - Q7NY9S: fetching time slots
-2024-10-09 09:06:03,902 - app - INFO - get_attractions_time_slots - Q7NY9S: fetched 8 time slots
-2024-10-09 09:06:03,905 - app - INFO - get_attractions_tickets - Q7NY9S: fetching available tickets
-2024-10-09 09:06:03,905 - app - INFO - get_attractions_tickets - Q7NY9S: fetched 3 available tickets
-2024-10-09 09:06:03,910 - app - INFO - booking - Q7NY9S: saving booking for attraction Aquarium for 12:00-13:00 with 11 Adult tickets
-2024-10-09 09:06:03,910 - app - INFO - booking - Q7NY9S: saving booking for attraction Aquarium for 12:00-13:00 with 5 Child tickets
-2024-10-09 09:06:03,911 - app - INFO - booking - Q7NY9S: updating available tickets for attraction Aquarium to 16
-2024-10-09 09:06:03,911 - app - INFO - booking - Q7NY9S: booking successful
-2024-10-09 09:06:03,914 - app - INFO - get_attractions - 8RV3Z7: fetching attractions
-2024-10-09 09:06:03,914 - app - INFO - get_attractions - 8RV3Z7: fetched 3 attractions
-2024-10-09 09:06:03,916 - app - INFO - get_attractions_time_slots - 8RV3Z7: fetching time slots
-2024-10-09 09:06:03,916 - app - INFO - get_attractions_time_slots - 8RV3Z7: fetched 8 time slots
-2024-10-09 09:06:03,919 - app - INFO - get_attractions_tickets - 8RV3Z7: fetching available tickets
-2024-10-09 09:06:03,919 - app - INFO - get_attractions_tickets - 8RV3Z7: fetched 3 available tickets
-2024-10-09 09:06:03,922 - app - INFO - booking - 8RV3Z7: saving booking for attraction Aquarium for 09:00-10:00 with 6 Adult tickets
-2024-10-09 09:06:03,923 - app - INFO - booking - 8RV3Z7: updating available tickets for attraction Aquarium to 6
-2024-10-09 09:06:03,923 - app - INFO - booking - 8RV3Z7: booking successful
-2024-10-09 09:06:03,926 - app - INFO - get_attractions - ZB174F: fetching attractions
-2024-10-09 09:06:03,926 - app - INFO - get_attractions - ZB174F: fetched 3 attractions
-2024-10-09 09:06:03,927 - app - INFO - get_attractions_time_slots - ZB174F: fetching time slots
-2024-10-09 09:06:03,928 - app - INFO - get_attractions_time_slots - ZB174F: fetched 8 time slots
-2024-10-09 09:06:03,930 - app - INFO - get_attractions_tickets - ZB174F: fetching available tickets
-2024-10-09 09:06:03,930 - app - INFO - get_attractions_tickets - ZB174F: fetched 3 available tickets
-2024-10-09 09:06:03,935 - app - ERROR - booking - ZB174F: invalid payment details
-2024-10-09 09:06:03,938 - app - INFO - get_attractions - ZY6QDU: fetching attractions
-2024-10-09 09:06:03,938 - app - INFO - get_attractions - ZY6QDU: fetched 3 attractions
-2024-10-09 09:06:03,942 - app - INFO - get_attractions_time_slots - ZY6QDU: fetching time slots
-2024-10-09 09:06:03,942 - app - INFO - get_attractions_time_slots - ZY6QDU: fetched 8 time slots
-2024-10-09 09:06:03,945 - app - INFO - get_attractions_tickets - ZY6QDU: fetching available tickets
-2024-10-09 09:06:03,945 - app - INFO - get_attractions_tickets - ZY6QDU: fetched 3 available tickets
-2024-10-09 09:06:03,949 - app - ERROR - booking - ZY6QDU: invalid payment details
-2024-10-09 09:06:03,952 - app - INFO - get_attractions - G0PWTV: fetching attractions
-2024-10-09 09:06:03,952 - app - INFO - get_attractions - G0PWTV: fetched 3 attractions
-2024-10-09 09:06:03,955 - app - INFO - get_attractions_time_slots - G0PWTV: fetching time slots
-2024-10-09 09:06:03,955 - app - INFO - get_attractions_time_slots - G0PWTV: fetched 8 time slots
-2024-10-09 09:06:03,957 - app - INFO - get_attractions_tickets - G0PWTV: fetching available tickets
-2024-10-09 09:06:03,957 - app - INFO - get_attractions_tickets - G0PWTV: fetched 3 available tickets
-2024-10-09 09:06:03,962 - app - INFO - booking - G0PWTV: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:03,962 - app - INFO - booking - G0PWTV: booking successful
-2024-10-09 09:06:03,963 - app - INFO - get_attractions - WFI771: fetching attractions
-2024-10-09 09:06:03,964 - app - INFO - get_attractions - WFI771: fetched 3 attractions
-2024-10-09 09:06:03,965 - app - INFO - get_attractions_time_slots - WFI771: fetching time slots
-2024-10-09 09:06:03,966 - app - INFO - get_attractions_time_slots - WFI771: fetched 8 time slots
-2024-10-09 09:06:03,967 - app - INFO - get_attractions_tickets - WFI771: fetching available tickets
-2024-10-09 09:06:03,968 - app - INFO - get_attractions_tickets - WFI771: fetched 3 available tickets
-2024-10-09 09:06:03,971 - app - ERROR - booking - WFI771: invalid payment details
-2024-10-09 09:06:03,972 - app - INFO - get_attractions - UCA5UP: fetching attractions
-2024-10-09 09:06:03,972 - app - INFO - get_attractions - UCA5UP: fetched 3 attractions
-2024-10-09 09:06:03,975 - app - INFO - get_attractions_time_slots - UCA5UP: fetching time slots
-2024-10-09 09:06:03,976 - app - INFO - get_attractions_time_slots - UCA5UP: fetched 8 time slots
-2024-10-09 09:06:03,978 - app - INFO - get_attractions_tickets - UCA5UP: fetching available tickets
-2024-10-09 09:06:03,979 - app - INFO - get_attractions_tickets - UCA5UP: fetched 3 available tickets
-2024-10-09 09:06:03,983 - app - ERROR - booking - UCA5UP: invalid payment details
-2024-10-09 09:06:03,984 - app - INFO - get_attractions - OVCL82: fetching attractions
-2024-10-09 09:06:03,985 - app - INFO - get_attractions - OVCL82: fetched 3 attractions
-2024-10-09 09:06:03,986 - app - INFO - get_attractions_time_slots - OVCL82: fetching time slots
-2024-10-09 09:06:03,987 - app - INFO - get_attractions_time_slots - OVCL82: fetched 8 time slots
-2024-10-09 09:06:03,989 - app - INFO - get_attractions_tickets - OVCL82: fetching available tickets
-2024-10-09 09:06:03,989 - app - INFO - get_attractions_tickets - OVCL82: fetched 3 available tickets
-2024-10-09 09:06:03,994 - app - ERROR - booking - OVCL82: invalid payment details
-2024-10-09 09:06:04,012 - app - INFO - get_attractions - FCAC3X: fetching attractions
-2024-10-09 09:06:04,021 - app - INFO - get_attractions - FCAC3X: fetched 3 attractions
-2024-10-09 09:06:04,023 - app - INFO - get_attractions_time_slots - FCAC3X: fetching time slots
-2024-10-09 09:06:04,023 - app - INFO - get_attractions_time_slots - FCAC3X: fetched 8 time slots
-2024-10-09 09:06:04,027 - app - INFO - get_attractions_tickets - FCAC3X: fetching available tickets
-2024-10-09 09:06:04,028 - app - INFO - get_attractions_tickets - FCAC3X: fetched 3 available tickets
-2024-10-09 09:06:04,034 - app - INFO - booking - FCAC3X: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,034 - app - INFO - booking - FCAC3X: booking successful
-2024-10-09 09:06:04,037 - app - INFO - get_attractions - YL58AV: fetching attractions
-2024-10-09 09:06:04,038 - app - INFO - get_attractions - YL58AV: fetched 3 attractions
-2024-10-09 09:06:04,040 - app - INFO - get_attractions_time_slots - YL58AV: fetching time slots
-2024-10-09 09:06:04,040 - app - INFO - get_attractions_time_slots - YL58AV: fetched 8 time slots
-2024-10-09 09:06:04,042 - app - INFO - get_attractions_tickets - YL58AV: fetching available tickets
-2024-10-09 09:06:04,042 - app - INFO - get_attractions_tickets - YL58AV: fetched 3 available tickets
-2024-10-09 09:06:04,045 - app - INFO - booking - YL58AV: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,045 - app - INFO - booking - YL58AV: booking successful
-2024-10-09 09:06:04,047 - app - INFO - get_attractions - VHMT64: fetching attractions
-2024-10-09 09:06:04,047 - app - INFO - get_attractions - VHMT64: fetched 3 attractions
-2024-10-09 09:06:04,049 - app - INFO - get_attractions_time_slots - VHMT64: fetching time slots
-2024-10-09 09:06:04,049 - app - INFO - get_attractions_time_slots - VHMT64: fetched 8 time slots
-2024-10-09 09:06:04,052 - app - INFO - get_attractions_tickets - VHMT64: fetching available tickets
-2024-10-09 09:06:04,052 - app - INFO - get_attractions_tickets - VHMT64: fetched 3 available tickets
-2024-10-09 09:06:04,055 - app - INFO - booking - VHMT64: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,055 - app - INFO - booking - VHMT64: booking successful
-2024-10-09 09:06:04,057 - app - INFO - get_attractions - CEXEO2: fetching attractions
-2024-10-09 09:06:04,057 - app - INFO - get_attractions - CEXEO2: fetched 3 attractions
-2024-10-09 09:06:04,059 - app - INFO - get_attractions_time_slots - CEXEO2: fetching time slots
-2024-10-09 09:06:04,059 - app - INFO - get_attractions_time_slots - CEXEO2: fetched 8 time slots
-2024-10-09 09:06:04,061 - app - INFO - get_attractions_tickets - CEXEO2: fetching available tickets
-2024-10-09 09:06:04,061 - app - INFO - get_attractions_tickets - CEXEO2: fetched 3 available tickets
-2024-10-09 09:06:04,064 - app - INFO - booking - CEXEO2: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,064 - app - INFO - booking - CEXEO2: booking successful
-2024-10-09 09:06:04,066 - app - INFO - get_attractions - BK2O83: fetching attractions
-2024-10-09 09:06:04,066 - app - INFO - get_attractions - BK2O83: fetched 3 attractions
-2024-10-09 09:06:04,069 - app - INFO - get_attractions_time_slots - BK2O83: fetching time slots
-2024-10-09 09:06:04,069 - app - INFO - get_attractions_time_slots - BK2O83: fetched 8 time slots
-2024-10-09 09:06:04,072 - app - INFO - get_attractions_tickets - BK2O83: fetching available tickets
-2024-10-09 09:06:04,072 - app - INFO - get_attractions_tickets - BK2O83: fetched 3 available tickets
-2024-10-09 09:06:04,075 - app - ERROR - booking - BK2O83: invalid payment details
-2024-10-09 09:06:04,078 - app - INFO - get_attractions - REUNTX: fetching attractions
-2024-10-09 09:06:04,078 - app - INFO - get_attractions - REUNTX: fetched 3 attractions
-2024-10-09 09:06:04,080 - app - INFO - get_attractions_time_slots - REUNTX: fetching time slots
-2024-10-09 09:06:04,080 - app - INFO - get_attractions_time_slots - REUNTX: fetched 8 time slots
-2024-10-09 09:06:04,082 - app - INFO - get_attractions_tickets - REUNTX: fetching available tickets
-2024-10-09 09:06:04,083 - app - INFO - get_attractions_tickets - REUNTX: fetched 3 available tickets
-2024-10-09 09:06:04,086 - app - INFO - booking - REUNTX: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,086 - app - INFO - booking - REUNTX: booking successful
-2024-10-09 09:06:04,089 - app - INFO - get_attractions - YOXV7D: fetching attractions
-2024-10-09 09:06:04,089 - app - INFO - get_attractions - YOXV7D: fetched 3 attractions
-2024-10-09 09:06:04,091 - app - INFO - get_attractions_time_slots - YOXV7D: fetching time slots
-2024-10-09 09:06:04,091 - app - INFO - get_attractions_time_slots - YOXV7D: fetched 8 time slots
-2024-10-09 09:06:04,094 - app - INFO - get_attractions_tickets - YOXV7D: fetching available tickets
-2024-10-09 09:06:04,094 - app - INFO - get_attractions_tickets - YOXV7D: fetched 3 available tickets
-2024-10-09 09:06:04,097 - app - INFO - booking - YOXV7D: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,098 - app - INFO - booking - YOXV7D: booking successful
-2024-10-09 09:06:04,099 - app - INFO - get_attractions - ZT3F14: fetching attractions
-2024-10-09 09:06:04,099 - app - INFO - get_attractions - ZT3F14: fetched 3 attractions
-2024-10-09 09:06:04,101 - app - INFO - get_attractions_time_slots - ZT3F14: fetching time slots
-2024-10-09 09:06:04,101 - app - INFO - get_attractions_time_slots - ZT3F14: fetched 8 time slots
-2024-10-09 09:06:04,103 - app - INFO - get_attractions_tickets - ZT3F14: fetching available tickets
-2024-10-09 09:06:04,103 - app - INFO - get_attractions_tickets - ZT3F14: fetched 3 available tickets
-2024-10-09 09:06:04,106 - app - INFO - booking - ZT3F14: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,106 - app - INFO - booking - ZT3F14: booking successful
-2024-10-09 09:06:04,108 - app - INFO - get_attractions - NM3HVS: fetching attractions
-2024-10-09 09:06:04,108 - app - INFO - get_attractions - NM3HVS: fetched 3 attractions
-2024-10-09 09:06:04,110 - app - INFO - get_attractions_time_slots - NM3HVS: fetching time slots
-2024-10-09 09:06:04,110 - app - INFO - get_attractions_time_slots - NM3HVS: fetched 8 time slots
-2024-10-09 09:06:04,112 - app - INFO - get_attractions_tickets - NM3HVS: fetching available tickets
-2024-10-09 09:06:04,112 - app - INFO - get_attractions_tickets - NM3HVS: fetched 3 available tickets
-2024-10-09 09:06:04,115 - app - ERROR - booking - NM3HVS: invalid payment details
-2024-10-09 09:06:04,118 - app - INFO - get_attractions - VQXHU3: fetching attractions
-2024-10-09 09:06:04,118 - app - INFO - get_attractions - VQXHU3: fetched 3 attractions
-2024-10-09 09:06:04,121 - app - INFO - get_attractions_time_slots - VQXHU3: fetching time slots
-2024-10-09 09:06:04,121 - app - INFO - get_attractions_time_slots - VQXHU3: fetched 8 time slots
-2024-10-09 09:06:04,124 - app - INFO - get_attractions_tickets - VQXHU3: fetching available tickets
-2024-10-09 09:06:04,124 - app - INFO - get_attractions_tickets - VQXHU3: fetched 3 available tickets
-2024-10-09 09:06:04,129 - app - INFO - booking - VQXHU3: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,129 - app - INFO - booking - VQXHU3: booking successful
-2024-10-09 09:06:04,132 - app - INFO - get_attractions - 8QZH92: fetching attractions
-2024-10-09 09:06:04,132 - app - INFO - get_attractions - 8QZH92: fetched 3 attractions
-2024-10-09 09:06:04,135 - app - INFO - get_attractions_time_slots - 8QZH92: fetching time slots
-2024-10-09 09:06:04,135 - app - INFO - get_attractions_time_slots - 8QZH92: fetched 8 time slots
-2024-10-09 09:06:04,138 - app - INFO - get_attractions_tickets - 8QZH92: fetching available tickets
-2024-10-09 09:06:04,138 - app - INFO - get_attractions_tickets - 8QZH92: fetched 3 available tickets
-2024-10-09 09:06:04,143 - app - ERROR - booking - 8QZH92: invalid payment details
-2024-10-09 09:06:04,146 - app - INFO - get_attractions - E35O39: fetching attractions
-2024-10-09 09:06:04,146 - app - INFO - get_attractions - E35O39: fetched 3 attractions
-2024-10-09 09:06:04,148 - app - INFO - get_attractions_time_slots - E35O39: fetching time slots
-2024-10-09 09:06:04,148 - app - INFO - get_attractions_time_slots - E35O39: fetched 8 time slots
-2024-10-09 09:06:04,150 - app - INFO - get_attractions_tickets - E35O39: fetching available tickets
-2024-10-09 09:06:04,151 - app - INFO - get_attractions_tickets - E35O39: fetched 3 available tickets
-2024-10-09 09:06:04,155 - app - ERROR - booking - E35O39: invalid payment details
-2024-10-09 09:06:04,158 - app - INFO - get_attractions - OXRQHF: fetching attractions
-2024-10-09 09:06:04,158 - app - INFO - get_attractions - OXRQHF: fetched 3 attractions
-2024-10-09 09:06:04,160 - app - INFO - get_attractions_time_slots - OXRQHF: fetching time slots
-2024-10-09 09:06:04,160 - app - INFO - get_attractions_time_slots - OXRQHF: fetched 8 time slots
-2024-10-09 09:06:04,162 - app - INFO - get_attractions_tickets - OXRQHF: fetching available tickets
-2024-10-09 09:06:04,162 - app - INFO - get_attractions_tickets - OXRQHF: fetched 3 available tickets
-2024-10-09 09:06:04,165 - app - INFO - booking - OXRQHF: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,165 - app - INFO - booking - OXRQHF: booking successful
-2024-10-09 09:06:04,168 - app - INFO - get_attractions - GFCNBZ: fetching attractions
-2024-10-09 09:06:04,168 - app - INFO - get_attractions - GFCNBZ: fetched 3 attractions
-2024-10-09 09:06:04,170 - app - INFO - get_attractions_time_slots - GFCNBZ: fetching time slots
-2024-10-09 09:06:04,170 - app - INFO - get_attractions_time_slots - GFCNBZ: fetched 8 time slots
-2024-10-09 09:06:04,173 - app - INFO - get_attractions_tickets - GFCNBZ: fetching available tickets
-2024-10-09 09:06:04,173 - app - INFO - get_attractions_tickets - GFCNBZ: fetched 3 available tickets
-2024-10-09 09:06:04,178 - app - INFO - booking - GFCNBZ: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,178 - app - INFO - booking - GFCNBZ: booking successful
-2024-10-09 09:06:04,180 - app - INFO - get_attractions - K6CRHW: fetching attractions
-2024-10-09 09:06:04,180 - app - INFO - get_attractions - K6CRHW: fetched 3 attractions
-2024-10-09 09:06:04,183 - app - INFO - get_attractions_time_slots - K6CRHW: fetching time slots
-2024-10-09 09:06:04,183 - app - INFO - get_attractions_time_slots - K6CRHW: fetched 8 time slots
-2024-10-09 09:06:04,185 - app - INFO - get_attractions_tickets - K6CRHW: fetching available tickets
-2024-10-09 09:06:04,185 - app - INFO - get_attractions_tickets - K6CRHW: fetched 3 available tickets
-2024-10-09 09:06:04,190 - app - INFO - booking - K6CRHW: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,190 - app - INFO - booking - K6CRHW: booking successful
-2024-10-09 09:06:04,192 - app - INFO - get_attractions - FW23EZ: fetching attractions
-2024-10-09 09:06:04,192 - app - INFO - get_attractions - FW23EZ: fetched 3 attractions
-2024-10-09 09:06:04,195 - app - INFO - get_attractions_time_slots - FW23EZ: fetching time slots
-2024-10-09 09:06:04,195 - app - INFO - get_attractions_time_slots - FW23EZ: fetched 8 time slots
-2024-10-09 09:06:04,197 - app - INFO - get_attractions_tickets - FW23EZ: fetching available tickets
-2024-10-09 09:06:04,197 - app - INFO - get_attractions_tickets - FW23EZ: fetched 3 available tickets
-2024-10-09 09:06:04,200 - app - INFO - booking - FW23EZ: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,201 - app - INFO - booking - FW23EZ: booking successful
-2024-10-09 09:06:04,202 - app - INFO - get_attractions - ZD73KU: fetching attractions
-2024-10-09 09:06:04,202 - app - INFO - get_attractions - ZD73KU: fetched 3 attractions
-2024-10-09 09:06:04,204 - app - INFO - get_attractions_time_slots - ZD73KU: fetching time slots
-2024-10-09 09:06:04,204 - app - INFO - get_attractions_time_slots - ZD73KU: fetched 8 time slots
-2024-10-09 09:06:04,207 - app - INFO - get_attractions_tickets - ZD73KU: fetching available tickets
-2024-10-09 09:06:04,207 - app - INFO - get_attractions_tickets - ZD73KU: fetched 3 available tickets
-2024-10-09 09:06:04,210 - app - ERROR - booking - ZD73KU: invalid payment details
-2024-10-09 09:06:04,212 - app - INFO - get_attractions - FZD9GK: fetching attractions
-2024-10-09 09:06:04,212 - app - INFO - get_attractions - FZD9GK: fetched 3 attractions
-2024-10-09 09:06:04,215 - app - INFO - get_attractions_time_slots - FZD9GK: fetching time slots
-2024-10-09 09:06:04,215 - app - INFO - get_attractions_time_slots - FZD9GK: fetched 8 time slots
-2024-10-09 09:06:04,217 - app - INFO - get_attractions_tickets - FZD9GK: fetching available tickets
-2024-10-09 09:06:04,217 - app - INFO - get_attractions_tickets - FZD9GK: fetched 3 available tickets
-2024-10-09 09:06:04,220 - app - INFO - booking - FZD9GK: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,220 - app - INFO - booking - FZD9GK: booking successful
-2024-10-09 09:06:04,223 - app - INFO - get_attractions - 6X41CF: fetching attractions
-2024-10-09 09:06:04,223 - app - INFO - get_attractions - 6X41CF: fetched 3 attractions
-2024-10-09 09:06:04,226 - app - INFO - get_attractions_time_slots - 6X41CF: fetching time slots
-2024-10-09 09:06:04,226 - app - INFO - get_attractions_time_slots - 6X41CF: fetched 8 time slots
-2024-10-09 09:06:04,229 - app - INFO - get_attractions_tickets - 6X41CF: fetching available tickets
-2024-10-09 09:06:04,229 - app - INFO - get_attractions_tickets - 6X41CF: fetched 3 available tickets
-2024-10-09 09:06:04,233 - app - INFO - booking - 6X41CF: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,233 - app - INFO - booking - 6X41CF: booking successful
-2024-10-09 09:06:04,236 - app - INFO - get_attractions - 87RMFF: fetching attractions
-2024-10-09 09:06:04,236 - app - INFO - get_attractions - 87RMFF: fetched 3 attractions
-2024-10-09 09:06:04,237 - app - INFO - get_attractions_time_slots - 87RMFF: fetching time slots
-2024-10-09 09:06:04,238 - app - INFO - get_attractions_time_slots - 87RMFF: fetched 8 time slots
-2024-10-09 09:06:04,239 - app - INFO - get_attractions_tickets - 87RMFF: fetching available tickets
-2024-10-09 09:06:04,239 - app - INFO - get_attractions_tickets - 87RMFF: fetched 3 available tickets
-2024-10-09 09:06:04,244 - app - INFO - booking - 87RMFF: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,244 - app - INFO - booking - 87RMFF: booking successful
-2024-10-09 09:06:04,247 - app - INFO - get_attractions - WUV73D: fetching attractions
-2024-10-09 09:06:04,247 - app - INFO - get_attractions - WUV73D: fetched 3 attractions
-2024-10-09 09:06:04,249 - app - INFO - get_attractions_time_slots - WUV73D: fetching time slots
-2024-10-09 09:06:04,249 - app - INFO - get_attractions_time_slots - WUV73D: fetched 8 time slots
-2024-10-09 09:06:04,252 - app - INFO - get_attractions_tickets - WUV73D: fetching available tickets
-2024-10-09 09:06:04,252 - app - INFO - get_attractions_tickets - WUV73D: fetched 3 available tickets
-2024-10-09 09:06:04,257 - app - INFO - booking - WUV73D: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,257 - app - INFO - booking - WUV73D: booking successful
-2024-10-09 09:06:04,259 - app - INFO - get_attractions - IOTUKQ: fetching attractions
-2024-10-09 09:06:04,259 - app - INFO - get_attractions - IOTUKQ: fetched 3 attractions
-2024-10-09 09:06:04,260 - app - INFO - get_attractions_time_slots - IOTUKQ: fetching time slots
-2024-10-09 09:06:04,261 - app - INFO - get_attractions_time_slots - IOTUKQ: fetched 8 time slots
-2024-10-09 09:06:04,263 - app - INFO - get_attractions_tickets - IOTUKQ: fetching available tickets
-2024-10-09 09:06:04,264 - app - INFO - get_attractions_tickets - IOTUKQ: fetched 3 available tickets
-2024-10-09 09:06:04,267 - app - INFO - booking - IOTUKQ: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,267 - app - INFO - booking - IOTUKQ: booking successful
-2024-10-09 09:06:04,269 - app - INFO - get_attractions - BJV17Q: fetching attractions
-2024-10-09 09:06:04,269 - app - INFO - get_attractions - BJV17Q: fetched 3 attractions
-2024-10-09 09:06:04,270 - app - INFO - get_attractions_time_slots - BJV17Q: fetching time slots
-2024-10-09 09:06:04,271 - app - INFO - get_attractions_time_slots - BJV17Q: fetched 8 time slots
-2024-10-09 09:06:04,272 - app - INFO - get_attractions_tickets - BJV17Q: fetching available tickets
-2024-10-09 09:06:04,272 - app - INFO - get_attractions_tickets - BJV17Q: fetched 3 available tickets
-2024-10-09 09:06:04,277 - app - INFO - booking - BJV17Q: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,277 - app - INFO - booking - BJV17Q: booking successful
-2024-10-09 09:06:04,280 - app - INFO - get_attractions - JMSDIE: fetching attractions
-2024-10-09 09:06:04,280 - app - INFO - get_attractions - JMSDIE: fetched 3 attractions
-2024-10-09 09:06:04,282 - app - INFO - get_attractions_time_slots - JMSDIE: fetching time slots
-2024-10-09 09:06:04,282 - app - INFO - get_attractions_time_slots - JMSDIE: fetched 8 time slots
-2024-10-09 09:06:04,284 - app - INFO - get_attractions_tickets - JMSDIE: fetching available tickets
-2024-10-09 09:06:04,284 - app - INFO - get_attractions_tickets - JMSDIE: fetched 3 available tickets
-2024-10-09 09:06:04,287 - app - ERROR - booking - JMSDIE: invalid payment details
-2024-10-09 09:06:04,290 - app - INFO - get_attractions - MLBQ80: fetching attractions
-2024-10-09 09:06:04,290 - app - INFO - get_attractions - MLBQ80: fetched 3 attractions
-2024-10-09 09:06:04,292 - app - INFO - get_attractions_time_slots - MLBQ80: fetching time slots
-2024-10-09 09:06:04,292 - app - INFO - get_attractions_time_slots - MLBQ80: fetched 8 time slots
-2024-10-09 09:06:04,294 - app - INFO - get_attractions_tickets - MLBQ80: fetching available tickets
-2024-10-09 09:06:04,294 - app - INFO - get_attractions_tickets - MLBQ80: fetched 3 available tickets
-2024-10-09 09:06:04,297 - app - INFO - booking - MLBQ80: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,298 - app - INFO - booking - MLBQ80: booking successful
-2024-10-09 09:06:04,300 - app - INFO - get_attractions - CVD8O9: fetching attractions
-2024-10-09 09:06:04,300 - app - INFO - get_attractions - CVD8O9: fetched 3 attractions
-2024-10-09 09:06:04,303 - app - INFO - get_attractions_time_slots - CVD8O9: fetching time slots
-2024-10-09 09:06:04,303 - app - INFO - get_attractions_time_slots - CVD8O9: fetched 8 time slots
-2024-10-09 09:06:04,305 - app - INFO - get_attractions_tickets - CVD8O9: fetching available tickets
-2024-10-09 09:06:04,305 - app - INFO - get_attractions_tickets - CVD8O9: fetched 3 available tickets
-2024-10-09 09:06:04,310 - app - INFO - booking - CVD8O9: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,310 - app - INFO - booking - CVD8O9: booking successful
-2024-10-09 09:06:04,312 - app - INFO - get_attractions - PBMU4T: fetching attractions
-2024-10-09 09:06:04,312 - app - INFO - get_attractions - PBMU4T: fetched 3 attractions
-2024-10-09 09:06:04,314 - app - INFO - get_attractions_time_slots - PBMU4T: fetching time slots
-2024-10-09 09:06:04,315 - app - INFO - get_attractions_time_slots - PBMU4T: fetched 8 time slots
-2024-10-09 09:06:04,317 - app - INFO - get_attractions_tickets - PBMU4T: fetching available tickets
-2024-10-09 09:06:04,317 - app - INFO - get_attractions_tickets - PBMU4T: fetched 3 available tickets
-2024-10-09 09:06:04,320 - app - ERROR - booking - PBMU4T: invalid payment details
-2024-10-09 09:06:04,323 - app - INFO - get_attractions - GKKBOD: fetching attractions
-2024-10-09 09:06:04,324 - app - INFO - get_attractions - GKKBOD: fetched 3 attractions
-2024-10-09 09:06:04,325 - app - INFO - get_attractions_time_slots - GKKBOD: fetching time slots
-2024-10-09 09:06:04,325 - app - INFO - get_attractions_time_slots - GKKBOD: fetched 8 time slots
-2024-10-09 09:06:04,328 - app - INFO - get_attractions_tickets - GKKBOD: fetching available tickets
-2024-10-09 09:06:04,329 - app - INFO - get_attractions_tickets - GKKBOD: fetched 3 available tickets
-2024-10-09 09:06:04,333 - app - ERROR - booking - GKKBOD: invalid payment details
-2024-10-09 09:06:04,334 - app - INFO - get_attractions - 69ZDRN: fetching attractions
-2024-10-09 09:06:04,335 - app - INFO - get_attractions - 69ZDRN: fetched 3 attractions
-2024-10-09 09:06:04,338 - app - INFO - get_attractions_time_slots - 69ZDRN: fetching time slots
-2024-10-09 09:06:04,338 - app - INFO - get_attractions_time_slots - 69ZDRN: fetched 8 time slots
-2024-10-09 09:06:04,341 - app - INFO - get_attractions_tickets - 69ZDRN: fetching available tickets
-2024-10-09 09:06:04,341 - app - INFO - get_attractions_tickets - 69ZDRN: fetched 3 available tickets
-2024-10-09 09:06:04,345 - app - INFO - booking - 69ZDRN: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,345 - app - INFO - booking - 69ZDRN: booking successful
-2024-10-09 09:06:04,348 - app - INFO - get_attractions - W0UEIB: fetching attractions
-2024-10-09 09:06:04,349 - app - INFO - get_attractions - W0UEIB: fetched 3 attractions
-2024-10-09 09:06:04,351 - app - INFO - get_attractions_time_slots - W0UEIB: fetching time slots
-2024-10-09 09:06:04,352 - app - INFO - get_attractions_time_slots - W0UEIB: fetched 8 time slots
-2024-10-09 09:06:04,353 - app - INFO - get_attractions_tickets - W0UEIB: fetching available tickets
-2024-10-09 09:06:04,353 - app - INFO - get_attractions_tickets - W0UEIB: fetched 3 available tickets
-2024-10-09 09:06:04,358 - app - ERROR - booking - W0UEIB: invalid payment details
-2024-10-09 09:06:04,359 - app - INFO - get_attractions - PRX6K9: fetching attractions
-2024-10-09 09:06:04,360 - app - INFO - get_attractions - PRX6K9: fetched 3 attractions
-2024-10-09 09:06:04,363 - app - INFO - get_attractions_time_slots - PRX6K9: fetching time slots
-2024-10-09 09:06:04,363 - app - INFO - get_attractions_time_slots - PRX6K9: fetched 8 time slots
-2024-10-09 09:06:04,365 - app - INFO - get_attractions_tickets - PRX6K9: fetching available tickets
-2024-10-09 09:06:04,366 - app - INFO - get_attractions_tickets - PRX6K9: fetched 3 available tickets
-2024-10-09 09:06:04,370 - app - ERROR - booking - PRX6K9: invalid payment details
-2024-10-09 09:06:04,372 - app - INFO - get_attractions - DHUU0Q: fetching attractions
-2024-10-09 09:06:04,373 - app - INFO - get_attractions - DHUU0Q: fetched 3 attractions
-2024-10-09 09:06:04,376 - app - INFO - get_attractions_time_slots - DHUU0Q: fetching time slots
-2024-10-09 09:06:04,376 - app - INFO - get_attractions_time_slots - DHUU0Q: fetched 8 time slots
-2024-10-09 09:06:04,379 - app - INFO - get_attractions_tickets - DHUU0Q: fetching available tickets
-2024-10-09 09:06:04,379 - app - INFO - get_attractions_tickets - DHUU0Q: fetched 3 available tickets
-2024-10-09 09:06:04,383 - app - ERROR - booking - DHUU0Q: invalid payment details
-2024-10-09 09:06:04,385 - app - INFO - get_attractions - 27WECX: fetching attractions
-2024-10-09 09:06:04,385 - app - INFO - get_attractions - 27WECX: fetched 3 attractions
-2024-10-09 09:06:04,386 - app - INFO - get_attractions_time_slots - 27WECX: fetching time slots
-2024-10-09 09:06:04,387 - app - INFO - get_attractions_time_slots - 27WECX: fetched 8 time slots
-2024-10-09 09:06:04,388 - app - INFO - get_attractions_tickets - 27WECX: fetching available tickets
-2024-10-09 09:06:04,388 - app - INFO - get_attractions_tickets - 27WECX: fetched 3 available tickets
-2024-10-09 09:06:04,393 - app - INFO - booking - 27WECX: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,393 - app - INFO - booking - 27WECX: booking successful
-2024-10-09 09:06:04,396 - app - INFO - get_attractions - VS1QMG: fetching attractions
-2024-10-09 09:06:04,396 - app - INFO - get_attractions - VS1QMG: fetched 3 attractions
-2024-10-09 09:06:04,398 - app - INFO - get_attractions_time_slots - VS1QMG: fetching time slots
-2024-10-09 09:06:04,398 - app - INFO - get_attractions_time_slots - VS1QMG: fetched 8 time slots
-2024-10-09 09:06:04,401 - app - INFO - get_attractions_tickets - VS1QMG: fetching available tickets
-2024-10-09 09:06:04,401 - app - INFO - get_attractions_tickets - VS1QMG: fetched 3 available tickets
-2024-10-09 09:06:04,405 - app - INFO - booking - VS1QMG: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,405 - app - INFO - booking - VS1QMG: booking successful
-2024-10-09 09:06:04,406 - app - INFO - get_attractions - EPB1UI: fetching attractions
-2024-10-09 09:06:04,407 - app - INFO - get_attractions - EPB1UI: fetched 3 attractions
-2024-10-09 09:06:04,410 - app - INFO - get_attractions_time_slots - EPB1UI: fetching time slots
-2024-10-09 09:06:04,410 - app - INFO - get_attractions_time_slots - EPB1UI: fetched 8 time slots
-2024-10-09 09:06:04,411 - app - INFO - get_attractions_tickets - EPB1UI: fetching available tickets
-2024-10-09 09:06:04,412 - app - INFO - get_attractions_tickets - EPB1UI: fetched 3 available tickets
-2024-10-09 09:06:04,416 - app - INFO - booking - EPB1UI: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,416 - app - INFO - booking - EPB1UI: booking successful
-2024-10-09 09:06:04,419 - app - INFO - get_attractions - PEEIEG: fetching attractions
-2024-10-09 09:06:04,419 - app - INFO - get_attractions - PEEIEG: fetched 3 attractions
-2024-10-09 09:06:04,420 - app - INFO - get_attractions_time_slots - PEEIEG: fetching time slots
-2024-10-09 09:06:04,421 - app - INFO - get_attractions_time_slots - PEEIEG: fetched 8 time slots
-2024-10-09 09:06:04,424 - app - INFO - get_attractions_tickets - PEEIEG: fetching available tickets
-2024-10-09 09:06:04,424 - app - INFO - get_attractions_tickets - PEEIEG: fetched 3 available tickets
-2024-10-09 09:06:04,428 - app - INFO - booking - PEEIEG: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,428 - app - INFO - booking - PEEIEG: booking successful
-2024-10-09 09:06:04,431 - app - INFO - get_attractions - WCAXNA: fetching attractions
-2024-10-09 09:06:04,432 - app - INFO - get_attractions - WCAXNA: fetched 3 attractions
-2024-10-09 09:06:04,433 - app - INFO - get_attractions_time_slots - WCAXNA: fetching time slots
-2024-10-09 09:06:04,433 - app - INFO - get_attractions_time_slots - WCAXNA: fetched 8 time slots
-2024-10-09 09:06:04,435 - app - INFO - get_attractions_tickets - WCAXNA: fetching available tickets
-2024-10-09 09:06:04,435 - app - INFO - get_attractions_tickets - WCAXNA: fetched 3 available tickets
-2024-10-09 09:06:04,439 - app - ERROR - booking - WCAXNA: invalid payment details
-2024-10-09 09:06:04,442 - app - INFO - get_attractions - Z2GDM8: fetching attractions
-2024-10-09 09:06:04,442 - app - INFO - get_attractions - Z2GDM8: fetched 3 attractions
-2024-10-09 09:06:04,444 - app - INFO - get_attractions_time_slots - Z2GDM8: fetching time slots
-2024-10-09 09:06:04,444 - app - INFO - get_attractions_time_slots - Z2GDM8: fetched 8 time slots
-2024-10-09 09:06:04,445 - app - INFO - get_attractions_tickets - Z2GDM8: fetching available tickets
-2024-10-09 09:06:04,446 - app - INFO - get_attractions_tickets - Z2GDM8: fetched 3 available tickets
-2024-10-09 09:06:04,450 - app - ERROR - booking - Z2GDM8: invalid payment details
-2024-10-09 09:06:04,452 - app - INFO - get_attractions - 29IHYG: fetching attractions
-2024-10-09 09:06:04,452 - app - INFO - get_attractions - 29IHYG: fetched 3 attractions
-2024-10-09 09:06:04,455 - app - INFO - get_attractions_time_slots - 29IHYG: fetching time slots
-2024-10-09 09:06:04,455 - app - INFO - get_attractions_time_slots - 29IHYG: fetched 8 time slots
-2024-10-09 09:06:04,458 - app - INFO - get_attractions_tickets - 29IHYG: fetching available tickets
-2024-10-09 09:06:04,458 - app - INFO - get_attractions_tickets - 29IHYG: fetched 3 available tickets
-2024-10-09 09:06:04,461 - app - INFO - booking - 29IHYG: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,461 - app - INFO - booking - 29IHYG: booking successful
-2024-10-09 09:06:04,464 - app - INFO - get_attractions - S2ZLB6: fetching attractions
-2024-10-09 09:06:04,464 - app - INFO - get_attractions - S2ZLB6: fetched 3 attractions
-2024-10-09 09:06:04,466 - app - INFO - get_attractions_time_slots - S2ZLB6: fetching time slots
-2024-10-09 09:06:04,466 - app - INFO - get_attractions_time_slots - S2ZLB6: fetched 8 time slots
-2024-10-09 09:06:04,469 - app - INFO - get_attractions_tickets - S2ZLB6: fetching available tickets
-2024-10-09 09:06:04,469 - app - INFO - get_attractions_tickets - S2ZLB6: fetched 3 available tickets
-2024-10-09 09:06:04,472 - app - ERROR - booking - S2ZLB6: invalid payment details
-2024-10-09 09:06:04,475 - app - INFO - get_attractions - TGMQZA: fetching attractions
-2024-10-09 09:06:04,476 - app - INFO - get_attractions - TGMQZA: fetched 3 attractions
-2024-10-09 09:06:04,478 - app - INFO - get_attractions_time_slots - TGMQZA: fetching time slots
-2024-10-09 09:06:04,478 - app - INFO - get_attractions_time_slots - TGMQZA: fetched 8 time slots
-2024-10-09 09:06:04,481 - app - INFO - get_attractions_tickets - TGMQZA: fetching available tickets
-2024-10-09 09:06:04,481 - app - INFO - get_attractions_tickets - TGMQZA: fetched 3 available tickets
-2024-10-09 09:06:04,486 - app - INFO - booking - TGMQZA: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,486 - app - INFO - booking - TGMQZA: booking successful
-2024-10-09 09:06:04,489 - app - INFO - get_attractions - 922XHA: fetching attractions
-2024-10-09 09:06:04,489 - app - INFO - get_attractions - 922XHA: fetched 3 attractions
-2024-10-09 09:06:04,492 - app - INFO - get_attractions_time_slots - 922XHA: fetching time slots
-2024-10-09 09:06:04,492 - app - INFO - get_attractions_time_slots - 922XHA: fetched 8 time slots
-2024-10-09 09:06:04,494 - app - INFO - get_attractions_tickets - 922XHA: fetching available tickets
-2024-10-09 09:06:04,494 - app - INFO - get_attractions_tickets - 922XHA: fetched 3 available tickets
-2024-10-09 09:06:04,497 - app - INFO - booking - 922XHA: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,497 - app - INFO - booking - 922XHA: booking successful
-2024-10-09 09:06:04,500 - app - INFO - get_attractions - S03DUB: fetching attractions
-2024-10-09 09:06:04,500 - app - INFO - get_attractions - S03DUB: fetched 3 attractions
-2024-10-09 09:06:04,502 - app - INFO - get_attractions_time_slots - S03DUB: fetching time slots
-2024-10-09 09:06:04,502 - app - INFO - get_attractions_time_slots - S03DUB: fetched 8 time slots
-2024-10-09 09:06:04,505 - app - INFO - get_attractions_tickets - S03DUB: fetching available tickets
-2024-10-09 09:06:04,505 - app - INFO - get_attractions_tickets - S03DUB: fetched 3 available tickets
-2024-10-09 09:06:04,508 - app - ERROR - booking - S03DUB: invalid payment details
-2024-10-09 09:06:04,510 - app - INFO - get_attractions - 1R7Z9P: fetching attractions
-2024-10-09 09:06:04,510 - app - INFO - get_attractions - 1R7Z9P: fetched 3 attractions
-2024-10-09 09:06:04,511 - app - INFO - get_attractions_time_slots - 1R7Z9P: fetching time slots
-2024-10-09 09:06:04,512 - app - INFO - get_attractions_time_slots - 1R7Z9P: fetched 8 time slots
-2024-10-09 09:06:04,514 - app - INFO - get_attractions_tickets - 1R7Z9P: fetching available tickets
-2024-10-09 09:06:04,514 - app - INFO - get_attractions_tickets - 1R7Z9P: fetched 3 available tickets
-2024-10-09 09:06:04,517 - app - ERROR - booking - 1R7Z9P: invalid payment details
-2024-10-09 09:06:04,519 - app - INFO - get_attractions - AWAT0S: fetching attractions
-2024-10-09 09:06:04,519 - app - INFO - get_attractions - AWAT0S: fetched 3 attractions
-2024-10-09 09:06:04,522 - app - INFO - get_attractions_time_slots - AWAT0S: fetching time slots
-2024-10-09 09:06:04,522 - app - INFO - get_attractions_time_slots - AWAT0S: fetched 8 time slots
-2024-10-09 09:06:04,524 - app - INFO - get_attractions_tickets - AWAT0S: fetching available tickets
-2024-10-09 09:06:04,524 - app - INFO - get_attractions_tickets - AWAT0S: fetched 3 available tickets
-2024-10-09 09:06:04,528 - app - INFO - booking - AWAT0S: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,528 - app - INFO - booking - AWAT0S: booking successful
-2024-10-09 09:06:04,553 - app - INFO - get_attractions - YKH30J: fetching attractions
-2024-10-09 09:06:04,553 - app - INFO - get_attractions - YKH30J: fetched 3 attractions
-2024-10-09 09:06:04,556 - app - INFO - get_attractions_time_slots - YKH30J: fetching time slots
-2024-10-09 09:06:04,556 - app - INFO - get_attractions_time_slots - YKH30J: fetched 8 time slots
-2024-10-09 09:06:04,562 - app - INFO - get_attractions_tickets - YKH30J: fetching available tickets
-2024-10-09 09:06:04,562 - app - INFO - get_attractions_tickets - YKH30J: fetched 3 available tickets
-2024-10-09 09:06:04,567 - app - ERROR - booking - YKH30J: invalid payment details
-2024-10-09 09:06:04,570 - app - INFO - get_attractions - W9WFUH: fetching attractions
-2024-10-09 09:06:04,570 - app - INFO - get_attractions - W9WFUH: fetched 3 attractions
-2024-10-09 09:06:04,572 - app - INFO - get_attractions_time_slots - W9WFUH: fetching time slots
-2024-10-09 09:06:04,572 - app - INFO - get_attractions_time_slots - W9WFUH: fetched 8 time slots
-2024-10-09 09:06:04,575 - app - INFO - get_attractions_tickets - W9WFUH: fetching available tickets
-2024-10-09 09:06:04,575 - app - INFO - get_attractions_tickets - W9WFUH: fetched 3 available tickets
-2024-10-09 09:06:04,580 - app - ERROR - booking - W9WFUH: invalid payment details
-2024-10-09 09:06:04,582 - app - INFO - get_attractions - O947MI: fetching attractions
-2024-10-09 09:06:04,582 - app - INFO - get_attractions - O947MI: fetched 3 attractions
-2024-10-09 09:06:04,585 - app - INFO - get_attractions_time_slots - O947MI: fetching time slots
-2024-10-09 09:06:04,585 - app - INFO - get_attractions_time_slots - O947MI: fetched 8 time slots
-2024-10-09 09:06:04,588 - app - INFO - get_attractions_tickets - O947MI: fetching available tickets
-2024-10-09 09:06:04,588 - app - INFO - get_attractions_tickets - O947MI: fetched 3 available tickets
-2024-10-09 09:06:04,592 - app - ERROR - booking - O947MI: invalid payment details
-2024-10-09 09:06:04,594 - app - INFO - get_attractions - 10QTXS: fetching attractions
-2024-10-09 09:06:04,594 - app - INFO - get_attractions - 10QTXS: fetched 3 attractions
-2024-10-09 09:06:04,595 - app - INFO - get_attractions_time_slots - 10QTXS: fetching time slots
-2024-10-09 09:06:04,596 - app - INFO - get_attractions_time_slots - 10QTXS: fetched 8 time slots
-2024-10-09 09:06:04,598 - app - INFO - get_attractions_tickets - 10QTXS: fetching available tickets
-2024-10-09 09:06:04,599 - app - INFO - get_attractions_tickets - 10QTXS: fetched 3 available tickets
-2024-10-09 09:06:04,602 - app - ERROR - booking - 10QTXS: invalid payment details
-2024-10-09 09:06:04,603 - app - INFO - get_attractions - E6RRMX: fetching attractions
-2024-10-09 09:06:04,604 - app - INFO - get_attractions - E6RRMX: fetched 3 attractions
-2024-10-09 09:06:04,606 - app - INFO - get_attractions_time_slots - E6RRMX: fetching time slots
-2024-10-09 09:06:04,607 - app - INFO - get_attractions_time_slots - E6RRMX: fetched 8 time slots
-2024-10-09 09:06:04,609 - app - INFO - get_attractions_tickets - E6RRMX: fetching available tickets
-2024-10-09 09:06:04,609 - app - INFO - get_attractions_tickets - E6RRMX: fetched 3 available tickets
-2024-10-09 09:06:04,612 - app - ERROR - booking - E6RRMX: invalid payment details
-2024-10-09 09:06:04,615 - app - INFO - get_attractions - Y3ROJ5: fetching attractions
-2024-10-09 09:06:04,615 - app - INFO - get_attractions - Y3ROJ5: fetched 3 attractions
-2024-10-09 09:06:04,618 - app - INFO - get_attractions_time_slots - Y3ROJ5: fetching time slots
-2024-10-09 09:06:04,618 - app - INFO - get_attractions_time_slots - Y3ROJ5: fetched 8 time slots
-2024-10-09 09:06:04,620 - app - INFO - get_attractions_tickets - Y3ROJ5: fetching available tickets
-2024-10-09 09:06:04,620 - app - INFO - get_attractions_tickets - Y3ROJ5: fetched 3 available tickets
-2024-10-09 09:06:04,623 - app - ERROR - booking - Y3ROJ5: invalid payment details
-2024-10-09 09:06:04,626 - app - INFO - get_attractions - FO3HIL: fetching attractions
-2024-10-09 09:06:04,626 - app - INFO - get_attractions - FO3HIL: fetched 3 attractions
-2024-10-09 09:06:04,629 - app - INFO - get_attractions_time_slots - FO3HIL: fetching time slots
-2024-10-09 09:06:04,629 - app - INFO - get_attractions_time_slots - FO3HIL: fetched 8 time slots
-2024-10-09 09:06:04,631 - app - INFO - get_attractions_tickets - FO3HIL: fetching available tickets
-2024-10-09 09:06:04,632 - app - INFO - get_attractions_tickets - FO3HIL: fetched 3 available tickets
-2024-10-09 09:06:04,635 - app - ERROR - booking - FO3HIL: invalid payment details
-2024-10-09 09:06:04,636 - app - INFO - get_attractions - 4214AM: fetching attractions
-2024-10-09 09:06:04,636 - app - INFO - get_attractions - 4214AM: fetched 3 attractions
-2024-10-09 09:06:04,639 - app - INFO - get_attractions_time_slots - 4214AM: fetching time slots
-2024-10-09 09:06:04,639 - app - INFO - get_attractions_time_slots - 4214AM: fetched 8 time slots
-2024-10-09 09:06:04,641 - app - INFO - get_attractions_tickets - 4214AM: fetching available tickets
-2024-10-09 09:06:04,641 - app - INFO - get_attractions_tickets - 4214AM: fetched 3 available tickets
-2024-10-09 09:06:04,648 - app - ERROR - booking - 4214AM: invalid payment details
-2024-10-09 09:06:04,650 - app - INFO - get_attractions - TALMLY: fetching attractions
-2024-10-09 09:06:04,650 - app - INFO - get_attractions - TALMLY: fetched 3 attractions
-2024-10-09 09:06:04,652 - app - INFO - get_attractions_time_slots - TALMLY: fetching time slots
-2024-10-09 09:06:04,652 - app - INFO - get_attractions_time_slots - TALMLY: fetched 8 time slots
-2024-10-09 09:06:04,655 - app - INFO - get_attractions_tickets - TALMLY: fetching available tickets
-2024-10-09 09:06:04,655 - app - INFO - get_attractions_tickets - TALMLY: fetched 3 available tickets
-2024-10-09 09:06:04,658 - app - ERROR - booking - TALMLY: invalid payment details
-2024-10-09 09:06:04,660 - app - INFO - get_attractions - SIYRHH: fetching attractions
-2024-10-09 09:06:04,660 - app - INFO - get_attractions - SIYRHH: fetched 3 attractions
-2024-10-09 09:06:04,663 - app - INFO - get_attractions_time_slots - SIYRHH: fetching time slots
-2024-10-09 09:06:04,663 - app - INFO - get_attractions_time_slots - SIYRHH: fetched 8 time slots
-2024-10-09 09:06:04,666 - app - INFO - get_attractions_tickets - SIYRHH: fetching available tickets
-2024-10-09 09:06:04,666 - app - INFO - get_attractions_tickets - SIYRHH: fetched 3 available tickets
-2024-10-09 09:06:04,669 - app - INFO - booking - SIYRHH: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,669 - app - INFO - booking - SIYRHH: booking successful
-2024-10-09 09:06:04,671 - app - INFO - get_attractions - J1MAXO: fetching attractions
-2024-10-09 09:06:04,671 - app - INFO - get_attractions - J1MAXO: fetched 3 attractions
-2024-10-09 09:06:04,674 - app - INFO - get_attractions_time_slots - J1MAXO: fetching time slots
-2024-10-09 09:06:04,674 - app - INFO - get_attractions_time_slots - J1MAXO: fetched 8 time slots
-2024-10-09 09:06:04,676 - app - INFO - get_attractions_tickets - J1MAXO: fetching available tickets
-2024-10-09 09:06:04,676 - app - INFO - get_attractions_tickets - J1MAXO: fetched 3 available tickets
-2024-10-09 09:06:04,680 - app - INFO - booking - J1MAXO: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,680 - app - INFO - booking - J1MAXO: booking successful
-2024-10-09 09:06:04,682 - app - INFO - get_attractions - MMFQKI: fetching attractions
-2024-10-09 09:06:04,682 - app - INFO - get_attractions - MMFQKI: fetched 3 attractions
-2024-10-09 09:06:04,685 - app - INFO - get_attractions_time_slots - MMFQKI: fetching time slots
-2024-10-09 09:06:04,685 - app - INFO - get_attractions_time_slots - MMFQKI: fetched 8 time slots
-2024-10-09 09:06:04,687 - app - INFO - get_attractions_tickets - MMFQKI: fetching available tickets
-2024-10-09 09:06:04,687 - app - INFO - get_attractions_tickets - MMFQKI: fetched 3 available tickets
-2024-10-09 09:06:04,690 - app - ERROR - booking - MMFQKI: invalid payment details
-2024-10-09 09:06:04,693 - app - INFO - get_attractions - JH10VB: fetching attractions
-2024-10-09 09:06:04,693 - app - INFO - get_attractions - JH10VB: fetched 3 attractions
-2024-10-09 09:06:04,695 - app - INFO - get_attractions_time_slots - JH10VB: fetching time slots
-2024-10-09 09:06:04,695 - app - INFO - get_attractions_time_slots - JH10VB: fetched 8 time slots
-2024-10-09 09:06:04,696 - app - INFO - get_attractions_tickets - JH10VB: fetching available tickets
-2024-10-09 09:06:04,697 - app - INFO - get_attractions_tickets - JH10VB: fetched 3 available tickets
-2024-10-09 09:06:04,702 - app - INFO - booking - JH10VB: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,702 - app - INFO - booking - JH10VB: booking successful
-2024-10-09 09:06:04,703 - app - INFO - get_attractions - W41IU1: fetching attractions
-2024-10-09 09:06:04,704 - app - INFO - get_attractions - W41IU1: fetched 3 attractions
-2024-10-09 09:06:04,706 - app - INFO - get_attractions_time_slots - W41IU1: fetching time slots
-2024-10-09 09:06:04,706 - app - INFO - get_attractions_time_slots - W41IU1: fetched 8 time slots
-2024-10-09 09:06:04,708 - app - INFO - get_attractions_tickets - W41IU1: fetching available tickets
-2024-10-09 09:06:04,708 - app - INFO - get_attractions_tickets - W41IU1: fetched 3 available tickets
-2024-10-09 09:06:04,711 - app - INFO - booking - W41IU1: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,711 - app - INFO - booking - W41IU1: booking successful
-2024-10-09 09:06:04,714 - app - INFO - get_attractions - UHQZF7: fetching attractions
-2024-10-09 09:06:04,714 - app - INFO - get_attractions - UHQZF7: fetched 3 attractions
-2024-10-09 09:06:04,717 - app - INFO - get_attractions_time_slots - UHQZF7: fetching time slots
-2024-10-09 09:06:04,717 - app - INFO - get_attractions_time_slots - UHQZF7: fetched 8 time slots
-2024-10-09 09:06:04,719 - app - INFO - get_attractions_tickets - UHQZF7: fetching available tickets
-2024-10-09 09:06:04,719 - app - INFO - get_attractions_tickets - UHQZF7: fetched 3 available tickets
-2024-10-09 09:06:04,723 - app - ERROR - booking - UHQZF7: invalid payment details
-2024-10-09 09:06:04,725 - app - INFO - get_attractions - 3750NQ: fetching attractions
-2024-10-09 09:06:04,726 - app - INFO - get_attractions - 3750NQ: fetched 3 attractions
-2024-10-09 09:06:04,728 - app - INFO - get_attractions_time_slots - 3750NQ: fetching time slots
-2024-10-09 09:06:04,728 - app - INFO - get_attractions_time_slots - 3750NQ: fetched 8 time slots
-2024-10-09 09:06:04,731 - app - INFO - get_attractions_tickets - 3750NQ: fetching available tickets
-2024-10-09 09:06:04,731 - app - INFO - get_attractions_tickets - 3750NQ: fetched 3 available tickets
-2024-10-09 09:06:04,736 - app - ERROR - booking - 3750NQ: invalid payment details
-2024-10-09 09:06:04,738 - app - INFO - get_attractions - LWA27Q: fetching attractions
-2024-10-09 09:06:04,739 - app - INFO - get_attractions - LWA27Q: fetched 3 attractions
-2024-10-09 09:06:04,740 - app - INFO - get_attractions_time_slots - LWA27Q: fetching time slots
-2024-10-09 09:06:04,741 - app - INFO - get_attractions_time_slots - LWA27Q: fetched 8 time slots
-2024-10-09 09:06:04,743 - app - INFO - get_attractions_tickets - LWA27Q: fetching available tickets
-2024-10-09 09:06:04,743 - app - INFO - get_attractions_tickets - LWA27Q: fetched 3 available tickets
-2024-10-09 09:06:04,747 - app - ERROR - booking - LWA27Q: invalid payment details
-2024-10-09 09:06:04,748 - app - INFO - get_attractions - NRMDCA: fetching attractions
-2024-10-09 09:06:04,749 - app - INFO - get_attractions - NRMDCA: fetched 3 attractions
-2024-10-09 09:06:04,751 - app - INFO - get_attractions_time_slots - NRMDCA: fetching time slots
-2024-10-09 09:06:04,751 - app - INFO - get_attractions_time_slots - NRMDCA: fetched 8 time slots
-2024-10-09 09:06:04,754 - app - INFO - get_attractions_tickets - NRMDCA: fetching available tickets
-2024-10-09 09:06:04,754 - app - INFO - get_attractions_tickets - NRMDCA: fetched 3 available tickets
-2024-10-09 09:06:04,759 - app - INFO - booking - NRMDCA: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,759 - app - INFO - booking - NRMDCA: booking successful
-2024-10-09 09:06:04,761 - app - INFO - get_attractions - X1C4H2: fetching attractions
-2024-10-09 09:06:04,761 - app - INFO - get_attractions - X1C4H2: fetched 3 attractions
-2024-10-09 09:06:04,762 - app - INFO - get_attractions_time_slots - X1C4H2: fetching time slots
-2024-10-09 09:06:04,763 - app - INFO - get_attractions_time_slots - X1C4H2: fetched 8 time slots
-2024-10-09 09:06:04,765 - app - INFO - get_attractions_tickets - X1C4H2: fetching available tickets
-2024-10-09 09:06:04,765 - app - INFO - get_attractions_tickets - X1C4H2: fetched 3 available tickets
-2024-10-09 09:06:04,769 - app - INFO - booking - X1C4H2: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,769 - app - INFO - booking - X1C4H2: booking successful
-2024-10-09 09:06:04,771 - app - INFO - get_attractions - M420QG: fetching attractions
-2024-10-09 09:06:04,772 - app - INFO - get_attractions - M420QG: fetched 3 attractions
-2024-10-09 09:06:04,773 - app - INFO - get_attractions_time_slots - M420QG: fetching time slots
-2024-10-09 09:06:04,773 - app - INFO - get_attractions_time_slots - M420QG: fetched 8 time slots
-2024-10-09 09:06:04,775 - app - INFO - get_attractions_tickets - M420QG: fetching available tickets
-2024-10-09 09:06:04,775 - app - INFO - get_attractions_tickets - M420QG: fetched 3 available tickets
-2024-10-09 09:06:04,778 - app - INFO - booking - M420QG: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,779 - app - INFO - booking - M420QG: booking successful
-2024-10-09 09:06:04,781 - app - INFO - get_attractions - 9M782G: fetching attractions
-2024-10-09 09:06:04,781 - app - INFO - get_attractions - 9M782G: fetched 3 attractions
-2024-10-09 09:06:04,784 - app - INFO - get_attractions_time_slots - 9M782G: fetching time slots
-2024-10-09 09:06:04,784 - app - INFO - get_attractions_time_slots - 9M782G: fetched 8 time slots
-2024-10-09 09:06:04,787 - app - INFO - get_attractions_tickets - 9M782G: fetching available tickets
-2024-10-09 09:06:04,787 - app - INFO - get_attractions_tickets - 9M782G: fetched 3 available tickets
-2024-10-09 09:06:04,792 - app - INFO - booking - 9M782G: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,792 - app - INFO - booking - 9M782G: booking successful
-2024-10-09 09:06:04,795 - app - INFO - get_attractions - DNASNJ: fetching attractions
-2024-10-09 09:06:04,795 - app - INFO - get_attractions - DNASNJ: fetched 3 attractions
-2024-10-09 09:06:04,798 - app - INFO - get_attractions_time_slots - DNASNJ: fetching time slots
-2024-10-09 09:06:04,798 - app - INFO - get_attractions_time_slots - DNASNJ: fetched 8 time slots
-2024-10-09 09:06:04,801 - app - INFO - get_attractions_tickets - DNASNJ: fetching available tickets
-2024-10-09 09:06:04,801 - app - INFO - get_attractions_tickets - DNASNJ: fetched 3 available tickets
-2024-10-09 09:06:04,805 - app - INFO - booking - DNASNJ: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,805 - app - INFO - booking - DNASNJ: booking successful
-2024-10-09 09:06:04,807 - app - INFO - get_attractions - 17I1CK: fetching attractions
-2024-10-09 09:06:04,807 - app - INFO - get_attractions - 17I1CK: fetched 3 attractions
-2024-10-09 09:06:04,809 - app - INFO - get_attractions_time_slots - 17I1CK: fetching time slots
-2024-10-09 09:06:04,809 - app - INFO - get_attractions_time_slots - 17I1CK: fetched 8 time slots
-2024-10-09 09:06:04,812 - app - INFO - get_attractions_tickets - 17I1CK: fetching available tickets
-2024-10-09 09:06:04,812 - app - INFO - get_attractions_tickets - 17I1CK: fetched 3 available tickets
-2024-10-09 09:06:04,816 - app - ERROR - booking - 17I1CK: invalid payment details
-2024-10-09 09:06:04,819 - app - INFO - get_attractions - MYSX5B: fetching attractions
-2024-10-09 09:06:04,819 - app - INFO - get_attractions - MYSX5B: fetched 3 attractions
-2024-10-09 09:06:04,822 - app - INFO - get_attractions_time_slots - MYSX5B: fetching time slots
-2024-10-09 09:06:04,823 - app - INFO - get_attractions_time_slots - MYSX5B: fetched 8 time slots
-2024-10-09 09:06:04,824 - app - INFO - get_attractions_tickets - MYSX5B: fetching available tickets
-2024-10-09 09:06:04,825 - app - INFO - get_attractions_tickets - MYSX5B: fetched 3 available tickets
-2024-10-09 09:06:04,828 - app - ERROR - booking - MYSX5B: invalid payment details
-2024-10-09 09:06:04,830 - app - INFO - get_attractions - ETZTJX: fetching attractions
-2024-10-09 09:06:04,831 - app - INFO - get_attractions - ETZTJX: fetched 3 attractions
-2024-10-09 09:06:04,834 - app - INFO - get_attractions_time_slots - ETZTJX: fetching time slots
-2024-10-09 09:06:04,834 - app - INFO - get_attractions_time_slots - ETZTJX: fetched 8 time slots
-2024-10-09 09:06:04,835 - app - INFO - get_attractions_tickets - ETZTJX: fetching available tickets
-2024-10-09 09:06:04,836 - app - INFO - get_attractions_tickets - ETZTJX: fetched 3 available tickets
-2024-10-09 09:06:04,839 - app - INFO - booking - ETZTJX: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,839 - app - INFO - booking - ETZTJX: booking successful
-2024-10-09 09:06:04,842 - app - INFO - get_attractions - RH43CD: fetching attractions
-2024-10-09 09:06:04,842 - app - INFO - get_attractions - RH43CD: fetched 3 attractions
-2024-10-09 09:06:04,845 - app - INFO - get_attractions_time_slots - RH43CD: fetching time slots
-2024-10-09 09:06:04,845 - app - INFO - get_attractions_time_slots - RH43CD: fetched 8 time slots
-2024-10-09 09:06:04,847 - app - INFO - get_attractions_tickets - RH43CD: fetching available tickets
-2024-10-09 09:06:04,847 - app - INFO - get_attractions_tickets - RH43CD: fetched 3 available tickets
-2024-10-09 09:06:04,850 - app - ERROR - booking - RH43CD: invalid payment details
-2024-10-09 09:06:04,853 - app - INFO - get_attractions - JU13A4: fetching attractions
-2024-10-09 09:06:04,853 - app - INFO - get_attractions - JU13A4: fetched 3 attractions
-2024-10-09 09:06:04,855 - app - INFO - get_attractions_time_slots - JU13A4: fetching time slots
-2024-10-09 09:06:04,855 - app - INFO - get_attractions_time_slots - JU13A4: fetched 8 time slots
-2024-10-09 09:06:04,857 - app - INFO - get_attractions_tickets - JU13A4: fetching available tickets
-2024-10-09 09:06:04,857 - app - INFO - get_attractions_tickets - JU13A4: fetched 3 available tickets
-2024-10-09 09:06:04,860 - app - INFO - booking - JU13A4: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,860 - app - INFO - booking - JU13A4: booking successful
-2024-10-09 09:06:04,863 - app - INFO - get_attractions - 83OEK3: fetching attractions
-2024-10-09 09:06:04,864 - app - INFO - get_attractions - 83OEK3: fetched 3 attractions
-2024-10-09 09:06:04,866 - app - INFO - get_attractions_time_slots - 83OEK3: fetching time slots
-2024-10-09 09:06:04,867 - app - INFO - get_attractions_time_slots - 83OEK3: fetched 8 time slots
-2024-10-09 09:06:04,868 - app - INFO - get_attractions_tickets - 83OEK3: fetching available tickets
-2024-10-09 09:06:04,868 - app - INFO - get_attractions_tickets - 83OEK3: fetched 3 available tickets
-2024-10-09 09:06:04,871 - app - ERROR - booking - 83OEK3: invalid payment details
-2024-10-09 09:06:04,874 - app - INFO - get_attractions - GFQZ7U: fetching attractions
-2024-10-09 09:06:04,875 - app - INFO - get_attractions - GFQZ7U: fetched 3 attractions
-2024-10-09 09:06:04,876 - app - INFO - get_attractions_time_slots - GFQZ7U: fetching time slots
-2024-10-09 09:06:04,876 - app - INFO - get_attractions_time_slots - GFQZ7U: fetched 8 time slots
-2024-10-09 09:06:04,878 - app - INFO - get_attractions_tickets - GFQZ7U: fetching available tickets
-2024-10-09 09:06:04,878 - app - INFO - get_attractions_tickets - GFQZ7U: fetched 3 available tickets
-2024-10-09 09:06:04,882 - app - INFO - booking - GFQZ7U: updating available tickets for attraction Aquarium to 0
-2024-10-09 09:06:04,882 - app - INFO - booking - GFQZ7U: booking successful
-2024-10-09 09:06:04,885 - app - INFO - get_attractions - X2HY5F: fetching attractions
-2024-10-09 09:06:04,885 - app - INFO - get_attractions - X2HY5F: fetched 3 attractions
-2024-10-09 09:06:04,888 - app - INFO - get_attractions_time_slots - X2HY5F: fetching time slots
-2024-10-09 09:06:04,888 - app - INFO - get_attractions_time_slots - X2HY5F: fetched 8 time slots
-2024-10-09 09:06:04,890 - app - INFO - get_attractions_tickets - X2HY5F: fetching available tickets
-2024-10-09 09:06:04,890 - app - INFO - get_attractions_tickets - X2HY5F: fetched 3 available tickets
-2024-10-09 09:06:04,893 - app - INFO - booking - X2HY5F: updating available tickets for attraction Art Gallery to 0
-2024-10-09 09:06:04,894 - app - INFO - booking - X2HY5F: booking successful
-2024-10-09 09:06:04,896 - app - INFO - get_attractions - R5HQR9: fetching attractions
-2024-10-09 09:06:04,897 - app - INFO - get_attractions - R5HQR9: fetched 3 attractions
-2024-10-09 09:06:04,899 - app - INFO - get_attractions_time_slots - R5HQR9: fetching time slots
-2024-10-09 09:06:04,899 - app - INFO - get_attractions_time_slots - R5HQR9: fetched 8 time slots
-2024-10-09 09:06:04,901 - app - INFO - get_attractions_tickets - R5HQR9: fetching available tickets
-2024-10-09 09:06:04,901 - app - INFO - get_attractions_tickets - R5HQR9: fetched 3 available tickets
-2024-10-09 09:06:04,904 - app - ERROR - booking - R5HQR9: invalid payment details
-2024-10-09 09:06:04,906 - app - INFO - get_attractions - 6XTK6D: fetching attractions
-2024-10-09 09:06:04,906 - app - INFO - get_attractions - 6XTK6D: fetched 3 attractions
-2024-10-09 09:06:04,909 - app - INFO - get_attractions_time_slots - 6XTK6D: fetching time slots
-2024-10-09 09:06:04,910 - app - INFO - get_attractions_time_slots - 6XTK6D: fetched 8 time slots
-2024-10-09 09:06:04,912 - app - INFO - get_attractions_tickets - 6XTK6D: fetching available tickets
-2024-10-09 09:06:04,912 - app - INFO - get_attractions_tickets - 6XTK6D: fetched 3 available tickets
-2024-10-09 09:06:04,917 - app - ERROR - booking - 6XTK6D: invalid payment details
-2024-10-09 09:06:04,919 - app - INFO - get_attractions - KDWR6E: fetching attractions
-2024-10-09 09:06:04,920 - app - INFO - get_attractions - KDWR6E: fetched 3 attractions
-2024-10-09 09:06:04,921 - app - INFO - get_attractions_time_slots - KDWR6E: fetching time slots
-2024-10-09 09:06:04,921 - app - INFO - get_attractions_time_slots - KDWR6E: fetched 8 time slots
-2024-10-09 09:06:04,924 - app - INFO - get_attractions_tickets - KDWR6E: fetching available tickets
-2024-10-09 09:06:04,924 - app - INFO - get_attractions_tickets - KDWR6E: fetched 3 available tickets
-2024-10-09 09:06:04,928 - app - ERROR - booking - KDWR6E: invalid payment details
-2024-10-09 09:06:04,931 - app - INFO - get_attractions - QA08WK: fetching attractions
-2024-10-09 09:06:04,931 - app - INFO - get_attractions - QA08WK: fetched 3 attractions
-2024-10-09 09:06:04,934 - app - INFO - get_attractions_time_slots - QA08WK: fetching time slots
-2024-10-09 09:06:04,934 - app - INFO - get_attractions_time_slots - QA08WK: fetched 8 time slots
-2024-10-09 09:06:04,937 - app - INFO - get_attractions_tickets - QA08WK: fetching available tickets
-2024-10-09 09:06:04,937 - app - INFO - get_attractions_tickets - QA08WK: fetched 3 available tickets
-2024-10-09 09:06:04,941 - app - INFO - booking - QA08WK: updating available tickets for attraction Museum to 0
-2024-10-09 09:06:04,941 - app - INFO - booking - QA08WK: booking successful
-2024-10-09 09:06:54,080 - app - INFO - <module> - Starting the application
+2024-10-09 14:57:23,550 - app - INFO - <module> - Starting the application
+2024-10-09 14:57:26,614 - app - INFO - get_attractions - D9HD0U: fetching attractions
+2024-10-09 14:57:26,615 - app - INFO - get_attractions - D9HD0U: fetched 3 attractions
+2024-10-09 14:57:26,616 - app - INFO - get_attractions_time_slots - D9HD0U: fetching time slots
+2024-10-09 14:57:26,617 - app - INFO - get_attractions_time_slots - D9HD0U: fetched 8 time slots
+2024-10-09 14:57:26,618 - app - INFO - get_attractions_tickets - D9HD0U: fetching available tickets
+2024-10-09 14:57:26,618 - app - INFO - get_attractions_tickets - D9HD0U: fetched 3 available tickets
+2024-10-09 14:57:26,640 - app - ERROR - booking - D9HD0U: invalid payment details
+2024-10-09 14:57:26,641 - app - INFO - get_attractions - LNU9ND: fetching attractions
+2024-10-09 14:57:26,641 - app - INFO - get_attractions - LNU9ND: fetched 3 attractions
+2024-10-09 14:57:26,642 - app - INFO - get_attractions_time_slots - LNU9ND: fetching time slots
+2024-10-09 14:57:26,643 - app - INFO - get_attractions_time_slots - LNU9ND: fetched 8 time slots
+2024-10-09 14:57:26,644 - app - INFO - get_attractions_tickets - LNU9ND: fetching available tickets
+2024-10-09 14:57:26,644 - app - INFO - get_attractions_tickets - LNU9ND: fetched 3 available tickets
+2024-10-09 14:57:26,646 - app - ERROR - booking - LNU9ND: invalid payment details
+2024-10-09 14:57:26,647 - app - INFO - get_attractions - VUDKRR: fetching attractions
+2024-10-09 14:57:26,648 - app - INFO - get_attractions - VUDKRR: fetched 3 attractions
+2024-10-09 14:57:26,649 - app - INFO - get_attractions_time_slots - VUDKRR: fetching time slots
+2024-10-09 14:57:26,649 - app - INFO - get_attractions_time_slots - VUDKRR: fetched 8 time slots
+2024-10-09 14:57:26,650 - app - INFO - get_attractions_tickets - VUDKRR: fetching available tickets
+2024-10-09 14:57:26,650 - app - INFO - get_attractions_tickets - VUDKRR: fetched 3 available tickets
+2024-10-09 14:57:26,654 - app - ERROR - booking - VUDKRR: invalid payment details
+2024-10-09 14:57:26,655 - app - INFO - get_attractions - PTL3DD: fetching attractions
+2024-10-09 14:57:26,655 - app - INFO - get_attractions - PTL3DD: fetched 3 attractions
+2024-10-09 14:57:26,656 - app - INFO - get_attractions_time_slots - PTL3DD: fetching time slots
+2024-10-09 14:57:26,656 - app - INFO - get_attractions_time_slots - PTL3DD: fetched 8 time slots
+2024-10-09 14:57:26,657 - app - INFO - get_attractions_tickets - PTL3DD: fetching available tickets
+2024-10-09 14:57:26,657 - app - INFO - get_attractions_tickets - PTL3DD: fetched 3 available tickets
+2024-10-09 14:57:26,660 - app - INFO - booking - PTL3DD: saving booking for attraction Museum for 11:00-12:00 with 16 Adult tickets
+2024-10-09 14:57:26,661 - app - INFO - booking - PTL3DD: saving booking for attraction Museum for 11:00-12:00 with 15 Child tickets
+2024-10-09 14:57:26,661 - app - INFO - booking - PTL3DD: updating available tickets for attraction Museum to 31
+2024-10-09 14:57:26,662 - app - INFO - booking - PTL3DD: booking successful
+2024-10-09 14:57:26,663 - app - INFO - get_attractions - PR677D: fetching attractions
+2024-10-09 14:57:26,663 - app - INFO - get_attractions - PR677D: fetched 3 attractions
+2024-10-09 14:57:26,664 - app - INFO - get_attractions_time_slots - PR677D: fetching time slots
+2024-10-09 14:57:26,664 - app - INFO - get_attractions_time_slots - PR677D: fetched 8 time slots
+2024-10-09 14:57:26,665 - app - INFO - get_attractions_tickets - PR677D: fetching available tickets
+2024-10-09 14:57:26,665 - app - INFO - get_attractions_tickets - PR677D: fetched 3 available tickets
+2024-10-09 14:57:26,668 - app - INFO - booking - PR677D: saving booking for attraction Art Gallery for 13:00-14:00 with 37 Adult tickets
+2024-10-09 14:57:26,668 - app - INFO - booking - PR677D: saving booking for attraction Art Gallery for 13:00-14:00 with 1 Concession tickets
+2024-10-09 14:57:26,669 - app - INFO - booking - PR677D: updating available tickets for attraction Art Gallery to 38
+2024-10-09 14:57:26,669 - app - INFO - booking - PR677D: booking successful
+2024-10-09 14:57:26,670 - app - INFO - get_attractions - Q5N6RG: fetching attractions
+2024-10-09 14:57:26,671 - app - INFO - get_attractions - Q5N6RG: fetched 3 attractions
+2024-10-09 14:57:26,671 - app - INFO - get_attractions_time_slots - Q5N6RG: fetching time slots
+2024-10-09 14:57:26,672 - app - INFO - get_attractions_time_slots - Q5N6RG: fetched 8 time slots
+2024-10-09 14:57:26,673 - app - INFO - get_attractions_tickets - Q5N6RG: fetching available tickets
+2024-10-09 14:57:26,673 - app - INFO - get_attractions_tickets - Q5N6RG: fetched 3 available tickets
+2024-10-09 14:57:26,675 - app - ERROR - booking - Q5N6RG: invalid payment details
+2024-10-09 14:57:26,676 - app - INFO - get_attractions - NAXEC0: fetching attractions
+2024-10-09 14:57:26,676 - app - INFO - get_attractions - NAXEC0: fetched 3 attractions
+2024-10-09 14:57:26,677 - app - INFO - get_attractions_time_slots - NAXEC0: fetching time slots
+2024-10-09 14:57:26,677 - app - INFO - get_attractions_time_slots - NAXEC0: fetched 8 time slots
+2024-10-09 14:57:26,678 - app - INFO - get_attractions_tickets - NAXEC0: fetching available tickets
+2024-10-09 14:57:26,678 - app - INFO - get_attractions_tickets - NAXEC0: fetched 3 available tickets
+2024-10-09 14:57:26,680 - app - ERROR - booking - NAXEC0: invalid payment details
+2024-10-09 14:57:26,681 - app - INFO - get_attractions - 0IKL1Q: fetching attractions
+2024-10-09 14:57:26,682 - app - INFO - get_attractions - 0IKL1Q: fetched 3 attractions
+2024-10-09 14:57:26,683 - app - INFO - get_attractions_time_slots - 0IKL1Q: fetching time slots
+2024-10-09 14:57:26,683 - app - INFO - get_attractions_time_slots - 0IKL1Q: fetched 8 time slots
+2024-10-09 14:57:26,684 - app - INFO - get_attractions_tickets - 0IKL1Q: fetching available tickets
+2024-10-09 14:57:26,684 - app - INFO - get_attractions_tickets - 0IKL1Q: fetched 3 available tickets
+2024-10-09 14:57:26,687 - app - INFO - booking - 0IKL1Q: saving booking for attraction Museum for 15:00-16:00 with 17 Adult tickets
+2024-10-09 14:57:26,688 - app - INFO - booking - 0IKL1Q: updating available tickets for attraction Museum to 17
+2024-10-09 14:57:26,688 - app - INFO - booking - 0IKL1Q: booking successful
+2024-10-09 14:57:26,689 - app - INFO - get_attractions - 7WUV6T: fetching attractions
+2024-10-09 14:57:26,689 - app - INFO - get_attractions - 7WUV6T: fetched 3 attractions
+2024-10-09 14:57:26,690 - app - INFO - get_attractions_time_slots - 7WUV6T: fetching time slots
+2024-10-09 14:57:26,690 - app - INFO - get_attractions_time_slots - 7WUV6T: fetched 8 time slots
+2024-10-09 14:57:26,691 - app - INFO - get_attractions_tickets - 7WUV6T: fetching available tickets
+2024-10-09 14:57:26,691 - app - INFO - get_attractions_tickets - 7WUV6T: fetched 3 available tickets
+2024-10-09 14:57:26,694 - app - ERROR - booking - 7WUV6T: invalid payment details
+2024-10-09 14:57:26,694 - app - INFO - get_attractions - E4MHXT: fetching attractions
+2024-10-09 14:57:26,695 - app - INFO - get_attractions - E4MHXT: fetched 3 attractions
+2024-10-09 14:57:26,695 - app - INFO - get_attractions_time_slots - E4MHXT: fetching time slots
+2024-10-09 14:57:26,696 - app - INFO - get_attractions_time_slots - E4MHXT: fetched 8 time slots
+2024-10-09 14:57:26,696 - app - INFO - get_attractions_tickets - E4MHXT: fetching available tickets
+2024-10-09 14:57:26,697 - app - INFO - get_attractions_tickets - E4MHXT: fetched 3 available tickets
+2024-10-09 14:57:26,699 - app - ERROR - booking - E4MHXT: invalid payment details
+2024-10-09 14:57:26,700 - app - INFO - get_attractions - K353D9: fetching attractions
+2024-10-09 14:57:26,700 - app - INFO - get_attractions - K353D9: fetched 3 attractions
+2024-10-09 14:57:26,701 - app - INFO - get_attractions_time_slots - K353D9: fetching time slots
+2024-10-09 14:57:26,701 - app - INFO - get_attractions_time_slots - K353D9: fetched 8 time slots
+2024-10-09 14:57:26,702 - app - INFO - get_attractions_tickets - K353D9: fetching available tickets
+2024-10-09 14:57:26,702 - app - INFO - get_attractions_tickets - K353D9: fetched 3 available tickets
+2024-10-09 14:57:26,705 - app - ERROR - booking - K353D9: invalid payment details
+2024-10-09 14:57:26,706 - app - INFO - get_attractions - BEJCMP: fetching attractions
+2024-10-09 14:57:26,706 - app - INFO - get_attractions - BEJCMP: fetched 3 attractions
+2024-10-09 14:57:26,707 - app - INFO - get_attractions_time_slots - BEJCMP: fetching time slots
+2024-10-09 14:57:26,707 - app - INFO - get_attractions_time_slots - BEJCMP: fetched 8 time slots
+2024-10-09 14:57:26,708 - app - INFO - get_attractions_tickets - BEJCMP: fetching available tickets
+2024-10-09 14:57:26,708 - app - INFO - get_attractions_tickets - BEJCMP: fetched 3 available tickets
+2024-10-09 14:57:26,711 - app - INFO - booking - BEJCMP: saving booking for attraction Museum for 12:00-13:00 with 2 Adult tickets
+2024-10-09 14:57:26,711 - app - INFO - booking - BEJCMP: updating available tickets for attraction Museum to 2
+2024-10-09 14:57:26,712 - app - INFO - booking - BEJCMP: booking successful
+2024-10-09 14:57:26,713 - app - INFO - get_attractions - Z7P6YR: fetching attractions
+2024-10-09 14:57:26,713 - app - INFO - get_attractions - Z7P6YR: fetched 3 attractions
+2024-10-09 14:57:26,714 - app - INFO - get_attractions_time_slots - Z7P6YR: fetching time slots
+2024-10-09 14:57:26,714 - app - INFO - get_attractions_time_slots - Z7P6YR: fetched 8 time slots
+2024-10-09 14:57:26,715 - app - INFO - get_attractions_tickets - Z7P6YR: fetching available tickets
+2024-10-09 14:57:26,715 - app - INFO - get_attractions_tickets - Z7P6YR: fetched 3 available tickets
+2024-10-09 14:57:26,718 - app - INFO - booking - Z7P6YR: saving booking for attraction Art Gallery for 11:00-12:00 with 8 Adult tickets
+2024-10-09 14:57:26,719 - app - INFO - booking - Z7P6YR: saving booking for attraction Art Gallery for 11:00-12:00 with 2 Concession tickets
+2024-10-09 14:57:26,720 - app - INFO - booking - Z7P6YR: updating available tickets for attraction Art Gallery to 10
+2024-10-09 14:57:26,720 - app - INFO - booking - Z7P6YR: booking successful
+2024-10-09 14:57:26,721 - app - INFO - get_attractions - FPF37K: fetching attractions
+2024-10-09 14:57:26,721 - app - INFO - get_attractions - FPF37K: fetched 3 attractions
+2024-10-09 14:57:26,722 - app - INFO - get_attractions_time_slots - FPF37K: fetching time slots
+2024-10-09 14:57:26,722 - app - INFO - get_attractions_time_slots - FPF37K: fetched 8 time slots
+2024-10-09 14:57:26,723 - app - INFO - get_attractions_tickets - FPF37K: fetching available tickets
+2024-10-09 14:57:26,723 - app - INFO - get_attractions_tickets - FPF37K: fetched 3 available tickets
+2024-10-09 14:57:26,726 - app - ERROR - booking - FPF37K: invalid payment details
+2024-10-09 14:57:26,726 - app - INFO - get_attractions - NPD4SF: fetching attractions
+2024-10-09 14:57:26,727 - app - INFO - get_attractions - NPD4SF: fetched 3 attractions
+2024-10-09 14:57:26,727 - app - INFO - get_attractions_time_slots - NPD4SF: fetching time slots
+2024-10-09 14:57:26,728 - app - INFO - get_attractions_time_slots - NPD4SF: fetched 8 time slots
+2024-10-09 14:57:26,728 - app - INFO - get_attractions_tickets - NPD4SF: fetching available tickets
+2024-10-09 14:57:26,729 - app - INFO - get_attractions_tickets - NPD4SF: fetched 3 available tickets
+2024-10-09 14:57:26,731 - app - INFO - booking - NPD4SF: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:26,731 - app - INFO - booking - NPD4SF: booking successful
+2024-10-09 14:57:26,732 - app - INFO - get_attractions - U8VR1H: fetching attractions
+2024-10-09 14:57:26,732 - app - INFO - get_attractions - U8VR1H: fetched 3 attractions
+2024-10-09 14:57:26,733 - app - INFO - get_attractions_time_slots - U8VR1H: fetching time slots
+2024-10-09 14:57:26,734 - app - INFO - get_attractions_time_slots - U8VR1H: fetched 8 time slots
+2024-10-09 14:57:26,734 - app - INFO - get_attractions_tickets - U8VR1H: fetching available tickets
+2024-10-09 14:57:26,735 - app - INFO - get_attractions_tickets - U8VR1H: fetched 3 available tickets
+2024-10-09 14:57:26,737 - app - ERROR - booking - U8VR1H: invalid payment details
+2024-10-09 14:57:26,738 - app - INFO - get_attractions - MCJ134: fetching attractions
+2024-10-09 14:57:26,738 - app - INFO - get_attractions - MCJ134: fetched 3 attractions
+2024-10-09 14:57:26,739 - app - INFO - get_attractions_time_slots - MCJ134: fetching time slots
+2024-10-09 14:57:26,739 - app - INFO - get_attractions_time_slots - MCJ134: fetched 8 time slots
+2024-10-09 14:57:26,740 - app - INFO - get_attractions_tickets - MCJ134: fetching available tickets
+2024-10-09 14:57:26,740 - app - INFO - get_attractions_tickets - MCJ134: fetched 3 available tickets
+2024-10-09 14:57:26,743 - app - ERROR - booking - MCJ134: invalid payment details
+2024-10-09 14:57:26,744 - app - INFO - get_attractions - 02FWHQ: fetching attractions
+2024-10-09 14:57:26,744 - app - INFO - get_attractions - 02FWHQ: fetched 3 attractions
+2024-10-09 14:57:26,745 - app - INFO - get_attractions_time_slots - 02FWHQ: fetching time slots
+2024-10-09 14:57:26,745 - app - INFO - get_attractions_time_slots - 02FWHQ: fetched 8 time slots
+2024-10-09 14:57:26,746 - app - INFO - get_attractions_tickets - 02FWHQ: fetching available tickets
+2024-10-09 14:57:26,746 - app - INFO - get_attractions_tickets - 02FWHQ: fetched 3 available tickets
+2024-10-09 14:57:26,748 - app - ERROR - booking - 02FWHQ: invalid payment details
+2024-10-09 14:57:26,749 - app - INFO - get_attractions - 4SJEEQ: fetching attractions
+2024-10-09 14:57:26,749 - app - INFO - get_attractions - 4SJEEQ: fetched 3 attractions
+2024-10-09 14:57:26,751 - app - INFO - get_attractions_time_slots - 4SJEEQ: fetching time slots
+2024-10-09 14:57:26,751 - app - INFO - get_attractions_time_slots - 4SJEEQ: fetched 8 time slots
+2024-10-09 14:57:26,752 - app - INFO - get_attractions_tickets - 4SJEEQ: fetching available tickets
+2024-10-09 14:57:26,752 - app - INFO - get_attractions_tickets - 4SJEEQ: fetched 3 available tickets
+2024-10-09 14:57:26,755 - app - INFO - booking - 4SJEEQ: saving booking for attraction Aquarium for 14:00-15:00 with 22 Adult tickets
+2024-10-09 14:57:26,756 - app - INFO - booking - 4SJEEQ: saving booking for attraction Aquarium for 14:00-15:00 with 12 Concession tickets
+2024-10-09 14:57:26,756 - app - INFO - booking - 4SJEEQ: updating available tickets for attraction Aquarium to 34
+2024-10-09 14:57:26,757 - app - INFO - booking - 4SJEEQ: booking successful
+2024-10-09 14:57:26,758 - app - INFO - get_attractions - GAEG6A: fetching attractions
+2024-10-09 14:57:26,758 - app - INFO - get_attractions - GAEG6A: fetched 3 attractions
+2024-10-09 14:57:26,759 - app - INFO - get_attractions_time_slots - GAEG6A: fetching time slots
+2024-10-09 14:57:26,759 - app - INFO - get_attractions_time_slots - GAEG6A: fetched 8 time slots
+2024-10-09 14:57:26,760 - app - INFO - get_attractions_tickets - GAEG6A: fetching available tickets
+2024-10-09 14:57:26,760 - app - INFO - get_attractions_tickets - GAEG6A: fetched 3 available tickets
+2024-10-09 14:57:26,762 - app - ERROR - booking - GAEG6A: invalid payment details
+2024-10-09 14:57:26,763 - app - INFO - get_attractions - UA6U7P: fetching attractions
+2024-10-09 14:57:26,763 - app - INFO - get_attractions - UA6U7P: fetched 3 attractions
+2024-10-09 14:57:26,764 - app - INFO - get_attractions_time_slots - UA6U7P: fetching time slots
+2024-10-09 14:57:26,765 - app - INFO - get_attractions_time_slots - UA6U7P: fetched 8 time slots
+2024-10-09 14:57:26,765 - app - INFO - get_attractions_tickets - UA6U7P: fetching available tickets
+2024-10-09 14:57:26,766 - app - INFO - get_attractions_tickets - UA6U7P: fetched 3 available tickets
+2024-10-09 14:57:26,769 - app - INFO - booking - UA6U7P: saving booking for attraction Aquarium for 10:00-11:00 with 11 Adult tickets
+2024-10-09 14:57:26,771 - app - INFO - booking - UA6U7P: updating available tickets for attraction Aquarium to 11
+2024-10-09 14:57:26,771 - app - INFO - booking - UA6U7P: booking successful
+2024-10-09 14:57:26,772 - app - INFO - get_attractions - RP6QY4: fetching attractions
+2024-10-09 14:57:26,772 - app - INFO - get_attractions - RP6QY4: fetched 3 attractions
+2024-10-09 14:57:26,773 - app - INFO - get_attractions_time_slots - RP6QY4: fetching time slots
+2024-10-09 14:57:26,773 - app - INFO - get_attractions_time_slots - RP6QY4: fetched 8 time slots
+2024-10-09 14:57:26,774 - app - INFO - get_attractions_tickets - RP6QY4: fetching available tickets
+2024-10-09 14:57:26,774 - app - INFO - get_attractions_tickets - RP6QY4: fetched 3 available tickets
+2024-10-09 14:57:26,777 - app - INFO - booking - RP6QY4: saving booking for attraction Aquarium for 12:00-13:00 with 2 Child tickets
+2024-10-09 14:57:26,777 - app - INFO - booking - RP6QY4: updating available tickets for attraction Aquarium to 2
+2024-10-09 14:57:26,778 - app - INFO - booking - RP6QY4: booking successful
+2024-10-09 14:57:26,779 - app - INFO - get_attractions - NT6KV2: fetching attractions
+2024-10-09 14:57:26,779 - app - INFO - get_attractions - NT6KV2: fetched 3 attractions
+2024-10-09 14:57:26,780 - app - INFO - get_attractions_time_slots - NT6KV2: fetching time slots
+2024-10-09 14:57:26,780 - app - INFO - get_attractions_time_slots - NT6KV2: fetched 8 time slots
+2024-10-09 14:57:26,781 - app - INFO - get_attractions_tickets - NT6KV2: fetching available tickets
+2024-10-09 14:57:26,781 - app - INFO - get_attractions_tickets - NT6KV2: fetched 3 available tickets
+2024-10-09 14:57:26,784 - app - INFO - booking - NT6KV2: saving booking for attraction Aquarium for 11:00-12:00 with 3 Adult tickets
+2024-10-09 14:57:26,785 - app - INFO - booking - NT6KV2: updating available tickets for attraction Aquarium to 3
+2024-10-09 14:57:26,785 - app - INFO - booking - NT6KV2: booking successful
+2024-10-09 14:57:26,786 - app - INFO - get_attractions - N1DPRN: fetching attractions
+2024-10-09 14:57:26,786 - app - INFO - get_attractions - N1DPRN: fetched 3 attractions
+2024-10-09 14:57:26,787 - app - INFO - get_attractions_time_slots - N1DPRN: fetching time slots
+2024-10-09 14:57:26,787 - app - INFO - get_attractions_time_slots - N1DPRN: fetched 8 time slots
+2024-10-09 14:57:26,788 - app - INFO - get_attractions_tickets - N1DPRN: fetching available tickets
+2024-10-09 14:57:26,788 - app - INFO - get_attractions_tickets - N1DPRN: fetched 3 available tickets
+2024-10-09 14:57:26,790 - app - INFO - booking - N1DPRN: saving booking for attraction Art Gallery for 14:00-15:00 with 2 Adult tickets
+2024-10-09 14:57:26,791 - app - INFO - booking - N1DPRN: updating available tickets for attraction Art Gallery to 2
+2024-10-09 14:57:26,792 - app - INFO - booking - N1DPRN: booking successful
+2024-10-09 14:57:26,793 - app - INFO - get_attractions - KVBX21: fetching attractions
+2024-10-09 14:57:26,793 - app - INFO - get_attractions - KVBX21: fetched 3 attractions
+2024-10-09 14:57:26,794 - app - INFO - get_attractions_time_slots - KVBX21: fetching time slots
+2024-10-09 14:57:26,794 - app - INFO - get_attractions_time_slots - KVBX21: fetched 8 time slots
+2024-10-09 14:57:26,795 - app - INFO - get_attractions_tickets - KVBX21: fetching available tickets
+2024-10-09 14:57:26,795 - app - INFO - get_attractions_tickets - KVBX21: fetched 3 available tickets
+2024-10-09 14:57:26,797 - app - ERROR - booking - KVBX21: invalid payment details
+2024-10-09 14:57:26,798 - app - INFO - get_attractions - WUUR16: fetching attractions
+2024-10-09 14:57:26,798 - app - INFO - get_attractions - WUUR16: fetched 3 attractions
+2024-10-09 14:57:26,799 - app - INFO - get_attractions_time_slots - WUUR16: fetching time slots
+2024-10-09 14:57:26,799 - app - INFO - get_attractions_time_slots - WUUR16: fetched 8 time slots
+2024-10-09 14:57:26,800 - app - INFO - get_attractions_tickets - WUUR16: fetching available tickets
+2024-10-09 14:57:26,801 - app - INFO - get_attractions_tickets - WUUR16: fetched 3 available tickets
+2024-10-09 14:57:26,803 - app - INFO - booking - WUUR16: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:26,803 - app - INFO - booking - WUUR16: booking successful
+2024-10-09 14:57:26,804 - app - INFO - get_attractions - ZN0A3P: fetching attractions
+2024-10-09 14:57:26,804 - app - INFO - get_attractions - ZN0A3P: fetched 3 attractions
+2024-10-09 14:57:26,805 - app - INFO - get_attractions_time_slots - ZN0A3P: fetching time slots
+2024-10-09 14:57:26,805 - app - INFO - get_attractions_time_slots - ZN0A3P: fetched 8 time slots
+2024-10-09 14:57:26,806 - app - INFO - get_attractions_tickets - ZN0A3P: fetching available tickets
+2024-10-09 14:57:26,806 - app - INFO - get_attractions_tickets - ZN0A3P: fetched 3 available tickets
+2024-10-09 14:57:26,809 - app - ERROR - booking - ZN0A3P: invalid payment details
+2024-10-09 14:57:26,810 - app - INFO - get_attractions - YQPRHJ: fetching attractions
+2024-10-09 14:57:26,810 - app - INFO - get_attractions - YQPRHJ: fetched 3 attractions
+2024-10-09 14:57:26,811 - app - INFO - get_attractions_time_slots - YQPRHJ: fetching time slots
+2024-10-09 14:57:26,811 - app - INFO - get_attractions_time_slots - YQPRHJ: fetched 8 time slots
+2024-10-09 14:57:26,812 - app - INFO - get_attractions_tickets - YQPRHJ: fetching available tickets
+2024-10-09 14:57:26,812 - app - INFO - get_attractions_tickets - YQPRHJ: fetched 3 available tickets
+2024-10-09 14:57:26,814 - app - ERROR - booking - YQPRHJ: invalid payment details
+2024-10-09 14:57:26,815 - app - INFO - get_attractions - 8Z34F5: fetching attractions
+2024-10-09 14:57:26,816 - app - INFO - get_attractions - 8Z34F5: fetched 3 attractions
+2024-10-09 14:57:26,817 - app - INFO - get_attractions_time_slots - 8Z34F5: fetching time slots
+2024-10-09 14:57:26,817 - app - INFO - get_attractions_time_slots - 8Z34F5: fetched 8 time slots
+2024-10-09 14:57:26,818 - app - INFO - get_attractions_tickets - 8Z34F5: fetching available tickets
+2024-10-09 14:57:26,818 - app - INFO - get_attractions_tickets - 8Z34F5: fetched 3 available tickets
+2024-10-09 14:57:26,821 - app - ERROR - booking - 8Z34F5: invalid payment details
+2024-10-09 14:57:26,822 - app - INFO - get_attractions - BGLAZP: fetching attractions
+2024-10-09 14:57:26,822 - app - INFO - get_attractions - BGLAZP: fetched 3 attractions
+2024-10-09 14:57:26,823 - app - INFO - get_attractions_time_slots - BGLAZP: fetching time slots
+2024-10-09 14:57:26,823 - app - INFO - get_attractions_time_slots - BGLAZP: fetched 8 time slots
+2024-10-09 14:57:26,824 - app - INFO - get_attractions_tickets - BGLAZP: fetching available tickets
+2024-10-09 14:57:26,824 - app - INFO - get_attractions_tickets - BGLAZP: fetched 3 available tickets
+2024-10-09 14:57:26,827 - app - INFO - booking - BGLAZP: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:26,827 - app - INFO - booking - BGLAZP: booking successful
+2024-10-09 14:57:26,828 - app - INFO - get_attractions - OLURDC: fetching attractions
+2024-10-09 14:57:26,828 - app - INFO - get_attractions - OLURDC: fetched 3 attractions
+2024-10-09 14:57:26,829 - app - INFO - get_attractions_time_slots - OLURDC: fetching time slots
+2024-10-09 14:57:26,829 - app - INFO - get_attractions_time_slots - OLURDC: fetched 8 time slots
+2024-10-09 14:57:26,830 - app - INFO - get_attractions_tickets - OLURDC: fetching available tickets
+2024-10-09 14:57:26,830 - app - INFO - get_attractions_tickets - OLURDC: fetched 3 available tickets
+2024-10-09 14:57:26,833 - app - ERROR - booking - OLURDC: invalid payment details
+2024-10-09 14:57:26,834 - app - INFO - get_attractions - 8XRYW5: fetching attractions
+2024-10-09 14:57:26,834 - app - INFO - get_attractions - 8XRYW5: fetched 3 attractions
+2024-10-09 14:57:26,835 - app - INFO - get_attractions_time_slots - 8XRYW5: fetching time slots
+2024-10-09 14:57:26,835 - app - INFO - get_attractions_time_slots - 8XRYW5: fetched 8 time slots
+2024-10-09 14:57:26,836 - app - INFO - get_attractions_tickets - 8XRYW5: fetching available tickets
+2024-10-09 14:57:26,836 - app - INFO - get_attractions_tickets - 8XRYW5: fetched 3 available tickets
+2024-10-09 14:57:26,839 - app - ERROR - booking - 8XRYW5: invalid payment details
+2024-10-09 14:57:26,840 - app - INFO - get_attractions - 6M7J31: fetching attractions
+2024-10-09 14:57:26,840 - app - INFO - get_attractions - 6M7J31: fetched 3 attractions
+2024-10-09 14:57:26,841 - app - INFO - get_attractions_time_slots - 6M7J31: fetching time slots
+2024-10-09 14:57:26,841 - app - INFO - get_attractions_time_slots - 6M7J31: fetched 8 time slots
+2024-10-09 14:57:26,842 - app - INFO - get_attractions_tickets - 6M7J31: fetching available tickets
+2024-10-09 14:57:26,842 - app - INFO - get_attractions_tickets - 6M7J31: fetched 3 available tickets
+2024-10-09 14:57:26,845 - app - ERROR - booking - 6M7J31: invalid payment details
+2024-10-09 14:57:26,846 - app - INFO - get_attractions - 3G31YI: fetching attractions
+2024-10-09 14:57:26,846 - app - INFO - get_attractions - 3G31YI: fetched 3 attractions
+2024-10-09 14:57:26,847 - app - INFO - get_attractions_time_slots - 3G31YI: fetching time slots
+2024-10-09 14:57:26,847 - app - INFO - get_attractions_time_slots - 3G31YI: fetched 8 time slots
+2024-10-09 14:57:26,848 - app - INFO - get_attractions_tickets - 3G31YI: fetching available tickets
+2024-10-09 14:57:26,848 - app - INFO - get_attractions_tickets - 3G31YI: fetched 3 available tickets
+2024-10-09 14:57:26,851 - app - ERROR - booking - 3G31YI: invalid payment details
+2024-10-09 14:57:26,852 - app - INFO - get_attractions - VAHNFV: fetching attractions
+2024-10-09 14:57:26,852 - app - INFO - get_attractions - VAHNFV: fetched 3 attractions
+2024-10-09 14:57:26,853 - app - INFO - get_attractions_time_slots - VAHNFV: fetching time slots
+2024-10-09 14:57:26,853 - app - INFO - get_attractions_time_slots - VAHNFV: fetched 8 time slots
+2024-10-09 14:57:26,854 - app - INFO - get_attractions_tickets - VAHNFV: fetching available tickets
+2024-10-09 14:57:26,854 - app - INFO - get_attractions_tickets - VAHNFV: fetched 3 available tickets
+2024-10-09 14:57:26,857 - app - INFO - booking - VAHNFV: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:26,857 - app - INFO - booking - VAHNFV: booking successful
+2024-10-09 14:57:26,858 - app - INFO - get_attractions - 9G775B: fetching attractions
+2024-10-09 14:57:26,858 - app - INFO - get_attractions - 9G775B: fetched 3 attractions
+2024-10-09 14:57:26,859 - app - INFO - get_attractions_time_slots - 9G775B: fetching time slots
+2024-10-09 14:57:26,859 - app - INFO - get_attractions_time_slots - 9G775B: fetched 8 time slots
+2024-10-09 14:57:26,860 - app - INFO - get_attractions_tickets - 9G775B: fetching available tickets
+2024-10-09 14:57:26,861 - app - INFO - get_attractions_tickets - 9G775B: fetched 3 available tickets
+2024-10-09 14:57:26,863 - app - INFO - booking - 9G775B: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:26,863 - app - INFO - booking - 9G775B: booking successful
+2024-10-09 14:57:26,864 - app - INFO - get_attractions - A0H5LY: fetching attractions
+2024-10-09 14:57:26,864 - app - INFO - get_attractions - A0H5LY: fetched 3 attractions
+2024-10-09 14:57:26,865 - app - INFO - get_attractions_time_slots - A0H5LY: fetching time slots
+2024-10-09 14:57:26,865 - app - INFO - get_attractions_time_slots - A0H5LY: fetched 8 time slots
+2024-10-09 14:57:26,866 - app - INFO - get_attractions_tickets - A0H5LY: fetching available tickets
+2024-10-09 14:57:26,867 - app - INFO - get_attractions_tickets - A0H5LY: fetched 3 available tickets
+2024-10-09 14:57:26,869 - app - INFO - booking - A0H5LY: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:26,869 - app - INFO - booking - A0H5LY: booking successful
+2024-10-09 14:57:26,870 - app - INFO - get_attractions - 4MYFBA: fetching attractions
+2024-10-09 14:57:26,871 - app - INFO - get_attractions - 4MYFBA: fetched 3 attractions
+2024-10-09 14:57:26,871 - app - INFO - get_attractions_time_slots - 4MYFBA: fetching time slots
+2024-10-09 14:57:26,872 - app - INFO - get_attractions_time_slots - 4MYFBA: fetched 8 time slots
+2024-10-09 14:57:26,873 - app - INFO - get_attractions_tickets - 4MYFBA: fetching available tickets
+2024-10-09 14:57:26,873 - app - INFO - get_attractions_tickets - 4MYFBA: fetched 3 available tickets
+2024-10-09 14:57:26,875 - app - ERROR - booking - 4MYFBA: invalid payment details
+2024-10-09 14:57:26,876 - app - INFO - get_attractions - 2OWLNG: fetching attractions
+2024-10-09 14:57:26,876 - app - INFO - get_attractions - 2OWLNG: fetched 3 attractions
+2024-10-09 14:57:26,877 - app - INFO - get_attractions_time_slots - 2OWLNG: fetching time slots
+2024-10-09 14:57:26,877 - app - INFO - get_attractions_time_slots - 2OWLNG: fetched 8 time slots
+2024-10-09 14:57:26,878 - app - INFO - get_attractions_tickets - 2OWLNG: fetching available tickets
+2024-10-09 14:57:26,878 - app - INFO - get_attractions_tickets - 2OWLNG: fetched 3 available tickets
+2024-10-09 14:57:26,881 - app - ERROR - booking - 2OWLNG: invalid payment details
+2024-10-09 14:57:26,882 - app - INFO - get_attractions - WSJHT2: fetching attractions
+2024-10-09 14:57:26,882 - app - INFO - get_attractions - WSJHT2: fetched 3 attractions
+2024-10-09 14:57:26,883 - app - INFO - get_attractions_time_slots - WSJHT2: fetching time slots
+2024-10-09 14:57:26,883 - app - INFO - get_attractions_time_slots - WSJHT2: fetched 8 time slots
+2024-10-09 14:57:26,884 - app - INFO - get_attractions_tickets - WSJHT2: fetching available tickets
+2024-10-09 14:57:26,884 - app - INFO - get_attractions_tickets - WSJHT2: fetched 3 available tickets
+2024-10-09 14:57:26,887 - app - ERROR - booking - WSJHT2: invalid payment details
+2024-10-09 14:57:26,888 - app - INFO - get_attractions - A3W3P6: fetching attractions
+2024-10-09 14:57:26,888 - app - INFO - get_attractions - A3W3P6: fetched 3 attractions
+2024-10-09 14:57:26,889 - app - INFO - get_attractions_time_slots - A3W3P6: fetching time slots
+2024-10-09 14:57:26,889 - app - INFO - get_attractions_time_slots - A3W3P6: fetched 8 time slots
+2024-10-09 14:57:26,890 - app - INFO - get_attractions_tickets - A3W3P6: fetching available tickets
+2024-10-09 14:57:26,890 - app - INFO - get_attractions_tickets - A3W3P6: fetched 3 available tickets
+2024-10-09 14:57:26,893 - app - ERROR - booking - A3W3P6: invalid payment details
+2024-10-09 14:57:26,894 - app - INFO - get_attractions - KG63Z0: fetching attractions
+2024-10-09 14:57:26,894 - app - INFO - get_attractions - KG63Z0: fetched 3 attractions
+2024-10-09 14:57:26,895 - app - INFO - get_attractions_time_slots - KG63Z0: fetching time slots
+2024-10-09 14:57:26,895 - app - INFO - get_attractions_time_slots - KG63Z0: fetched 8 time slots
+2024-10-09 14:57:26,896 - app - INFO - get_attractions_tickets - KG63Z0: fetching available tickets
+2024-10-09 14:57:26,896 - app - INFO - get_attractions_tickets - KG63Z0: fetched 3 available tickets
+2024-10-09 14:57:26,899 - app - INFO - booking - KG63Z0: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:26,899 - app - INFO - booking - KG63Z0: booking successful
+2024-10-09 14:57:26,900 - app - INFO - get_attractions - 2G5NZX: fetching attractions
+2024-10-09 14:57:26,900 - app - INFO - get_attractions - 2G5NZX: fetched 3 attractions
+2024-10-09 14:57:26,901 - app - INFO - get_attractions_time_slots - 2G5NZX: fetching time slots
+2024-10-09 14:57:26,901 - app - INFO - get_attractions_time_slots - 2G5NZX: fetched 8 time slots
+2024-10-09 14:57:26,902 - app - INFO - get_attractions_tickets - 2G5NZX: fetching available tickets
+2024-10-09 14:57:26,902 - app - INFO - get_attractions_tickets - 2G5NZX: fetched 3 available tickets
+2024-10-09 14:57:26,905 - app - INFO - booking - 2G5NZX: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:26,905 - app - INFO - booking - 2G5NZX: booking successful
+2024-10-09 14:57:26,906 - app - INFO - get_attractions - 98QVUH: fetching attractions
+2024-10-09 14:57:26,906 - app - INFO - get_attractions - 98QVUH: fetched 3 attractions
+2024-10-09 14:57:26,907 - app - INFO - get_attractions_time_slots - 98QVUH: fetching time slots
+2024-10-09 14:57:26,907 - app - INFO - get_attractions_time_slots - 98QVUH: fetched 8 time slots
+2024-10-09 14:57:26,908 - app - INFO - get_attractions_tickets - 98QVUH: fetching available tickets
+2024-10-09 14:57:26,908 - app - INFO - get_attractions_tickets - 98QVUH: fetched 3 available tickets
+2024-10-09 14:57:26,911 - app - INFO - booking - 98QVUH: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:26,911 - app - INFO - booking - 98QVUH: booking successful
+2024-10-09 14:57:26,912 - app - INFO - get_attractions - GDAVNI: fetching attractions
+2024-10-09 14:57:26,912 - app - INFO - get_attractions - GDAVNI: fetched 3 attractions
+2024-10-09 14:57:26,913 - app - INFO - get_attractions_time_slots - GDAVNI: fetching time slots
+2024-10-09 14:57:26,913 - app - INFO - get_attractions_time_slots - GDAVNI: fetched 8 time slots
+2024-10-09 14:57:26,914 - app - INFO - get_attractions_tickets - GDAVNI: fetching available tickets
+2024-10-09 14:57:26,914 - app - INFO - get_attractions_tickets - GDAVNI: fetched 3 available tickets
+2024-10-09 14:57:26,917 - app - ERROR - booking - GDAVNI: invalid payment details
+2024-10-09 14:57:26,918 - app - INFO - get_attractions - 02XC4W: fetching attractions
+2024-10-09 14:57:26,918 - app - INFO - get_attractions - 02XC4W: fetched 3 attractions
+2024-10-09 14:57:26,919 - app - INFO - get_attractions_time_slots - 02XC4W: fetching time slots
+2024-10-09 14:57:26,919 - app - INFO - get_attractions_time_slots - 02XC4W: fetched 8 time slots
+2024-10-09 14:57:26,920 - app - INFO - get_attractions_tickets - 02XC4W: fetching available tickets
+2024-10-09 14:57:26,920 - app - INFO - get_attractions_tickets - 02XC4W: fetched 3 available tickets
+2024-10-09 14:57:26,923 - app - INFO - booking - 02XC4W: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:26,923 - app - INFO - booking - 02XC4W: booking successful
+2024-10-09 14:57:26,924 - app - INFO - get_attractions - 6WJCLE: fetching attractions
+2024-10-09 14:57:26,924 - app - INFO - get_attractions - 6WJCLE: fetched 3 attractions
+2024-10-09 14:57:26,925 - app - INFO - get_attractions_time_slots - 6WJCLE: fetching time slots
+2024-10-09 14:57:26,925 - app - INFO - get_attractions_time_slots - 6WJCLE: fetched 8 time slots
+2024-10-09 14:57:26,926 - app - INFO - get_attractions_tickets - 6WJCLE: fetching available tickets
+2024-10-09 14:57:26,927 - app - INFO - get_attractions_tickets - 6WJCLE: fetched 3 available tickets
+2024-10-09 14:57:26,929 - app - ERROR - booking - 6WJCLE: invalid payment details
+2024-10-09 14:57:26,930 - app - INFO - get_attractions - UNBQIJ: fetching attractions
+2024-10-09 14:57:26,930 - app - INFO - get_attractions - UNBQIJ: fetched 3 attractions
+2024-10-09 14:57:26,931 - app - INFO - get_attractions_time_slots - UNBQIJ: fetching time slots
+2024-10-09 14:57:26,931 - app - INFO - get_attractions_time_slots - UNBQIJ: fetched 8 time slots
+2024-10-09 14:57:26,932 - app - INFO - get_attractions_tickets - UNBQIJ: fetching available tickets
+2024-10-09 14:57:26,932 - app - INFO - get_attractions_tickets - UNBQIJ: fetched 3 available tickets
+2024-10-09 14:57:26,935 - app - ERROR - booking - UNBQIJ: invalid payment details
+2024-10-09 14:57:26,936 - app - INFO - get_attractions - DXVXXI: fetching attractions
+2024-10-09 14:57:26,936 - app - INFO - get_attractions - DXVXXI: fetched 3 attractions
+2024-10-09 14:57:26,937 - app - INFO - get_attractions_time_slots - DXVXXI: fetching time slots
+2024-10-09 14:57:26,937 - app - INFO - get_attractions_time_slots - DXVXXI: fetched 8 time slots
+2024-10-09 14:57:26,938 - app - INFO - get_attractions_tickets - DXVXXI: fetching available tickets
+2024-10-09 14:57:26,938 - app - INFO - get_attractions_tickets - DXVXXI: fetched 3 available tickets
+2024-10-09 14:57:26,941 - app - INFO - booking - DXVXXI: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:26,941 - app - INFO - booking - DXVXXI: booking successful
+2024-10-09 14:57:26,942 - app - INFO - get_attractions - NMPD6Y: fetching attractions
+2024-10-09 14:57:26,942 - app - INFO - get_attractions - NMPD6Y: fetched 3 attractions
+2024-10-09 14:57:26,943 - app - INFO - get_attractions_time_slots - NMPD6Y: fetching time slots
+2024-10-09 14:57:26,943 - app - INFO - get_attractions_time_slots - NMPD6Y: fetched 8 time slots
+2024-10-09 14:57:26,944 - app - INFO - get_attractions_tickets - NMPD6Y: fetching available tickets
+2024-10-09 14:57:26,944 - app - INFO - get_attractions_tickets - NMPD6Y: fetched 3 available tickets
+2024-10-09 14:57:26,947 - app - INFO - booking - NMPD6Y: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:26,947 - app - INFO - booking - NMPD6Y: booking successful
+2024-10-09 14:57:26,948 - app - INFO - get_attractions - I6VDJM: fetching attractions
+2024-10-09 14:57:26,948 - app - INFO - get_attractions - I6VDJM: fetched 3 attractions
+2024-10-09 14:57:26,949 - app - INFO - get_attractions_time_slots - I6VDJM: fetching time slots
+2024-10-09 14:57:26,949 - app - INFO - get_attractions_time_slots - I6VDJM: fetched 8 time slots
+2024-10-09 14:57:26,950 - app - INFO - get_attractions_tickets - I6VDJM: fetching available tickets
+2024-10-09 14:57:26,950 - app - INFO - get_attractions_tickets - I6VDJM: fetched 3 available tickets
+2024-10-09 14:57:26,953 - app - INFO - booking - I6VDJM: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:26,953 - app - INFO - booking - I6VDJM: booking successful
+2024-10-09 14:57:26,954 - app - INFO - get_attractions - QCALNE: fetching attractions
+2024-10-09 14:57:26,954 - app - INFO - get_attractions - QCALNE: fetched 3 attractions
+2024-10-09 14:57:26,955 - app - INFO - get_attractions_time_slots - QCALNE: fetching time slots
+2024-10-09 14:57:26,955 - app - INFO - get_attractions_time_slots - QCALNE: fetched 8 time slots
+2024-10-09 14:57:26,956 - app - INFO - get_attractions_tickets - QCALNE: fetching available tickets
+2024-10-09 14:57:26,957 - app - INFO - get_attractions_tickets - QCALNE: fetched 3 available tickets
+2024-10-09 14:57:26,959 - app - INFO - booking - QCALNE: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:26,959 - app - INFO - booking - QCALNE: booking successful
+2024-10-09 14:57:26,960 - app - INFO - get_attractions - QUMK8P: fetching attractions
+2024-10-09 14:57:26,960 - app - INFO - get_attractions - QUMK8P: fetched 3 attractions
+2024-10-09 14:57:26,961 - app - INFO - get_attractions_time_slots - QUMK8P: fetching time slots
+2024-10-09 14:57:26,962 - app - INFO - get_attractions_time_slots - QUMK8P: fetched 8 time slots
+2024-10-09 14:57:26,963 - app - INFO - get_attractions_tickets - QUMK8P: fetching available tickets
+2024-10-09 14:57:26,963 - app - INFO - get_attractions_tickets - QUMK8P: fetched 3 available tickets
+2024-10-09 14:57:26,965 - app - ERROR - booking - QUMK8P: invalid payment details
+2024-10-09 14:57:26,966 - app - INFO - get_attractions - U9YA0P: fetching attractions
+2024-10-09 14:57:26,966 - app - INFO - get_attractions - U9YA0P: fetched 3 attractions
+2024-10-09 14:57:26,967 - app - INFO - get_attractions_time_slots - U9YA0P: fetching time slots
+2024-10-09 14:57:26,968 - app - INFO - get_attractions_time_slots - U9YA0P: fetched 8 time slots
+2024-10-09 14:57:26,968 - app - INFO - get_attractions_tickets - U9YA0P: fetching available tickets
+2024-10-09 14:57:26,969 - app - INFO - get_attractions_tickets - U9YA0P: fetched 3 available tickets
+2024-10-09 14:57:26,971 - app - INFO - booking - U9YA0P: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:26,971 - app - INFO - booking - U9YA0P: booking successful
+2024-10-09 14:57:26,972 - app - INFO - get_attractions - DV76W7: fetching attractions
+2024-10-09 14:57:26,972 - app - INFO - get_attractions - DV76W7: fetched 3 attractions
+2024-10-09 14:57:26,973 - app - INFO - get_attractions_time_slots - DV76W7: fetching time slots
+2024-10-09 14:57:26,973 - app - INFO - get_attractions_time_slots - DV76W7: fetched 8 time slots
+2024-10-09 14:57:26,974 - app - INFO - get_attractions_tickets - DV76W7: fetching available tickets
+2024-10-09 14:57:26,975 - app - INFO - get_attractions_tickets - DV76W7: fetched 3 available tickets
+2024-10-09 14:57:26,977 - app - ERROR - booking - DV76W7: invalid payment details
+2024-10-09 14:57:26,978 - app - INFO - get_attractions - WOVHBD: fetching attractions
+2024-10-09 14:57:26,978 - app - INFO - get_attractions - WOVHBD: fetched 3 attractions
+2024-10-09 14:57:26,979 - app - INFO - get_attractions_time_slots - WOVHBD: fetching time slots
+2024-10-09 14:57:26,979 - app - INFO - get_attractions_time_slots - WOVHBD: fetched 8 time slots
+2024-10-09 14:57:26,980 - app - INFO - get_attractions_tickets - WOVHBD: fetching available tickets
+2024-10-09 14:57:26,980 - app - INFO - get_attractions_tickets - WOVHBD: fetched 3 available tickets
+2024-10-09 14:57:26,994 - app - ERROR - booking - WOVHBD: invalid payment details
+2024-10-09 14:57:27,009 - app - INFO - get_attractions - 6F9Y67: fetching attractions
+2024-10-09 14:57:27,009 - app - INFO - get_attractions - 6F9Y67: fetched 3 attractions
+2024-10-09 14:57:27,010 - app - INFO - get_attractions_time_slots - 6F9Y67: fetching time slots
+2024-10-09 14:57:27,011 - app - INFO - get_attractions_time_slots - 6F9Y67: fetched 8 time slots
+2024-10-09 14:57:27,014 - app - INFO - get_attractions_tickets - 6F9Y67: fetching available tickets
+2024-10-09 14:57:27,015 - app - INFO - get_attractions_tickets - 6F9Y67: fetched 3 available tickets
+2024-10-09 14:57:27,021 - app - INFO - booking - 6F9Y67: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,021 - app - INFO - booking - 6F9Y67: booking successful
+2024-10-09 14:57:27,022 - app - INFO - get_attractions - MHXFZB: fetching attractions
+2024-10-09 14:57:27,022 - app - INFO - get_attractions - MHXFZB: fetched 3 attractions
+2024-10-09 14:57:27,023 - app - INFO - get_attractions_time_slots - MHXFZB: fetching time slots
+2024-10-09 14:57:27,024 - app - INFO - get_attractions_time_slots - MHXFZB: fetched 8 time slots
+2024-10-09 14:57:27,025 - app - INFO - get_attractions_tickets - MHXFZB: fetching available tickets
+2024-10-09 14:57:27,025 - app - INFO - get_attractions_tickets - MHXFZB: fetched 3 available tickets
+2024-10-09 14:57:27,028 - app - INFO - booking - MHXFZB: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:27,028 - app - INFO - booking - MHXFZB: booking successful
+2024-10-09 14:57:27,029 - app - INFO - get_attractions - LR8OZB: fetching attractions
+2024-10-09 14:57:27,029 - app - INFO - get_attractions - LR8OZB: fetched 3 attractions
+2024-10-09 14:57:27,030 - app - INFO - get_attractions_time_slots - LR8OZB: fetching time slots
+2024-10-09 14:57:27,030 - app - INFO - get_attractions_time_slots - LR8OZB: fetched 8 time slots
+2024-10-09 14:57:27,031 - app - INFO - get_attractions_tickets - LR8OZB: fetching available tickets
+2024-10-09 14:57:27,031 - app - INFO - get_attractions_tickets - LR8OZB: fetched 3 available tickets
+2024-10-09 14:57:27,034 - app - ERROR - booking - LR8OZB: invalid payment details
+2024-10-09 14:57:27,035 - app - INFO - get_attractions - NZ1IN3: fetching attractions
+2024-10-09 14:57:27,035 - app - INFO - get_attractions - NZ1IN3: fetched 3 attractions
+2024-10-09 14:57:27,036 - app - INFO - get_attractions_time_slots - NZ1IN3: fetching time slots
+2024-10-09 14:57:27,036 - app - INFO - get_attractions_time_slots - NZ1IN3: fetched 8 time slots
+2024-10-09 14:57:27,037 - app - INFO - get_attractions_tickets - NZ1IN3: fetching available tickets
+2024-10-09 14:57:27,037 - app - INFO - get_attractions_tickets - NZ1IN3: fetched 3 available tickets
+2024-10-09 14:57:27,040 - app - INFO - booking - NZ1IN3: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,040 - app - INFO - booking - NZ1IN3: booking successful
+2024-10-09 14:57:27,041 - app - INFO - get_attractions - OS0YSK: fetching attractions
+2024-10-09 14:57:27,041 - app - INFO - get_attractions - OS0YSK: fetched 3 attractions
+2024-10-09 14:57:27,042 - app - INFO - get_attractions_time_slots - OS0YSK: fetching time slots
+2024-10-09 14:57:27,042 - app - INFO - get_attractions_time_slots - OS0YSK: fetched 8 time slots
+2024-10-09 14:57:27,043 - app - INFO - get_attractions_tickets - OS0YSK: fetching available tickets
+2024-10-09 14:57:27,044 - app - INFO - get_attractions_tickets - OS0YSK: fetched 3 available tickets
+2024-10-09 14:57:27,046 - app - ERROR - booking - OS0YSK: invalid payment details
+2024-10-09 14:57:27,047 - app - INFO - get_attractions - 3NECR6: fetching attractions
+2024-10-09 14:57:27,047 - app - INFO - get_attractions - 3NECR6: fetched 3 attractions
+2024-10-09 14:57:27,048 - app - INFO - get_attractions_time_slots - 3NECR6: fetching time slots
+2024-10-09 14:57:27,049 - app - INFO - get_attractions_time_slots - 3NECR6: fetched 8 time slots
+2024-10-09 14:57:27,050 - app - INFO - get_attractions_tickets - 3NECR6: fetching available tickets
+2024-10-09 14:57:27,050 - app - INFO - get_attractions_tickets - 3NECR6: fetched 3 available tickets
+2024-10-09 14:57:27,052 - app - ERROR - booking - 3NECR6: invalid payment details
+2024-10-09 14:57:27,053 - app - INFO - get_attractions - Y4PJJ8: fetching attractions
+2024-10-09 14:57:27,053 - app - INFO - get_attractions - Y4PJJ8: fetched 3 attractions
+2024-10-09 14:57:27,054 - app - INFO - get_attractions_time_slots - Y4PJJ8: fetching time slots
+2024-10-09 14:57:27,055 - app - INFO - get_attractions_time_slots - Y4PJJ8: fetched 8 time slots
+2024-10-09 14:57:27,055 - app - INFO - get_attractions_tickets - Y4PJJ8: fetching available tickets
+2024-10-09 14:57:27,056 - app - INFO - get_attractions_tickets - Y4PJJ8: fetched 3 available tickets
+2024-10-09 14:57:27,058 - app - INFO - booking - Y4PJJ8: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,058 - app - INFO - booking - Y4PJJ8: booking successful
+2024-10-09 14:57:27,059 - app - INFO - get_attractions - 24WOX9: fetching attractions
+2024-10-09 14:57:27,059 - app - INFO - get_attractions - 24WOX9: fetched 3 attractions
+2024-10-09 14:57:27,060 - app - INFO - get_attractions_time_slots - 24WOX9: fetching time slots
+2024-10-09 14:57:27,060 - app - INFO - get_attractions_time_slots - 24WOX9: fetched 8 time slots
+2024-10-09 14:57:27,061 - app - INFO - get_attractions_tickets - 24WOX9: fetching available tickets
+2024-10-09 14:57:27,061 - app - INFO - get_attractions_tickets - 24WOX9: fetched 3 available tickets
+2024-10-09 14:57:27,064 - app - INFO - booking - 24WOX9: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,064 - app - INFO - booking - 24WOX9: booking successful
+2024-10-09 14:57:27,065 - app - INFO - get_attractions - OZDWM8: fetching attractions
+2024-10-09 14:57:27,065 - app - INFO - get_attractions - OZDWM8: fetched 3 attractions
+2024-10-09 14:57:27,066 - app - INFO - get_attractions_time_slots - OZDWM8: fetching time slots
+2024-10-09 14:57:27,066 - app - INFO - get_attractions_time_slots - OZDWM8: fetched 8 time slots
+2024-10-09 14:57:27,067 - app - INFO - get_attractions_tickets - OZDWM8: fetching available tickets
+2024-10-09 14:57:27,068 - app - INFO - get_attractions_tickets - OZDWM8: fetched 3 available tickets
+2024-10-09 14:57:27,070 - app - ERROR - booking - OZDWM8: invalid payment details
+2024-10-09 14:57:27,071 - app - INFO - get_attractions - HY1L21: fetching attractions
+2024-10-09 14:57:27,071 - app - INFO - get_attractions - HY1L21: fetched 3 attractions
+2024-10-09 14:57:27,072 - app - INFO - get_attractions_time_slots - HY1L21: fetching time slots
+2024-10-09 14:57:27,072 - app - INFO - get_attractions_time_slots - HY1L21: fetched 8 time slots
+2024-10-09 14:57:27,073 - app - INFO - get_attractions_tickets - HY1L21: fetching available tickets
+2024-10-09 14:57:27,073 - app - INFO - get_attractions_tickets - HY1L21: fetched 3 available tickets
+2024-10-09 14:57:27,076 - app - ERROR - booking - HY1L21: invalid payment details
+2024-10-09 14:57:27,077 - app - INFO - get_attractions - HQHFRX: fetching attractions
+2024-10-09 14:57:27,077 - app - INFO - get_attractions - HQHFRX: fetched 3 attractions
+2024-10-09 14:57:27,078 - app - INFO - get_attractions_time_slots - HQHFRX: fetching time slots
+2024-10-09 14:57:27,078 - app - INFO - get_attractions_time_slots - HQHFRX: fetched 8 time slots
+2024-10-09 14:57:27,079 - app - INFO - get_attractions_tickets - HQHFRX: fetching available tickets
+2024-10-09 14:57:27,079 - app - INFO - get_attractions_tickets - HQHFRX: fetched 3 available tickets
+2024-10-09 14:57:27,081 - app - ERROR - booking - HQHFRX: invalid payment details
+2024-10-09 14:57:27,083 - app - INFO - get_attractions - 7ITIGV: fetching attractions
+2024-10-09 14:57:27,083 - app - INFO - get_attractions - 7ITIGV: fetched 3 attractions
+2024-10-09 14:57:27,084 - app - INFO - get_attractions_time_slots - 7ITIGV: fetching time slots
+2024-10-09 14:57:27,084 - app - INFO - get_attractions_time_slots - 7ITIGV: fetched 8 time slots
+2024-10-09 14:57:27,085 - app - INFO - get_attractions_tickets - 7ITIGV: fetching available tickets
+2024-10-09 14:57:27,085 - app - INFO - get_attractions_tickets - 7ITIGV: fetched 3 available tickets
+2024-10-09 14:57:27,088 - app - INFO - booking - 7ITIGV: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,088 - app - INFO - booking - 7ITIGV: booking successful
+2024-10-09 14:57:27,089 - app - INFO - get_attractions - D1OQB2: fetching attractions
+2024-10-09 14:57:27,089 - app - INFO - get_attractions - D1OQB2: fetched 3 attractions
+2024-10-09 14:57:27,090 - app - INFO - get_attractions_time_slots - D1OQB2: fetching time slots
+2024-10-09 14:57:27,090 - app - INFO - get_attractions_time_slots - D1OQB2: fetched 8 time slots
+2024-10-09 14:57:27,091 - app - INFO - get_attractions_tickets - D1OQB2: fetching available tickets
+2024-10-09 14:57:27,091 - app - INFO - get_attractions_tickets - D1OQB2: fetched 3 available tickets
+2024-10-09 14:57:27,093 - app - INFO - booking - D1OQB2: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,093 - app - INFO - booking - D1OQB2: booking successful
+2024-10-09 14:57:27,094 - app - INFO - get_attractions - HKAU03: fetching attractions
+2024-10-09 14:57:27,095 - app - INFO - get_attractions - HKAU03: fetched 3 attractions
+2024-10-09 14:57:27,096 - app - INFO - get_attractions_time_slots - HKAU03: fetching time slots
+2024-10-09 14:57:27,096 - app - INFO - get_attractions_time_slots - HKAU03: fetched 8 time slots
+2024-10-09 14:57:27,097 - app - INFO - get_attractions_tickets - HKAU03: fetching available tickets
+2024-10-09 14:57:27,097 - app - INFO - get_attractions_tickets - HKAU03: fetched 3 available tickets
+2024-10-09 14:57:27,099 - app - ERROR - booking - HKAU03: invalid payment details
+2024-10-09 14:57:27,100 - app - INFO - get_attractions - X5YHKL: fetching attractions
+2024-10-09 14:57:27,101 - app - INFO - get_attractions - X5YHKL: fetched 3 attractions
+2024-10-09 14:57:27,102 - app - INFO - get_attractions_time_slots - X5YHKL: fetching time slots
+2024-10-09 14:57:27,102 - app - INFO - get_attractions_time_slots - X5YHKL: fetched 8 time slots
+2024-10-09 14:57:27,103 - app - INFO - get_attractions_tickets - X5YHKL: fetching available tickets
+2024-10-09 14:57:27,103 - app - INFO - get_attractions_tickets - X5YHKL: fetched 3 available tickets
+2024-10-09 14:57:27,105 - app - INFO - booking - X5YHKL: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,105 - app - INFO - booking - X5YHKL: booking successful
+2024-10-09 14:57:27,106 - app - INFO - get_attractions - JBU0JH: fetching attractions
+2024-10-09 14:57:27,106 - app - INFO - get_attractions - JBU0JH: fetched 3 attractions
+2024-10-09 14:57:27,107 - app - INFO - get_attractions_time_slots - JBU0JH: fetching time slots
+2024-10-09 14:57:27,107 - app - INFO - get_attractions_time_slots - JBU0JH: fetched 8 time slots
+2024-10-09 14:57:27,108 - app - INFO - get_attractions_tickets - JBU0JH: fetching available tickets
+2024-10-09 14:57:27,108 - app - INFO - get_attractions_tickets - JBU0JH: fetched 3 available tickets
+2024-10-09 14:57:27,111 - app - ERROR - booking - JBU0JH: invalid payment details
+2024-10-09 14:57:27,112 - app - INFO - get_attractions - SDBX6L: fetching attractions
+2024-10-09 14:57:27,112 - app - INFO - get_attractions - SDBX6L: fetched 3 attractions
+2024-10-09 14:57:27,113 - app - INFO - get_attractions_time_slots - SDBX6L: fetching time slots
+2024-10-09 14:57:27,113 - app - INFO - get_attractions_time_slots - SDBX6L: fetched 8 time slots
+2024-10-09 14:57:27,114 - app - INFO - get_attractions_tickets - SDBX6L: fetching available tickets
+2024-10-09 14:57:27,114 - app - INFO - get_attractions_tickets - SDBX6L: fetched 3 available tickets
+2024-10-09 14:57:27,117 - app - INFO - booking - SDBX6L: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,117 - app - INFO - booking - SDBX6L: booking successful
+2024-10-09 14:57:27,118 - app - INFO - get_attractions - 3NJCFO: fetching attractions
+2024-10-09 14:57:27,119 - app - INFO - get_attractions - 3NJCFO: fetched 3 attractions
+2024-10-09 14:57:27,120 - app - INFO - get_attractions_time_slots - 3NJCFO: fetching time slots
+2024-10-09 14:57:27,120 - app - INFO - get_attractions_time_slots - 3NJCFO: fetched 8 time slots
+2024-10-09 14:57:27,121 - app - INFO - get_attractions_tickets - 3NJCFO: fetching available tickets
+2024-10-09 14:57:27,121 - app - INFO - get_attractions_tickets - 3NJCFO: fetched 3 available tickets
+2024-10-09 14:57:27,126 - app - INFO - booking - 3NJCFO: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:27,127 - app - INFO - booking - 3NJCFO: booking successful
+2024-10-09 14:57:27,128 - app - INFO - get_attractions - UF0YVK: fetching attractions
+2024-10-09 14:57:27,128 - app - INFO - get_attractions - UF0YVK: fetched 3 attractions
+2024-10-09 14:57:27,129 - app - INFO - get_attractions_time_slots - UF0YVK: fetching time slots
+2024-10-09 14:57:27,129 - app - INFO - get_attractions_time_slots - UF0YVK: fetched 8 time slots
+2024-10-09 14:57:27,130 - app - INFO - get_attractions_tickets - UF0YVK: fetching available tickets
+2024-10-09 14:57:27,130 - app - INFO - get_attractions_tickets - UF0YVK: fetched 3 available tickets
+2024-10-09 14:57:27,133 - app - ERROR - booking - UF0YVK: invalid payment details
+2024-10-09 14:57:27,134 - app - INFO - get_attractions - HBBDAO: fetching attractions
+2024-10-09 14:57:27,134 - app - INFO - get_attractions - HBBDAO: fetched 3 attractions
+2024-10-09 14:57:27,135 - app - INFO - get_attractions_time_slots - HBBDAO: fetching time slots
+2024-10-09 14:57:27,135 - app - INFO - get_attractions_time_slots - HBBDAO: fetched 8 time slots
+2024-10-09 14:57:27,136 - app - INFO - get_attractions_tickets - HBBDAO: fetching available tickets
+2024-10-09 14:57:27,136 - app - INFO - get_attractions_tickets - HBBDAO: fetched 3 available tickets
+2024-10-09 14:57:27,139 - app - ERROR - booking - HBBDAO: invalid payment details
+2024-10-09 14:57:27,140 - app - INFO - get_attractions - H2FTDV: fetching attractions
+2024-10-09 14:57:27,140 - app - INFO - get_attractions - H2FTDV: fetched 3 attractions
+2024-10-09 14:57:27,141 - app - INFO - get_attractions_time_slots - H2FTDV: fetching time slots
+2024-10-09 14:57:27,141 - app - INFO - get_attractions_time_slots - H2FTDV: fetched 8 time slots
+2024-10-09 14:57:27,142 - app - INFO - get_attractions_tickets - H2FTDV: fetching available tickets
+2024-10-09 14:57:27,142 - app - INFO - get_attractions_tickets - H2FTDV: fetched 3 available tickets
+2024-10-09 14:57:27,144 - app - ERROR - booking - H2FTDV: invalid payment details
+2024-10-09 14:57:27,145 - app - INFO - get_attractions - TKRDHP: fetching attractions
+2024-10-09 14:57:27,146 - app - INFO - get_attractions - TKRDHP: fetched 3 attractions
+2024-10-09 14:57:27,146 - app - INFO - get_attractions_time_slots - TKRDHP: fetching time slots
+2024-10-09 14:57:27,147 - app - INFO - get_attractions_time_slots - TKRDHP: fetched 8 time slots
+2024-10-09 14:57:27,148 - app - INFO - get_attractions_tickets - TKRDHP: fetching available tickets
+2024-10-09 14:57:27,148 - app - INFO - get_attractions_tickets - TKRDHP: fetched 3 available tickets
+2024-10-09 14:57:27,151 - app - INFO - booking - TKRDHP: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,151 - app - INFO - booking - TKRDHP: booking successful
+2024-10-09 14:57:27,152 - app - INFO - get_attractions - GLD3NC: fetching attractions
+2024-10-09 14:57:27,152 - app - INFO - get_attractions - GLD3NC: fetched 3 attractions
+2024-10-09 14:57:27,153 - app - INFO - get_attractions_time_slots - GLD3NC: fetching time slots
+2024-10-09 14:57:27,153 - app - INFO - get_attractions_time_slots - GLD3NC: fetched 8 time slots
+2024-10-09 14:57:27,154 - app - INFO - get_attractions_tickets - GLD3NC: fetching available tickets
+2024-10-09 14:57:27,154 - app - INFO - get_attractions_tickets - GLD3NC: fetched 3 available tickets
+2024-10-09 14:57:27,156 - app - ERROR - booking - GLD3NC: invalid payment details
+2024-10-09 14:57:27,157 - app - INFO - get_attractions - TBYQ3E: fetching attractions
+2024-10-09 14:57:27,157 - app - INFO - get_attractions - TBYQ3E: fetched 3 attractions
+2024-10-09 14:57:27,158 - app - INFO - get_attractions_time_slots - TBYQ3E: fetching time slots
+2024-10-09 14:57:27,159 - app - INFO - get_attractions_time_slots - TBYQ3E: fetched 8 time slots
+2024-10-09 14:57:27,160 - app - INFO - get_attractions_tickets - TBYQ3E: fetching available tickets
+2024-10-09 14:57:27,160 - app - INFO - get_attractions_tickets - TBYQ3E: fetched 3 available tickets
+2024-10-09 14:57:27,162 - app - INFO - booking - TBYQ3E: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,162 - app - INFO - booking - TBYQ3E: booking successful
+2024-10-09 14:57:27,163 - app - INFO - get_attractions - SM9PTI: fetching attractions
+2024-10-09 14:57:27,163 - app - INFO - get_attractions - SM9PTI: fetched 3 attractions
+2024-10-09 14:57:27,164 - app - INFO - get_attractions_time_slots - SM9PTI: fetching time slots
+2024-10-09 14:57:27,164 - app - INFO - get_attractions_time_slots - SM9PTI: fetched 8 time slots
+2024-10-09 14:57:27,166 - app - INFO - get_attractions_tickets - SM9PTI: fetching available tickets
+2024-10-09 14:57:27,166 - app - INFO - get_attractions_tickets - SM9PTI: fetched 3 available tickets
+2024-10-09 14:57:27,168 - app - INFO - booking - SM9PTI: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,168 - app - INFO - booking - SM9PTI: booking successful
+2024-10-09 14:57:27,169 - app - INFO - get_attractions - 1D4VI2: fetching attractions
+2024-10-09 14:57:27,170 - app - INFO - get_attractions - 1D4VI2: fetched 3 attractions
+2024-10-09 14:57:27,171 - app - INFO - get_attractions_time_slots - 1D4VI2: fetching time slots
+2024-10-09 14:57:27,171 - app - INFO - get_attractions_time_slots - 1D4VI2: fetched 8 time slots
+2024-10-09 14:57:27,172 - app - INFO - get_attractions_tickets - 1D4VI2: fetching available tickets
+2024-10-09 14:57:27,172 - app - INFO - get_attractions_tickets - 1D4VI2: fetched 3 available tickets
+2024-10-09 14:57:27,174 - app - ERROR - booking - 1D4VI2: invalid payment details
+2024-10-09 14:57:27,175 - app - INFO - get_attractions - C2WFRS: fetching attractions
+2024-10-09 14:57:27,175 - app - INFO - get_attractions - C2WFRS: fetched 3 attractions
+2024-10-09 14:57:27,176 - app - INFO - get_attractions_time_slots - C2WFRS: fetching time slots
+2024-10-09 14:57:27,176 - app - INFO - get_attractions_time_slots - C2WFRS: fetched 8 time slots
+2024-10-09 14:57:27,177 - app - INFO - get_attractions_tickets - C2WFRS: fetching available tickets
+2024-10-09 14:57:27,178 - app - INFO - get_attractions_tickets - C2WFRS: fetched 3 available tickets
+2024-10-09 14:57:27,180 - app - INFO - booking - C2WFRS: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,180 - app - INFO - booking - C2WFRS: booking successful
+2024-10-09 14:57:27,181 - app - INFO - get_attractions - TNT17B: fetching attractions
+2024-10-09 14:57:27,181 - app - INFO - get_attractions - TNT17B: fetched 3 attractions
+2024-10-09 14:57:27,182 - app - INFO - get_attractions_time_slots - TNT17B: fetching time slots
+2024-10-09 14:57:27,183 - app - INFO - get_attractions_time_slots - TNT17B: fetched 8 time slots
+2024-10-09 14:57:27,183 - app - INFO - get_attractions_tickets - TNT17B: fetching available tickets
+2024-10-09 14:57:27,184 - app - INFO - get_attractions_tickets - TNT17B: fetched 3 available tickets
+2024-10-09 14:57:27,186 - app - INFO - booking - TNT17B: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,186 - app - INFO - booking - TNT17B: booking successful
+2024-10-09 14:57:27,187 - app - INFO - get_attractions - DOV4UZ: fetching attractions
+2024-10-09 14:57:27,187 - app - INFO - get_attractions - DOV4UZ: fetched 3 attractions
+2024-10-09 14:57:27,188 - app - INFO - get_attractions_time_slots - DOV4UZ: fetching time slots
+2024-10-09 14:57:27,189 - app - INFO - get_attractions_time_slots - DOV4UZ: fetched 8 time slots
+2024-10-09 14:57:27,189 - app - INFO - get_attractions_tickets - DOV4UZ: fetching available tickets
+2024-10-09 14:57:27,190 - app - INFO - get_attractions_tickets - DOV4UZ: fetched 3 available tickets
+2024-10-09 14:57:27,192 - app - ERROR - booking - DOV4UZ: invalid payment details
+2024-10-09 14:57:27,193 - app - INFO - get_attractions - FLD5CJ: fetching attractions
+2024-10-09 14:57:27,193 - app - INFO - get_attractions - FLD5CJ: fetched 3 attractions
+2024-10-09 14:57:27,194 - app - INFO - get_attractions_time_slots - FLD5CJ: fetching time slots
+2024-10-09 14:57:27,194 - app - INFO - get_attractions_time_slots - FLD5CJ: fetched 8 time slots
+2024-10-09 14:57:27,195 - app - INFO - get_attractions_tickets - FLD5CJ: fetching available tickets
+2024-10-09 14:57:27,195 - app - INFO - get_attractions_tickets - FLD5CJ: fetched 3 available tickets
+2024-10-09 14:57:27,198 - app - INFO - booking - FLD5CJ: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,198 - app - INFO - booking - FLD5CJ: booking successful
+2024-10-09 14:57:27,199 - app - INFO - get_attractions - QIN8IA: fetching attractions
+2024-10-09 14:57:27,199 - app - INFO - get_attractions - QIN8IA: fetched 3 attractions
+2024-10-09 14:57:27,200 - app - INFO - get_attractions_time_slots - QIN8IA: fetching time slots
+2024-10-09 14:57:27,201 - app - INFO - get_attractions_time_slots - QIN8IA: fetched 8 time slots
+2024-10-09 14:57:27,201 - app - INFO - get_attractions_tickets - QIN8IA: fetching available tickets
+2024-10-09 14:57:27,202 - app - INFO - get_attractions_tickets - QIN8IA: fetched 3 available tickets
+2024-10-09 14:57:27,204 - app - INFO - booking - QIN8IA: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,204 - app - INFO - booking - QIN8IA: booking successful
+2024-10-09 14:57:27,205 - app - INFO - get_attractions - KQX23J: fetching attractions
+2024-10-09 14:57:27,205 - app - INFO - get_attractions - KQX23J: fetched 3 attractions
+2024-10-09 14:57:27,206 - app - INFO - get_attractions_time_slots - KQX23J: fetching time slots
+2024-10-09 14:57:27,207 - app - INFO - get_attractions_time_slots - KQX23J: fetched 8 time slots
+2024-10-09 14:57:27,207 - app - INFO - get_attractions_tickets - KQX23J: fetching available tickets
+2024-10-09 14:57:27,208 - app - INFO - get_attractions_tickets - KQX23J: fetched 3 available tickets
+2024-10-09 14:57:27,210 - app - ERROR - booking - KQX23J: invalid payment details
+2024-10-09 14:57:27,211 - app - INFO - get_attractions - QQZVTG: fetching attractions
+2024-10-09 14:57:27,211 - app - INFO - get_attractions - QQZVTG: fetched 3 attractions
+2024-10-09 14:57:27,212 - app - INFO - get_attractions_time_slots - QQZVTG: fetching time slots
+2024-10-09 14:57:27,212 - app - INFO - get_attractions_time_slots - QQZVTG: fetched 8 time slots
+2024-10-09 14:57:27,213 - app - INFO - get_attractions_tickets - QQZVTG: fetching available tickets
+2024-10-09 14:57:27,213 - app - INFO - get_attractions_tickets - QQZVTG: fetched 3 available tickets
+2024-10-09 14:57:27,216 - app - ERROR - booking - QQZVTG: invalid payment details
+2024-10-09 14:57:27,217 - app - INFO - get_attractions - VLNRJM: fetching attractions
+2024-10-09 14:57:27,217 - app - INFO - get_attractions - VLNRJM: fetched 3 attractions
+2024-10-09 14:57:27,218 - app - INFO - get_attractions_time_slots - VLNRJM: fetching time slots
+2024-10-09 14:57:27,218 - app - INFO - get_attractions_time_slots - VLNRJM: fetched 8 time slots
+2024-10-09 14:57:27,219 - app - INFO - get_attractions_tickets - VLNRJM: fetching available tickets
+2024-10-09 14:57:27,219 - app - INFO - get_attractions_tickets - VLNRJM: fetched 3 available tickets
+2024-10-09 14:57:27,222 - app - INFO - booking - VLNRJM: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,222 - app - INFO - booking - VLNRJM: booking successful
+2024-10-09 14:57:27,223 - app - INFO - get_attractions - BG7EIB: fetching attractions
+2024-10-09 14:57:27,223 - app - INFO - get_attractions - BG7EIB: fetched 3 attractions
+2024-10-09 14:57:27,224 - app - INFO - get_attractions_time_slots - BG7EIB: fetching time slots
+2024-10-09 14:57:27,224 - app - INFO - get_attractions_time_slots - BG7EIB: fetched 8 time slots
+2024-10-09 14:57:27,225 - app - INFO - get_attractions_tickets - BG7EIB: fetching available tickets
+2024-10-09 14:57:27,225 - app - INFO - get_attractions_tickets - BG7EIB: fetched 3 available tickets
+2024-10-09 14:57:27,228 - app - INFO - booking - BG7EIB: updating available tickets for attraction Aquarium to 0
+2024-10-09 14:57:27,228 - app - INFO - booking - BG7EIB: booking successful
+2024-10-09 14:57:27,229 - app - INFO - get_attractions - 7GWSDR: fetching attractions
+2024-10-09 14:57:27,229 - app - INFO - get_attractions - 7GWSDR: fetched 3 attractions
+2024-10-09 14:57:27,230 - app - INFO - get_attractions_time_slots - 7GWSDR: fetching time slots
+2024-10-09 14:57:27,230 - app - INFO - get_attractions_time_slots - 7GWSDR: fetched 8 time slots
+2024-10-09 14:57:27,231 - app - INFO - get_attractions_tickets - 7GWSDR: fetching available tickets
+2024-10-09 14:57:27,231 - app - INFO - get_attractions_tickets - 7GWSDR: fetched 3 available tickets
+2024-10-09 14:57:27,234 - app - ERROR - booking - 7GWSDR: invalid payment details
+2024-10-09 14:57:27,235 - app - INFO - get_attractions - AL3VYJ: fetching attractions
+2024-10-09 14:57:27,235 - app - INFO - get_attractions - AL3VYJ: fetched 3 attractions
+2024-10-09 14:57:27,236 - app - INFO - get_attractions_time_slots - AL3VYJ: fetching time slots
+2024-10-09 14:57:27,236 - app - INFO - get_attractions_time_slots - AL3VYJ: fetched 8 time slots
+2024-10-09 14:57:27,237 - app - INFO - get_attractions_tickets - AL3VYJ: fetching available tickets
+2024-10-09 14:57:27,237 - app - INFO - get_attractions_tickets - AL3VYJ: fetched 3 available tickets
+2024-10-09 14:57:27,239 - app - INFO - booking - AL3VYJ: updating available tickets for attraction Art Gallery to 0
+2024-10-09 14:57:27,239 - app - INFO - booking - AL3VYJ: booking successful
+2024-10-09 14:57:27,240 - app - INFO - get_attractions - NE5V0Q: fetching attractions
+2024-10-09 14:57:27,241 - app - INFO - get_attractions - NE5V0Q: fetched 3 attractions
+2024-10-09 14:57:27,242 - app - INFO - get_attractions_time_slots - NE5V0Q: fetching time slots
+2024-10-09 14:57:27,242 - app - INFO - get_attractions_time_slots - NE5V0Q: fetched 8 time slots
+2024-10-09 14:57:27,243 - app - INFO - get_attractions_tickets - NE5V0Q: fetching available tickets
+2024-10-09 14:57:27,243 - app - INFO - get_attractions_tickets - NE5V0Q: fetched 3 available tickets
+2024-10-09 14:57:27,245 - app - ERROR - booking - NE5V0Q: invalid payment details
+2024-10-09 14:57:27,246 - app - INFO - get_attractions - D83O3X: fetching attractions
+2024-10-09 14:57:27,246 - app - INFO - get_attractions - D83O3X: fetched 3 attractions
+2024-10-09 14:57:27,247 - app - INFO - get_attractions_time_slots - D83O3X: fetching time slots
+2024-10-09 14:57:27,247 - app - INFO - get_attractions_time_slots - D83O3X: fetched 8 time slots
+2024-10-09 14:57:27,248 - app - INFO - get_attractions_tickets - D83O3X: fetching available tickets
+2024-10-09 14:57:27,248 - app - INFO - get_attractions_tickets - D83O3X: fetched 3 available tickets
+2024-10-09 14:57:27,251 - app - INFO - booking - D83O3X: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:27,251 - app - INFO - booking - D83O3X: booking successful
+2024-10-09 14:57:27,252 - app - INFO - get_attractions - 57WY2J: fetching attractions
+2024-10-09 14:57:27,252 - app - INFO - get_attractions - 57WY2J: fetched 3 attractions
+2024-10-09 14:57:27,253 - app - INFO - get_attractions_time_slots - 57WY2J: fetching time slots
+2024-10-09 14:57:27,254 - app - INFO - get_attractions_time_slots - 57WY2J: fetched 8 time slots
+2024-10-09 14:57:27,254 - app - INFO - get_attractions_tickets - 57WY2J: fetching available tickets
+2024-10-09 14:57:27,255 - app - INFO - get_attractions_tickets - 57WY2J: fetched 3 available tickets
+2024-10-09 14:57:27,257 - app - INFO - booking - 57WY2J: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:27,257 - app - INFO - booking - 57WY2J: booking successful
+2024-10-09 14:57:27,258 - app - INFO - get_attractions - EYXVNV: fetching attractions
+2024-10-09 14:57:27,258 - app - INFO - get_attractions - EYXVNV: fetched 3 attractions
+2024-10-09 14:57:27,259 - app - INFO - get_attractions_time_slots - EYXVNV: fetching time slots
+2024-10-09 14:57:27,259 - app - INFO - get_attractions_time_slots - EYXVNV: fetched 8 time slots
+2024-10-09 14:57:27,260 - app - INFO - get_attractions_tickets - EYXVNV: fetching available tickets
+2024-10-09 14:57:27,261 - app - INFO - get_attractions_tickets - EYXVNV: fetched 3 available tickets
+2024-10-09 14:57:27,263 - app - ERROR - booking - EYXVNV: invalid payment details
+2024-10-09 14:57:27,264 - app - INFO - get_attractions - CN3Z9P: fetching attractions
+2024-10-09 14:57:27,264 - app - INFO - get_attractions - CN3Z9P: fetched 3 attractions
+2024-10-09 14:57:27,265 - app - INFO - get_attractions_time_slots - CN3Z9P: fetching time slots
+2024-10-09 14:57:27,265 - app - INFO - get_attractions_time_slots - CN3Z9P: fetched 8 time slots
+2024-10-09 14:57:27,266 - app - INFO - get_attractions_tickets - CN3Z9P: fetching available tickets
+2024-10-09 14:57:27,266 - app - INFO - get_attractions_tickets - CN3Z9P: fetched 3 available tickets
+2024-10-09 14:57:27,269 - app - INFO - booking - CN3Z9P: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:27,269 - app - INFO - booking - CN3Z9P: booking successful
+2024-10-09 14:57:27,270 - app - INFO - get_attractions - 202LUN: fetching attractions
+2024-10-09 14:57:27,270 - app - INFO - get_attractions - 202LUN: fetched 3 attractions
+2024-10-09 14:57:27,271 - app - INFO - get_attractions_time_slots - 202LUN: fetching time slots
+2024-10-09 14:57:27,271 - app - INFO - get_attractions_time_slots - 202LUN: fetched 8 time slots
+2024-10-09 14:57:27,272 - app - INFO - get_attractions_tickets - 202LUN: fetching available tickets
+2024-10-09 14:57:27,273 - app - INFO - get_attractions_tickets - 202LUN: fetched 3 available tickets
+2024-10-09 14:57:27,275 - app - ERROR - booking - 202LUN: invalid payment details
+2024-10-09 14:57:27,276 - app - INFO - get_attractions - XD9895: fetching attractions
+2024-10-09 14:57:27,276 - app - INFO - get_attractions - XD9895: fetched 3 attractions
+2024-10-09 14:57:27,277 - app - INFO - get_attractions_time_slots - XD9895: fetching time slots
+2024-10-09 14:57:27,277 - app - INFO - get_attractions_time_slots - XD9895: fetched 8 time slots
+2024-10-09 14:57:27,278 - app - INFO - get_attractions_tickets - XD9895: fetching available tickets
+2024-10-09 14:57:27,278 - app - INFO - get_attractions_tickets - XD9895: fetched 3 available tickets
+2024-10-09 14:57:27,281 - app - INFO - booking - XD9895: updating available tickets for attraction Museum to 0
+2024-10-09 14:57:27,281 - app - INFO - booking - XD9895: booking successful
+2024-10-09 15:00:31,805 - app - INFO - <module> - Starting the application
+2024-10-09 15:00:35,001 - app - INFO - <module> - Starting the application
+2024-10-09 15:02:07,612 - app - INFO - <module> - Starting the application
+2024-10-09 15:02:07,698 - app - INFO - <module> - Starting the application

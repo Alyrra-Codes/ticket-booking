@@ -20,7 +20,7 @@ flask populatedb
 python api/app.py
 ```
 
-# Endpoints 
+# Endpoints Ignore the below formats :) 
 
 GET /api/attractions 
 

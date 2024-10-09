@@ -3,12 +3,13 @@ import requests
 import json 
 import random
 
-BASE_API = 'http://localhost:5000/api'
+BASE_API = 'http://127.0.0.1:5000/api'
 
 def generate_session_code():
   return ''.join(random.choices('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', k=6))
 
 def get_attractions(header):
+  print('getting attractions')
   response = requests.get(f'{BASE_API}/attractions', headers=header)
   attractions = json.loads(response.text)
   
@@ -92,6 +93,11 @@ def main():
   
   print(f'Selected time slot: {selected_time_slot}')
   
+  # simulate radom return 
+  if random.choice([True, False]):
+    print('Simulating random return after selecting time slot') 
+    return
+  
   tickets = get_tickets(header)
   selected_tickets = select_tickets(tickets, selected_attraction.get('availableTickets'))
   
@@ -111,6 +117,10 @@ def main():
     'booking': booking_details,
     'payment': payment_details
   }
+  
+  if random.choice([True, False]):
+    print('Simulating random return after entering payment details') 
+    return
   
   try:
     booking_code = book_attraction(booking_data, header)
