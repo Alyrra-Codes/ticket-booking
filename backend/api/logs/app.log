@@ -766,3 +766,29 @@
 2024-10-09 15:00:35,001 - app - INFO - <module> - Starting the application
 2024-10-09 15:02:07,612 - app - INFO - <module> - Starting the application
 2024-10-09 15:02:07,698 - app - INFO - <module> - Starting the application
+2024-10-09 15:21:46,479 - app - INFO - <module> - Starting the application
+2024-10-09 15:21:46,588 - app - INFO - <module> - Starting the application
+2024-10-09 15:22:26,962 - app - INFO - get_attractions - jo4tx9q99nho6xzxdx28i: fetching attractions
+2024-10-09 15:22:26,966 - app - INFO - get_attractions - jo4tx9q99nho6xzxdx28i: fetched 3 attractions
+2024-10-09 15:23:04,463 - app - INFO - get_attractions_time_slots - jo4tx9q99nho6xzxdx28i: fetching time slots
+2024-10-09 15:23:04,464 - app - INFO - get_attractions_time_slots - jo4tx9q99nho6xzxdx28i: fetched 8 time slots
+2024-10-09 15:23:32,481 - app - INFO - get_attractions_tickets - jo4tx9q99nho6xzxdx28i: fetching available tickets
+2024-10-09 15:23:32,482 - app - INFO - get_attractions_tickets - jo4tx9q99nho6xzxdx28i: fetched 3 available tickets
+2024-10-09 15:28:53,775 - app - INFO - <module> - Starting the application
+2024-10-09 15:28:53,863 - app - INFO - <module> - Starting the application
+2024-10-09 15:29:16,320 - app - INFO - get_attractions - l3icy4j2bai9f52ye9emjp: fetching attractions
+2024-10-09 15:29:16,322 - app - INFO - get_attractions - l3icy4j2bai9f52ye9emjp: fetched 3 attractions
+2024-10-09 15:29:18,518 - app - INFO - get_attractions_time_slots - l3icy4j2bai9f52ye9emjp: fetching time slots
+2024-10-09 15:29:18,519 - app - INFO - get_attractions_time_slots - l3icy4j2bai9f52ye9emjp: fetched 8 time slots
+2024-10-09 15:29:20,810 - app - INFO - get_attractions_tickets - l3icy4j2bai9f52ye9emjp: fetching available tickets
+2024-10-09 15:29:20,810 - app - INFO - get_attractions_tickets - l3icy4j2bai9f52ye9emjp: fetched 3 available tickets
+2024-10-09 15:29:46,385 - app - ERROR - booking - l3icy4j2bai9f52ye9emjp: invalid payment details
+2024-10-09 15:29:53,314 - app - ERROR - booking - l3icy4j2bai9f52ye9emjp: invalid payment details
+2024-10-09 15:29:53,893 - app - INFO - booking - l3icy4j2bai9f52ye9emjp: saving booking for attraction Museum for 15:00-16:00 with 5 Adult tickets
+2024-10-09 15:29:53,896 - app - INFO - booking - l3icy4j2bai9f52ye9emjp: saving booking for attraction Museum for 15:00-16:00 with 6 Child tickets
+2024-10-09 15:29:53,896 - app - INFO - booking - l3icy4j2bai9f52ye9emjp: saving booking for attraction Museum for 15:00-16:00 with 4 Concession tickets
+2024-10-09 15:29:53,897 - app - INFO - booking - l3icy4j2bai9f52ye9emjp: updating available tickets for attraction Museum to 15
+2024-10-09 15:29:53,898 - app - INFO - booking - l3icy4j2bai9f52ye9emjp: booking successful
+2024-10-09 15:29:53,956 - app - INFO - get_booking - l3icy4j2bai9f52ye9emjp: fetching booking with booking code MK9539
+2024-10-09 15:29:53,957 - app - INFO - get_booking - l3icy4j2bai9f52ye9emjp: fetched booking with booking code MK9539
+2024-10-09 15:31:50,592 - app - INFO - <module> - Starting the application

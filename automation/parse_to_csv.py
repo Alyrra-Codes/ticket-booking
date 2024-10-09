@@ -19,7 +19,16 @@ def parse_log_to_csv():
             
             for line in lines:
                 line = line.strip().split(' - ')
-                print(line)
+                
+                timestamp = line[0]
+                script_name = line[1]
+                log_level = line[2]
+                function_name = line[3]
+                
+                session_message = line[4].split(':')
+                session_id = session_message[0]
+                action = session_message[1].strip()
+                
                 # csv_writer.writerow([session_id, action, timestamp])
                 
     print('Done parsing log file')

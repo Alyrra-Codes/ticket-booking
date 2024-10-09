@@ -51,6 +51,8 @@ def populatedb_command():
 
 @app.route('/api/attractions', methods=['GET'])
 def get_attractions():
+    task_id = 'get_attractions'
+    
     session_id = request.headers.get('X-Session-ID')
     app.logger.info(f'{session_id}: fetching attractions')
     
@@ -70,6 +72,8 @@ def get_attractions():
 
 @app.route('/api/attractions/timeslots', methods=['GET'])
 def get_attractions_time_slots():
+    task_id = 'get_attractions_time_slots'
+    
     session_id = request.headers.get('X-Session-ID')
     app.logger.info(f'{session_id}: fetching time slots')
     time_slots = [] 
@@ -85,6 +89,8 @@ def get_attractions_time_slots():
 
 @app.route('/api/attractions/tickets', methods=['GET'])
 def get_attractions_tickets():
+    task_id = 'get_attractions_tickets'
+    
     session_id = request.headers.get('X-Session-ID')
     app.logger.info(f'{session_id}: fetching available tickets')
     available_tickets = [] 
@@ -100,6 +106,8 @@ def get_attractions_tickets():
 
 @app.route('/api/attractions/bookings', methods=['POST'])
 def booking():
+    task_id = 'booking'
+    
     session_id = request.headers.get('X-Session-ID')
     
     data = request.get_json()
@@ -177,6 +185,8 @@ def booking():
 
 @app.route('/api/attractions/bookings/<booking_code>', methods=['GET'])
 def get_booking(booking_code):
+    task_id = 'get_booking'
+    
     session_id = request.headers.get('X-Session-ID')
     
     app.logger.info(f'{session_id}: fetching booking with booking code {booking_code}')
