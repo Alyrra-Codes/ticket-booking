@@ -165,11 +165,11 @@ def booking(attraction_id):
         }
         total_tickets += ticket.get('quantity')
         
-        app.logger.info(f"{task_id} {session_id}: saving booking for attraction {fetched_attraction['name']} for {time_slot.get('startTime')}-{time_slot.get('endTime')} with {ticket.get('quantity')} {ticket.get('type')} tickets")
+        app.logger.info(f"{task_id} {session_id}: saving booking for attraction {fetched_attraction['name']}")
         save_booking(booking_data)
         
     
-    app.logger.info(f"{task_id} {session_id}: updating available tickets for attraction {fetched_attraction['name']} time slot {time_slot.get('startTime')}-{time_slot.get('endTime')} to {total_tickets}")
+    app.logger.info(f"{task_id} {session_id}: updating available tickets for attraction {fetched_attraction['name']}")
     update_time_slot_available_tickets(time_slot.get('id'), total_tickets)
     
     app.logger.info(f"{task_id} {session_id}: booking successful")
@@ -184,7 +184,7 @@ def get_booking(booking_code):
     
     session_id = request.headers.get('X-Session-ID')
     
-    app.logger.info(f'{task_id} {session_id}: fetching booking with booking code {booking_code}')
+    app.logger.info(f'{task_id} {session_id}: fetching booking')
     bookings = get_booking_by_booking_code(booking_code)
     
     if not bookings:
@@ -209,7 +209,7 @@ def get_booking(booking_code):
     response_data['bookingCode'] = bookings[0]['booking_code']
     response_data['status'] = bookings[0]['status']
     
-    app.logger.info(f'{task_id} {session_id}: fetched booking with booking code {booking_code}')
+    app.logger.info(f'{task_id} {session_id}: fetched booking')
     return jsonify(response_data), 200
 
 if __name__ == '__main__':
