@@ -792,3 +792,4 @@
 2024-10-09 15:29:53,956 - app - INFO - get_booking - l3icy4j2bai9f52ye9emjp: fetching booking with booking code MK9539
 2024-10-09 15:29:53,957 - app - INFO - get_booking - l3icy4j2bai9f52ye9emjp: fetched booking with booking code MK9539
 2024-10-09 15:31:50,592 - app - INFO - <module> - Starting the application
+2024-10-12 14:28:12,794 - app - INFO - <module> - Starting the application

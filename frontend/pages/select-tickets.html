@@ -61,10 +61,12 @@
                         input.onchange = () => {
                             let totalCost = 0;
                             let ticketsInBooking = 0; 
-                            const ticket = tickets.find(ticket => ticket.type === input.id.split('-')[0]);
+                            
                             
                             // Calculate total cost and total tickets in booking
                             ticketInputs.forEach(input => {
+                                const ticket = tickets.find(ticket => ticket.type === input.id.split('-')[0]);
+                                
                                 let inputVal = parseInt(input.value);
                                 totalCost += inputVal * ticket.price;
                                 ticketsInBooking += inputVal;
