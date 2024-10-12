@@ -43,7 +43,7 @@ def select_tickets(tickets, max_available_tickets):
   quantity_selected = 0
   
   for ticket in tickets:
-    quantity = random.randint(0, max_available_tickets)
+    quantity = random.randint(0, 5)
     if quantity > 0 and quantity_selected + quantity <= max_available_tickets:
       selected_tickets.append({
         'id': ticket.get('id'),
