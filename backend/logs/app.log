@@ -651,3 +651,6 @@
 2024-10-09 20:33:25,539 - app - INFO - get_attractions - 1 RSUM5F: fetched 3 attractions
 2024-10-09 20:33:25,540 - app - INFO - get_attractions_time_slots - 2 RSUM5F: fetching time slots
 2024-10-09 20:33:25,540 - app - INFO - get_attractions_time_slots - 2 RSUM5F: fetched 7 time slots
+2024-10-09 20:46:11,432 - app - INFO - <module> - Starting the application
+2024-10-09 22:10:16,763 - app - INFO - get_attractions_tickets - 3 71tt07z6mza1vdculmt87e: fetching available tickets
+2024-10-09 22:10:16,764 - app - INFO - get_attractions_tickets - 3 71tt07z6mza1vdculmt87e: fetched 3 available tickets
