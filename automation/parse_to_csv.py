@@ -27,6 +27,7 @@ def parse_log_to_csv():
                 function_name = line[3]
                 
                 session_task_message = line[4].split(': ')
+                
                 task_id = session_task_message[0].split(' ')[0]
                 session_id = session_task_message[0].split(' ')[1]
                 
