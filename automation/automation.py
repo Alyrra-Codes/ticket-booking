@@ -43,7 +43,7 @@ def select_tickets(tickets, max_available_tickets):
   quantity_selected = 0
   
   for ticket in tickets:
-    quantity = random.randint(0, 5)
+    quantity = random.randint(0, 3)
     if quantity > 0 and quantity_selected + quantity <= max_available_tickets:
       selected_tickets.append({
         'id': ticket.get('id'),
@@ -99,7 +99,7 @@ def main():
   print(f'Selected time slot: {selected_time_slot}')
   
   # simulate radom return 
-  if random.choice([True, False]):
+  if random.choice([True, False, False, False, False]):
     print('Simulating random return after selecting time slot') 
     return
   
@@ -123,7 +123,7 @@ def main():
     'payment': payment_details
   }
   
-  if random.choice([True, False]):
+  if random.choice([True, False, False, False, False]):
     print('Simulating random return after entering payment details') 
     return
   
@@ -140,5 +140,5 @@ def main():
   
 if __name__ == '__main__':
   # Simulate
-  for index in range(100):
+  for index in range(250):
     main()
