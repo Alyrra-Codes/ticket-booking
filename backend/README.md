@@ -2,6 +2,11 @@
 ```bash
 # Create venv 
 python -m venv .venv 
+
+# cd into backend folder
+cd backend
+
+# install requirements
 pip3 install -r requirements.txt 
 
 # Windows
@@ -15,6 +20,12 @@ flask initdb
 
 # Populate init data
 flask populatedb
+
+# cd into api folder
+cd api
+
+# activate venv
+source ../../.venv/scripts/activate
 
 # run the api server 
 python api/app.py
